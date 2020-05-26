@@ -11,4 +11,10 @@ comments: false
 
 Now you can request for reviews and contents like **Games**, **Dramas**, **Movies** etc.
 
+If you find any content appropriate please inform as or report it via **Report** section.
+
+**Thank You!**
+
+**Have a Great Day!**
+
 <a target="_blank" href="https://eroyx.tk/category" class="btn btn-dark"> Explore Now</a>
