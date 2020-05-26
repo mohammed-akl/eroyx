@@ -8,7 +8,7 @@ plugins:
   - jekyll-archives
   - jekyll-figure
 highlighter: none
-name: Eroyx
+name: eroyx
 description: I will take you on the fabulous world of exploration.
   Travel,Lifestye, Culture, Movie, Food, Games, Programs!
 baseurl: ""
@@ -18,9 +18,9 @@ include:
 logo: /assets/images/eroyx_ii.png
 mailchimp-list: https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b
 adsense:
-  status: disabled
-  adsense-data-ad-client: ca-pub-3412143450191416
-  adsense-data-ad-slot: "1363087678"
+  status: enabled
+  adsense-data-ad-client: ca-pub-6874876750025994
+  adsense-data-ad-slot: "3737741599"
 permalink: /:title/
 email: info@eroyx.tk
 lazyimages: enabled
@@ -29,7 +29,7 @@ sass:
   sass_dir: _sass
   style: compressed
 markdown: kramdown
-title: Eroyx
+title: eroyx
 favicon: /assets/images/eroyx_ii.png
 collections:
   authors:
@@ -54,18 +54,15 @@ menu:
   - title: Home
     url: /
     badge: ""
-  - title: Store
-    url: /store
-    badge: Themes & Templates
   - title: Categories
     url: /categories
     badge: ""
   - title: Tags
     url: /tags
-    badge: New
+    badge: ""
   - title: Contact
     url: /contact
     badge: ""
   - title: About
     url: /about
-    badge: Memoirs Jekyll Theme
+    badge: eroyx
