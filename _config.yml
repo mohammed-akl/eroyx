@@ -8,29 +8,29 @@ plugins:
   - jekyll-archives
   - jekyll-figure
 highlighter: none
-name: Memoirs
-description: I will take you on the fabulous world of exploration. Travel,
-  culture, lifestyle. Eat, Pray, Love!
+name: Eroyx
+description: I will take you on the fabulous world of exploration.
+  Travel,Lifestye, Culture, Movie, Food, Games, Programs!
 baseurl: ""
-disqus: demowebsite
+disqus: eroyx
 include:
   - _pages
-logo: assets/images/logo.png
+logo: /assets/images/eroyx_logo.png
 mailchimp-list: https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b
 adsense:
   status: disabled
   adsense-data-ad-client: ca-pub-3412143450191416
   adsense-data-ad-slot: "1363087678"
 permalink: /:title/
-email: wowthemesnet@gmail.com
-lazyimages: disabled
+email: info@eroyx.tk
+lazyimages: enabled
 paginate_path: /page:num/
 sass:
   sass_dir: _sass
   style: compressed
 markdown: kramdown
-title: Memoirs
-favicon: assets/images/logo.png
+title: Eroyx
+favicon: /assets/images/eroyx_logo.png
 collections:
   authors:
     output: true
@@ -43,7 +43,7 @@ jekyll-archives:
 kramdown:
   syntax_highlighter_opts:
     disable: true
-paginate: 6
+paginate: 9
 exclude:
   - changelog.md
   - LICENSE.txt
@@ -54,6 +54,9 @@ menu:
   - title: Home
     url: /
     badge: ""
+  - title: Store
+    url: /store
+    badge: Themes & Templates
   - title: Categories
     url: /categories
     badge: ""
