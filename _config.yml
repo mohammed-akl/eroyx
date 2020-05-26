@@ -8,7 +8,7 @@ plugins:
   - jekyll-archives
   - jekyll-figure
 highlighter: none
-name: Eroyx
+name: eroyx
 description: I will take you on the fabulous world of exploration.
   Travel,Lifestye, Culture, Movie, Food, Games, Programs!
 baseurl: ""
@@ -29,7 +29,7 @@ sass:
   sass_dir: _sass
   style: compressed
 markdown: kramdown
-title: Eroyx
+title: eroyx
 favicon: /assets/images/eroyx_ii.png
 collections:
   authors:
@@ -54,9 +54,6 @@ menu:
   - title: Home
     url: /
     badge: ""
-  - title: Store
-    url: /store
-    badge: Themes & Templates
   - title: Categories
     url: /categories
     badge: ""
