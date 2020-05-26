@@ -9,10 +9,10 @@ plugins:
   - jekyll-figure
 highlighter: none
 name: Eroyx
-description: I will take you on the fabulous world of exploration. Travel,
-  culture, lifestyle. Eat, Pray, Love!
+description: I will take you on the fabulous world of exploration.
+  Travel,Lifestye, Culture, Movie, Food, Games, Programs!
 baseurl: ""
-disqus: demowebsite
+disqus: eroyx
 include:
   - _pages
 logo: assets/images/logo.png
@@ -22,7 +22,7 @@ adsense:
   adsense-data-ad-client: ca-pub-3412143450191416
   adsense-data-ad-slot: "1363087678"
 permalink: /:title/
-email: wowthemesnet@gmail.com
+email: info@eroyx.tk
 lazyimages: enabled
 paginate_path: /page:num/
 sass:
