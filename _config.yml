@@ -15,7 +15,7 @@ baseurl: ""
 disqus: eroyx
 include:
   - _pages
-logo: /assets/images/eroyx_logo.png
+logo: /assets/images/eroyx_ii.png
 mailchimp-list: https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b
 adsense:
   status: disabled
@@ -30,7 +30,7 @@ sass:
   style: compressed
 markdown: kramdown
 title: Eroyx
-favicon: /assets/images/eroyx_logo.png
+favicon: /assets/images/eroyx_ii.png
 collections:
   authors:
     output: true
