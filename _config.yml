@@ -30,7 +30,7 @@ sass:
   style: compressed
 markdown: kramdown
 title: Eroyx
-favicon: assets/images/logo.png
+favicon: /assets/images/eroyx_logo.png
 collections:
   authors:
     output: true
