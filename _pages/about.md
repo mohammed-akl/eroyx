@@ -1,14 +1,20 @@
 ---
 layout: page
-date: 2020-05-04 13:07:19
-title: About
-image: assets/images/screenshot.jpg
-imageshadow: true
-comments: false
 permalink: /about
+date: 2020-05-04T13:07:19.000Z
+title: About
+image: /assets/images/eroyx_ii.png
+imageshadow: false
+comments: false
 ---
+**eroyx** comes to you with cool new features articles and contents. We always try to express our ideas in a simple way. Now we started **Reviews**, **Life** **style**, **Culture**, **Games** and many more. New cool features are waiting to be updated. 
 
-This website is a demonstration to see **Memoirs Jekyll theme** in action. The theme is compatible with Github pages, in fact even this demo itself is created with Github Pages and hosted with Github. 
+Now you can request for reviews and contents like **Games**, **Dramas**, **Movies** etc.
 
-<a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/jekyll-theme-memoirs/" class="btn btn-dark"> Get Memoirs for Jekyll &rarr;</a>
+If you find any content appropriate please inform as or report it via **Report** section.
 
+**Thank You!**
+
+**Have a Great Day!**
+
+<a target="_blank" href="https://eroyx.tk/category" class="btn btn-dark"> Explore Now</a>
