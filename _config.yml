@@ -59,10 +59,10 @@ menu:
     badge: ""
   - title: Tags
     url: /tags
-    badge: New
+    badge: ""
   - title: Contact
     url: /contact
     badge: ""
   - title: About
     url: /about
-    badge: Memoirs Jekyll Theme
+    badge: eroyx
