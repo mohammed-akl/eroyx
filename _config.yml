@@ -43,7 +43,7 @@ jekyll-archives:
 kramdown:
   syntax_highlighter_opts:
     disable: true
-paginate: 6
+paginate: 9
 exclude:
   - changelog.md
   - LICENSE.txt
@@ -66,3 +66,6 @@ menu:
   - title: About
     url: /about
     badge: Memoirs Jekyll Theme
+  - title: Store
+    url: /store
+    badge: Themes & Templates
