@@ -12,6 +12,7 @@ name: eroyx
 description: I will take you on the fabulous world of exploration.
   Travel,Lifestye, Culture, Movie, Food, Games, Programs!
 baseurl: ""
+url: https://eroyx.tk
 disqus: eroyx
 include:
   - _pages
