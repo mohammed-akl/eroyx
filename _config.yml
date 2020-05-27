@@ -9,8 +9,8 @@ plugins:
   - jekyll-figure
 highlighter: none
 name: eroyx
-description: I will take you on the fabulous world of exploration.
-  Travel,Lifestye, Culture, Movie, Food, Games, Programs!
+description: We will take you on the fabulous world of exploration. Travel,
+  Lifestyle, Culture, Movie, Food, Games, Dramas, Shows and much more...
 baseurl: ""
 disqus: eroyx
 include:
@@ -18,7 +18,7 @@ include:
 logo: /assets/images/eroyx_ii.png
 mailchimp-list: https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b
 adsense:
-  status: enabled
+  status: disabled
   adsense-data-ad-client: ca-pub-6874876750025994
   adsense-data-ad-slot: "5086003358"
 permalink: /:title/
