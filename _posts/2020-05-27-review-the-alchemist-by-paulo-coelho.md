@@ -2,7 +2,7 @@
 date: 2020-05-26T16:09:44.000Z
 layout: post
 title: "Review : The Alchemist by Paulo Coelho."
-author: muhammed ashfar
+author: Arya Unnithan
 categories:
   - Book
   - Review
