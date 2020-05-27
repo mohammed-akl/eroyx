@@ -12,8 +12,9 @@ tags:
   - Paulo coehlo
   - ""
 image: /assets/images/the-alchemistposter.png
-description: The all time best seller Alchemist by Paulo Coelho is reviewed by
-  Arya is here. Read it now!
+description: The Brazilian novelist Paulo Coelho, born in Rio de Janeiro on 24
+  August 1947, has sold more than 43 million copies in theb Alchemist's 70 books
+  published in 1988.
 rating: 4.5
 imageshadow: true
 ---
