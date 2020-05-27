@@ -10,7 +10,6 @@ tags:
   - Alchemist
   - Best seller
   - Paulo coehlo
-  - ""
 image: /assets/images/the-alchemistposter.png
 description: The Brazilian novelist Paulo Coelho, born in Rio de Janeiro on 24
   August 1947, has sold more than 43 million copies in theb Alchemist's 70 books
