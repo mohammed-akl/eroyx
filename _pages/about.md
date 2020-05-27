@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about
-date: 2020-05-04T13:07:19.000Z
+date: 2020-05-25 16:07:19
 title: About
 image: /assets/images/eroyx_ii.png
 imageshadow: false
