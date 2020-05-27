@@ -9,8 +9,8 @@ plugins:
   - jekyll-figure
 highlighter: none
 name: eroyx
-description: I will take you on the fabulous world of exploration.
-  Travel,Lifestye, Culture, Movie, Food, Games, Programs!
+description: We will take you on the fabulous world of exploration. Travel,
+  Lifestyle, Culture, Movie, Food, Games, Dramas, Shows and much more...
 baseurl: ""
 disqus: eroyx
 include:
