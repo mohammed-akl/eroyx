@@ -4,13 +4,12 @@ layout: post
 title: "Drama Review : Intense Love (韫色过浓)"
 author: muhammed ashfar
 categories:
-  - Chinese drama
-  - Romance
+  - Review
+  - Drama
 tags:
   - Chinese drama
   - Love
   - Romance
-  - Feel good
   - Comedy
 image: /assets/images/intense-love.jpg
 description: Intense love is romantic love story between a doctor, Dr. Zhou Shi
