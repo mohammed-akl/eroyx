@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /privacy-policy
-date: 2020-05-29T06:44:49.000Z
+date: 2020-05-28 09:44:49
 title: Privacy Policy
 image: /assets/images/eroyx_ii.png
 imageshadow: false
