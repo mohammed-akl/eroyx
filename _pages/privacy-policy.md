@@ -1,25 +1,21 @@
 ---
 layout: page
 permalink: /privacy-policy
-date: 2020-05-29 06:44:49
+date: 2020-05-29T06:44:49.000Z
 title: Privacy Policy
 image: /assets/images/eroyx_ii.png
 imageshadow: false
 comments: false
 ---
-“Pinite” takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.
+**eroyx** takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.
 
 #### Collection of Routine Information
 
 This website track basic information about their visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitor to this website. The information is tracked for routine administration and maintenance purposes.
 
-#### Cookies
-
-Where necessary, this website uses cookies to store information about a visitor’s preferences and history in order to better serve the visitor and/or present the visitor with customized content.
-
 #### Advertisement and Other Third Parties
 
-Advertising partners and other third parties may use cookies, scripts and/or web beacons to track visitor activities on this website in order to display advertisements and other useful information. Such tracking is done directly by the third parties through their own servers and is subject to their own privacy policies. This website has no access or control over these cookies, scripts and/or web beacons that may be used by third parties. Learn how to[opt out of Google’s cookie usage](http://www.google.com/privacy_ads.html).
+Advertising partners and other third parties may use cookies, scripts and/or web beacons to track visitor activities on this website in order to display advertisements and other useful information. Such tracking is done directly by the third parties through their own servers and is subject to their own privacy policies. This website has no access or control over these cookies, scripts and/or web beacons that may be used by third parties. Learn how to [opt out of Google’s cookie usage](http://www.google.com/privacy_ads.html).
 
 #### Links to Third Party Websites
 
@@ -37,4 +33,4 @@ We reserve the right to update or change our Privacy Policy at any time and you 
 
 #### Contact Information
 
-For any questions or concerns regarding the privacy policy, please[contact us here](https://pinite.muhd.tk/contact.html).
+For any questions or concerns regarding the privacy policy, please [contact us here](https://pinite.muhd.tk/contact.html).
