@@ -27,6 +27,16 @@ imageshadow: true
 മോയുടെ കഥാപാത്രം ചെയ്തിരിക്കുന്നത് സിങ് ഫെയും വേയുടെ കഥാപാത്രം ചെയ്തിരിക്കുന്നത് ലിൽ വൈയുമാണ്.\
 **24 എപ്പിസോഡുകളാണ്** ഇതിൽ പ്രധാനമായിട്ടുള്ളത്. 24കൂടാതെ അവസാനം ഒരു ഒരു എപ്പിസോഡ് കൂടി ഇതിൽ ഉൾപ്പെടുത്തിയിട്ടുണ്ട്.
 
+#### English Review:
+
+Trying to figure out what you want to do in life is hard enough, but with graduation fast approaching, **Si Tu Mo (Fei Xing)** is finding the task nearly impossible. Standing on the brink of adulthood, the pressure to make this next big step in life the right one, was starting to make Tu Mo second guess everything. Finding herself wavering between what she wants and what everyone expects of her, Tu Mo has no idea where she should go from here. At least not until she meets **Gu Wei Yi (Lin Yi)**.
+
+A brilliant physics student, Wei Yi knows exactly what he wants from life and he isn’t afraid to chase his dreams. Watching Tu Mo flounder through these last fleeting days of university life, **Wei Yi** decides to step in and help her out.
+
+Encouraging Tu Mo to think about what it is she really wants, Wei Yi helps his lost friend see that life doesn’t always have to have structure and a plan, by reminding her that sometimes it’s best to follow your heart.
+
+Based on the novel by **Zhao Gangan**, “**Put Your Head On My Shoulder**” is a 2019 romantic drama directed by Zhu Dong Ning.
+
 #### Summary:
 
 **Name:** Put Your Head on My shoulder
