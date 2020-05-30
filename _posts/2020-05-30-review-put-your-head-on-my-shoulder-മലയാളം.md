@@ -38,3 +38,5 @@ imageshadow: true
 **Episodes:** 25 episodes
 
 **Duration:** 40-45 Min/Episode
+
+**Viki Rating:** 9.5/10 (4546 Rating)
