@@ -1,7 +1,7 @@
 ---
-date: 2020-05-29 18:00:12
+date: 2020-05-29T18:00:12.000Z
 layout: post
-title: "Review: Put Your Head on My Shoulder (മലയാളം) (ENG)"
+title: "Review: Put Your Head on My Shoulder [മലയാളം] [ENG]"
 author: muhammed ashfar
 categories:
   - Drama
