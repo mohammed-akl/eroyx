@@ -1,5 +1,5 @@
 ---
-date: 2020-05-30 15:00:12
+date: 2020-05-30T15:00:12.000Z
 layout: post
 title: "Review: Put Your Head on My Shoulder (മലയാളം)"
 author: muhammed ashfar
@@ -26,3 +26,15 @@ imageshadow: true
 **റൊമാന്റിക് കോമഡി** ഡ്രാമകൾ ഇഷ്ടപെടുന്നവർ കണ്ടിരിക്കേണ്ട ഒരു ഡ്രാമയാണിത്.\
 മോയുടെ കഥാപാത്രം ചെയ്തിരിക്കുന്നത് സിങ് ഫെയും വേയുടെ കഥാപാത്രം ചെയ്തിരിക്കുന്നത് ലിൽ വൈയുമാണ്.\
 **24 എപ്പിസോഡുകളാണ്** ഇതിൽ പ്രധാനമായിട്ടുള്ളത്. 24കൂടാതെ അവസാനം ഒരു ഒരു എപ്പിസോഡ് കൂടി ഇതിൽ ഉൾപ്പെടുത്തിയിട്ടുണ്ട്.
+
+#### Summary:
+
+**Name:** Put Your Head on My shoulder
+
+**Country:** Korean
+
+**Main Cast:** XingFei ( Si Tu Mo), LinYi (Gu Wei Yi).
+
+**Episodes:** 25 episodes
+
+**Duration:** 40-45 Min/Episode
