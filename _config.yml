@@ -9,28 +9,27 @@ plugins:
   - jekyll-figure
 highlighter: none
 name: eroyx
+title: eroyx
 description: We will take you on the fabulous world of exploration. Travel,
   Lifestyle, Culture, Movie, Food, Games, Dramas, Shows and much more...
-baseurl: ""
-url: https://eroyx.tk
 disqus: eroyx
 include:
   - _pages
 logo: /assets/images/eroyx_ii.png
-mailchimp-list: https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b
 adsense:
-  status: disabled
+  status: enabled
   adsense-data-ad-client: ca-pub-4944786899709076
   adsense-data-ad-slot: ""
 permalink: /:title/
-email: info@eroyx.tk
+baseurl: ""
+mailchimp-list: https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b
 lazyimages: enabled
 paginate_path: /page:num/
 sass:
   sass_dir: _sass
   style: compressed
 markdown: kramdown
-title: eroyx
+url: https://eroyx.tk
 favicon: /assets/images/eroyx_ii.png
 collections:
   authors:
@@ -51,6 +50,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+email: info@eroyx.tk
 menu:
   - title: Home
     url: /
