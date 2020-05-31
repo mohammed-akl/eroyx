@@ -20,8 +20,8 @@ logo: /assets/images/eroyx_ii.png
 mailchimp-list: https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b
 adsense:
   status: disabled
-  adsense-data-ad-client: ca-pub-6874876750025994
-  adsense-data-ad-slot: "5086003358"
+  adsense-data-ad-client: ca-pub-4944786899709076
+  adsense-data-ad-slot: ""
 permalink: /:title/
 email: info@eroyx.tk
 lazyimages: enabled
