@@ -22,7 +22,7 @@
 
 <!-- Poptin Code -->
 <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=2151d9d370e86' async='true'></script>
-<!-- End Poptin Code --> 
+<!-- End Poptin Code -->
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -50,13 +50,13 @@ ga('send', 'pageview');
 
 <div class="sidebar">
 </div>
-<div class="nav-icon">
+<div class="nav-icon gradient-bg">
     <div class="hamburger-bar"></div>
 </div>
 <div id="blackover-nav" class="blackover"></div>
 <nav id="menu">
     <ul>
-        <h3>Navigation</h3>
+        <h3 class="gradient-text">Navigation</h3>
     {% for item in site.menu %}
       {% if item.title, item.badge and item.url %}
         <li><a href="{{ site.baseurl }}{{item.url}}">{{ item.title}} <span class="badge badge-primary">{{ item.badge }}</span></a></li>
