@@ -1,8 +1,9 @@
 ---
 date: 2020-05-31T03:26:05.000Z
 layout: post
-title: "Review: In Youth Chinese Drama [മലയാളം]"
+title: "In Youth"
 author: muhammed ashfar
+type: Drama Review
 categories:
   - Drama
   - Chinese
@@ -14,7 +15,7 @@ image: /assets/images/in-youth.jpg
 description: TThe drama In Youth is starred by Qiao Xin who just graduates from
   college and starts a worklife And she meets Zhang Yunlong, a man like a god,
   in the company Then they have a youthful and romantic love story.
-rating: 4
+rating: 4.0
 watch: https://bit.ly/inyouth
 imageshadow: true
 ---

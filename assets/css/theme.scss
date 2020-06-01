@@ -291,7 +291,7 @@ img, img:hover {
     }
     .img-thumb {
         object-fit:cover;
-        height:240px;
+        height:190px;
         width:100%;
         object-position:top;
         border-radius: 20px 20px 0px 0px;
@@ -312,7 +312,7 @@ img, img:hover {
         }
         .img-thumb {
             object-fit:cover;
-            height:400px;
+            height:412px;
             width:100%;
             object-position:top;
         }
@@ -377,7 +377,7 @@ img, img:hover {
         display:inline-block;
         input[type="email"] {
             padding:4px 10px;
-            min-width:250px;
+            min-width:200px;
         }
         input[type="submit"] {
             color: #fff;
@@ -521,7 +521,7 @@ img, img:hover {
     margin-top:120px;
     .badge {
         font-size: 15px;
-        padding:5px 7px;
+        padding:5px 10px;
         display:inline-block;
         margin: 0 3px;
     }
@@ -665,7 +665,6 @@ body.active-side {
             padding: 4px 10px;
             min-width: 400px;
             border-radius: 5px;
-            box-shadow: 0 0 5px 1px #e5e5e5;
         }
         .mc-field-group input[type="submit"] {
             padding: 4px 10px;
@@ -715,10 +714,9 @@ body.active-side {
 @media (max-width: 480px) {
     .newsletter {
         .mc-field-group input[type="email"] {
-            min-width:250px;
-            width: 250px;
+            min-width:150px;
+            width: 200px;
             border-radius: 5px;
-            box-shadow: 0 0 5px 1px #e5e5e5;
         }
     }
     .article-post, .entry-header, .comments, .rating, .authorbox {
@@ -790,3 +788,45 @@ body.active-side {
 .author-thumb {
   box-shadow: 0 0 1px 4px #e3e3e36b;
 }
+
+.position {
+    position: absolute;
+    border-radius: 5px;
+    margin: 20px 0px 0px -5px;
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    padding: 3px 5px;
+  }
+
+  .meta-footer-thumb {
+      float: right;
+      background: #fff;
+      color: #ee0979;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding: 3px;
+      box-shadow: 0 0 1px 4px #f9f9f978;
+    }
+
+    .btn-gradient {
+        display: inline-block;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        user-select: none;
+        background-color: transparent;
+        border: transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0;
+        transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    }
+ .badge-primary {
+   background: linear-gradient(to right, #ff6a00, #ee0979);
+   border-radius: 5px;
+   padding: 5px 10px;
+ }

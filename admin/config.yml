@@ -194,6 +194,14 @@ collections:
         name: "layout"
         widget: "hidden"
         default: "post"
+      - label: Type of Content"
+        name: "type"
+        widget: "select"
+        options:
+          - { label: "Drama Review", value: "Drama Review" }
+          - { label: "Book", value: "Book" }
+          - { label: "Movie Review", value: "Movie Review" }
+          - { label: "Webseries Review", value: "Webseries Review" }
       - label: "Post Title"
         name: "title"
         widget: "string"
