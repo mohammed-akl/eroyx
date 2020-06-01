@@ -745,3 +745,13 @@ body.active-side {
 .ftr-btn {
   margin-right: 20px;
 }
+
+@media (max-width: 780px) {
+  .ftr-btn {
+    width: 100%;
+  }
+}
+
+.inline {
+  display: inline;
+}
