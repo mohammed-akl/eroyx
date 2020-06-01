@@ -1,9 +1,9 @@
 ---
 date: 2020-05-31T03:26:05.000Z
 layout: post
-title: "In Youth"
-author: muhammed ashfar
 type: Drama Review
+title: In Youth
+author: muhammed ashfar
 categories:
   - Drama
   - Chinese
@@ -15,13 +15,26 @@ image: /assets/images/in-youth.jpg
 description: TThe drama In Youth is starred by Qiao Xin who just graduates from
   college and starts a worklife And she meets Zhang Yunlong, a man like a god,
   in the company Then they have a youthful and romantic love story.
-rating: 4.0
+rating: 4
 watch: https://bit.ly/inyouth
 imageshadow: true
 ---
+ **In Youth**  is a  **Chinese Romantic + Friendship**  Drama. Drama is more of a friendship, although it is romantic. The progress of the story should be highlighted in a way that catches viewers.
+
+The story begins with four companions. They are an alliance that started in the school days. Now they all have their own jobs and things to do, yet they see each other and eat together and reinforce their solidarity. Undoubtedly, Nirvana has been able to copy the expressions of friendship on the screen without any leakage. Regardless of how good a companion is, fights between friends are common. We can see that here too. Pointing out his mistake, they are rejoicing more than ever. And if a man has a problem between them, they do it together. 'In Youth' is a drama that illustrates all the qualities of a model friendship. Most of the problems that arise in the combination and in the life of the tree can be seen in the drama.
+
+Though romance and friendship are the main themes of the drama, we can see examples of survival and caring.
+
+The drama also features a romance and friendship contest, which delights the viewers.
+
+ **38 Drama with Episode**  Released as a Fresh Drama via YouTube. It is a Chinese drama but English subtitles are also included. Friendship Romantic Feel Good Drama In Youth is a drama that must be watched.
+
+#### Malayalam Review:
+
 **ഇൻ യൂത്ത്** ഒരു **ചൈനീസ് റൊമാന്റിക് + ഫ്രണ്ട്ഷിപ്** ഡ്രാമയാണ് . റൊമാന്റിക് ഗണത്തിൽ പെടുത്താമെങ്കിലും സുഹൃത്ബന്ധത്തിനാണ് ഡ്രാമ കൂടുതൽ പ്രാധാന്യം നൽകിയിരിക്കുന്നത്. കാഴ്ച്ചക്കാരെ പിടിച്ചിരുത്തുന്ന രീതിയിലുള്ള കഥയുടെ പുരോഗമനം എടുത്തു പറയേണ്ടതാണ്.
 
-നാലു കൂട്ടുകാരിൽ നിന്നാണ് കഥ തുടങ്ങുന്നത്.സ്കൂൾ ദിനങ്ങളിൽ ആരംഭിച്ച കൂട്ടുകെട്ടാണ് അവരുടേത്.ആ സൗഹൃദം അവർ അതേ ദൃഢതയോടെ തന്നെ ഇപ്പോഴും തുടരുകെയാണ്. ഇപ്പോൾ അവരോരോരുത്തർക്കും അവരുടെതായ ജോലികളും മറ്റും ഉണ്ട് എന്നിരുന്നാലും അവർ പരസ്പരം കാണുകയും ഒരുമിച്ച് ഭക്ഷണം കഴിക്കുകയും വഴി അവരുടെ ദൃഢസൗഹൃദത്തിനെ ഊട്ടി യുറപ്പിക്കുന്നുണ്ട്. സൗഹൃദത്തിന്റെ ഭാവഭേദങ്ങൾ മിഴിവോട്കൂടി യാതൊരു ചോർച്ചയും കൂടാതെ സ്‌ക്രീനിൽ പകർത്താൻ നിർമ്മതാവിനു കഴിഞ്ഞു എന്ന് നിസംശയം പറയാം. എത്ര നല്ല കൂട്ടുകെട്ട് ആയിരുന്നാലും, കൂട്ടുകാർ തമ്മിലുള്ള വഴക്ക് സർവസാധാരണമാണ്. ഇവിടെയും നമുക്കത് കാണാൻ കഴിയും.എങ്കിലും അവർ ഒരിക്കലും അതിന്റെ പേരിൽ അവരുടെ ആ ബന്ധം ഇല്ലാതാക്കുന്നില്ല. തന്റെ തെറ്റ് ചൂണ്ടിക്കാട്ടി അവർ വീണ്ടും പണ്ടത്തേക്കാൾ സന്തോഷത്തോടെ ഒന്നിക്കുന്നു. അതുപോലെ അവർക്കിടയിൽ ഒരുവന് എന്തെങ്കിലും പ്രശ്നം വന്നാലും അവരൊറ്റക്കെട്ടായി ആ പ്രശ്നം പരിഹരിക്കുകയും ചെയ്യും. ഇങ്ങനെ തുടങ്ങി ഒരു മാതൃകാസുഹൃത്ബന്ധത്തിന്റെ എല്ലാ ഗുണങ്ങളും വരച്ചുകാട്ടുന്ന ഒരു ഡ്രാമ തന്നെയാണ് 'ഇൻ യൂത്ത് ' എന്നത്.\
+നാലു കൂട്ടുകാരിൽ നിന്നാണ് കഥ തുടങ്ങുന്നത്.സ്കൂൾ ദിനങ്ങളിൽ ആരംഭിച്ച കൂട്ടുകെട്ടാണ് അവരുടേത്.ആ സൗഹൃദം അവർ അതേ ദൃഢതയോടെ തന്നെ ഇപ്പോഴും തുടരുകെയാണ്. ഇപ്പോൾ അവരോരോരുത്തർക്കും അവരുടെതായ ജോലികളും മറ്റും ഉണ്ട് എന്നിരുന്നാലും അവർ പരസ്പരം കാണുകയും ഒരുമിച്ച് ഭക്ഷണം കഴിക്കുകയും വഴി അവരുടെ ദൃഢസൗഹൃദത്തിനെ ഊട്ടി യുറപ്പിക്കുന്നുണ്ട്. സൗഹൃദത്തിന്റെ ഭാവഭേദങ്ങൾ മിഴിവോട്കൂടി യാതൊരു ചോർച്ചയും കൂടാതെ സ്‌ക്രീനിൽ പകർത്താൻ നിർമ്മതാവിനു കഴിഞ്ഞു എന്ന് നിസംശയം പറയാം. എത്ര നല്ല കൂട്ടുകെട്ട് ആയിരുന്നാലും, കൂട്ടുകാർ തമ്മിലുള്ള വഴക്ക് സർവസാധാരണമാണ്. ഇവിടെയും നമുക്കത് കാണാൻ കഴിയും.എങ്കിലും അവർ ഒരിക്കലും അതിന്റെ പേരിൽ അവരുടെ ആ ബന്ധം ഇല്ലാതാക്കുന്നില്ല. തന്റെ തെറ്റ് ചൂണ്ടിക്കാട്ടി അവർ വീണ്ടും പണ്ടത്തേക്കാൾ സന്തോഷത്തോടെ ഒന്നിക്കുന്നു. അതുപോലെ അവർക്കിടയിൽ ഒരുവന് എന്തെങ്കിലും പ്രശ്നം വന്നാലും അവരൊറ്റക്കെട്ടായി ആ പ്രശ്നം പരിഹരിക്കുകയും ചെയ്യും. ഇങ്ങനെ തുടങ്ങി ഒരു മാതൃകാസുഹൃത്ബന്ധത്തിന്റെ എല്ലാ ഗുണങ്ങളും വരച്ചുകാട്ടുന്ന ഒരു ഡ്രാമ തന്നെയാണ് 'ഇൻ യൂത്ത് ' എന്നത്.
+
 കൂട്ടുകെട്ടിലുണ്ടാകുന്നതും വൃക്‌തി ജീവിതത്തിലുണ്ടാകുന്നതുമായ പ്രശ്നങ്ങളാണ് കൂടുതലെങ്കിലും ഇതിനു സമാന്തരമായി മൂന്ന് പേരുടെ പ്രണയ കഥകളും ഈ ഡ്രാമയിൽ കാണാൻ കഴിയും.
 
 **പ്രണയവും സൗഹൃദവും ഡ്രാമയുടെ പ്രധാന ഇതിവൃത്തമാണെങ്കിലും നിലനിൽപ്പിന്റെയും കരുതലിന്റെയും ഉദാഹരണങ്ങൾ ഡ്രാമയിലൂടെ നമുക്ക് കാണാൻ സാധിക്കും.** കുടുബബന്ധങ്ങൾ ഒരു വ്യക്തിയെ എങ്ങനെ സ്വാധീനിക്കുന്നുവെന്നും നമുക്ക് ഡ്രാമ വ്യക്തമാക്കി തരുന്നുണ്ട്.
