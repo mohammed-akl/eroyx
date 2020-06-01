@@ -238,7 +238,7 @@ collections:
         widget: "number"
         min: 0
         max: 5
-        step: 0.5
+        step: 0.1
         valueType: "float"
         required: false
       - label: "Trailer"
