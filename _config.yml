@@ -17,7 +17,7 @@ include:
   - _pages
 logo: /assets/images/eroyx_ii.png
 adsense:
-  status: enabled
+  status: disabled
   adsense-data-ad-client: ca-pub-4944786899709076
   adsense-data-ad-slot: ""
 permalink: /:title/
