@@ -1,5 +1,5 @@
 ---
-date: 2020-06-01 21:11:21
+date: 2020-06-01T21:11:21.000Z
 layout: post
 type: Coming Soon!
 title: GirlFriend
@@ -12,5 +12,6 @@ tags:
   - Emotional
 image: /assets/images/girlfriend.jpg
 rating: 3.9
+imageshadow: true
 ---
 ## Content will be uploaded soon! Stay Tuned.
