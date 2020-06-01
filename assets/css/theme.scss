@@ -520,10 +520,12 @@ img, img:hover {
     }
     margin-top:120px;
     .badge {
-        font-size: 15px;
         padding:5px 10px;
         display:inline-block;
-        margin: 0 3px;
+    }
+    .margin {
+      margin: 0 3px;
+      font-size: 15px;
     }
 }
 
