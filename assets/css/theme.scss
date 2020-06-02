@@ -278,7 +278,7 @@ img, img:hover {
     .card-footer {
        font-size:14px;
         border-top:0;
-        border-radius: 0px 0px 20px 20px;
+        border-radius: 0px 0px 15px 15px;
         padding: 1rem 1.25rem;
         a {
             color:inherit;
@@ -294,7 +294,7 @@ img, img:hover {
         height:190px;
         width:100%;
         object-position:top;
-        border-radius: 20px 20px 0px 0px;
+        border-radius: 15px 15px 0px 0px;
     }
 }
 .firstpage {
@@ -395,8 +395,7 @@ img, img:hover {
     }
 }
 .card.h-100 {
-  box-shadow: 0 30px 60px -10px rgba(0,0,0,.22), 0 18px 36px -18px rgba(0,0,0,.25);
-  border-radius: 20px;
+  border-radius: 15px;
 }
 // blog
 .article-post, .entry-header, .comments, .rating, .authorbox {
@@ -832,3 +831,11 @@ body.active-side {
    border-radius: 5px;
    padding: 5px 10px;
  }
+
+.box-shadow-1 {
+  box-shadow: 0 0 10px #bcbcbc;
+}
+
+.box-shadow-2 {
+  box-shadow: 0 30px 60px -10px rgba(0,0,0,0.22), 0 18px 36px -18px rgba(0,0,0,0.25);
+}
