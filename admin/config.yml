@@ -194,7 +194,7 @@ collections:
         name: "layout"
         widget: "hidden"
         default: "post"
-      - label: Type of Content"
+      - label: "Type of Content"
         name: "type"
         widget: "select"
         options:
