@@ -1,0 +1,71 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: post
+- type: text
+  name: title
+  label: title
+- name: author
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: authors
+  label: Author
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: file
+  name: image
+  label: image
+- type: textarea
+  name: description
+  label: description
+- type: number
+  name: rating
+  label: rating
+- name: type
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Drama
+    - Movie
+    - Webseries
+    - Documentry
+    - Other
+  label: Content Type
+- type: text
+  name: watch
+  label: watch
+- type: boolean
+  name: imageshadow
+  label: imageshadow
+- name: trailer
+  type: text
+  config:
+    required: false
+  label: Trailer
+- name: buy
+  type: text
+  config:
+    required: false
+  label: Buy
