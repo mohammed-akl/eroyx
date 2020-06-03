@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: config.yml
-  label: Site Settings
+  label: Site settings
   match: "**/*"
 - type: jekyll-pages
   label: Pages
