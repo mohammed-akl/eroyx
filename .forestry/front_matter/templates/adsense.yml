@@ -15,3 +15,5 @@ fields:
 - type: text
   name: adsense-data-ad-slot
   label: adsense-data-ad-slot
+pages:
+- _data/adsense.yml
