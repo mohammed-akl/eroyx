@@ -1,0 +1,40 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: type
+  label: type
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: file
+  name: image
+  label: image
+- type: textarea
+  name: description
+  label: description
+- type: number
+  name: rating
+  label: rating
+- type: text
+  name: watch
+  label: watch
+- type: boolean
+  name: imageshadow
+  label: imageshadow
