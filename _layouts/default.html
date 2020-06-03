@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="{{ site.baseurl }}{{site.favicon}}">
+<link rel="icon" href="{{ site.baseurl }}{{site.data.meta-data.favicon}}">
 
-<title>{{ page.title }} | {{site.name}}</title>
+<title>{{ page.title }} | {{site.data.meta-data.name}}</title>
 
 {% seo %}
 
@@ -48,7 +48,7 @@
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', '{{site.google_analytics}}', 'auto');
+ga('create', '{{site.data.analytics.google_analytics}}', 'auto');
 ga('send', 'pageview');
 </script>
 {% endif %}
@@ -73,7 +73,7 @@ ga('send', 'pageview');
 <nav id="menu">
     <ul>
         <h3 class="gradient-text">Navigation</h3>
-    {% for item in site.menu %}
+    {% for item in site.data.menus %}
       {% if item.title, item.badge and item.url %}
         <li><a href="{{ site.baseurl }}{{item.url}}">{{ item.title}} <span class="badge badge-primary">{{ item.badge }}</span></a></li>
       {% endif %}
@@ -95,7 +95,7 @@ ga('send', 'pageview');
     ================================================== -->
 
     <a class="navbar-brand" href="{{ site.baseurl }}">
-        <img src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.name }}">
+        <img src="{{ site.baseurl }}{{ site.data.meta-data.logo }}" alt="{{ site.name }}">
     </a>
 
     <!-- Content
@@ -109,7 +109,7 @@ ga('send', 'pageview');
     ================================================== -->
     <div class="newsletter text-center">
         <span class="h4"><img src="{{ site.baseurl }}{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
-        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+        <form action="{{site.mailchimp.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group d-inline-flex">
             <input type="email" placeholder="Your e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
             <input type="submit" value="Subscribe" name="subscribe" class="heart">
