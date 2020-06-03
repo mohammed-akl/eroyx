@@ -2,9 +2,13 @@
 label: Adsense
 hide_body: true
 fields:
-- type: text
-  name: status
-  label: status
+- name: status
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Status
 - type: text
   name: adsense-data-ad-client
   label: adsense-data-ad-client
