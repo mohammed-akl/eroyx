@@ -1,0 +1,13 @@
+---
+label: Adsense
+hide_body: true
+fields:
+- type: text
+  name: status
+  label: status
+- type: text
+  name: adsense-data-ad-client
+  label: adsense-data-ad-client
+- type: text
+  name: adsense-data-ad-slot
+  label: adsense-data-ad-slot
