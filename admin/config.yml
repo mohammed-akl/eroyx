@@ -229,20 +229,8 @@ collections:
         widget: "number"
         min: 0
         max: 5
-        step: 0.1
+        step: 0.5
         valueType: "float"
-        required: false
-      - label: "Trailer"
-        name: "trailer"
-        widget: "string"
-        required: false
-      - Label: "Watch Now"
-        name: "watch"
-        widget: "string"
-        required: false
-      - Label: "Buy Now"
-        name: "buy"
-        widget: "string"
         required: false
       - label: "Image Shadow"
         name: "imageshadow"
