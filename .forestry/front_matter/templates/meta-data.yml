@@ -4,16 +4,23 @@ hide_body: true
 fields:
 - type: text
   name: name
-  label: name
+  label: Website Name
+  description: Enter the Name of the Website.
 - type: text
   name: title
-  label: title
+  label: Title of the Website
+  description: Same as the name of the website.
 - type: textarea
   name: description
-  label: description
+  label: Description
+  description: "<strong>Small info</strong> about your website. It should be displayed
+    on the search."
 - type: file
   name: logo
-  label: logo
+  label: Logo
+  description: "<strong>Logo of your website</strong>. Upload <strong>optimized logo</strong>
+    in order to maintain site speed."
 - type: file
   name: favicon
-  label: favicon
+  label: Favicon
+  description: Upload a Favicon.
