@@ -1,0 +1,19 @@
+---
+label: Meta Data
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: logo
+  label: logo
+- type: file
+  name: favicon
+  label: favicon
