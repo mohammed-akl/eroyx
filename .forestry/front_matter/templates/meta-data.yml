@@ -24,3 +24,5 @@ fields:
   name: favicon
   label: Favicon
   description: Upload a Favicon.
+pages:
+- _data/meta-data.yml
