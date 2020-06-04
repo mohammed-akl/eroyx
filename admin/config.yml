@@ -185,11 +185,6 @@ collections:
       preview: false
       delete: false
     fields:
-      - label: "Name"
-        name: "name"
-        widget: "string"
-        required: true
-        hint: "Ex: action (Use samll letters)"
       - label: "Title"
         name: "title"
         widget: "string"

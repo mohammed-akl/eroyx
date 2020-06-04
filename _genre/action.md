@@ -1,4 +1,3 @@
 ---
-name: action
 title: Action
 ---
