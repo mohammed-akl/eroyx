@@ -6,101 +6,32 @@ publish_mode: editorial_workflow
 
 media_folder: "assets/images"
 collections:
-  - label: "Authors"
-    name: "authors"
-    folder: "_authors"
-    create: true
-    identifier_field: "name"
-    slug: "{{slug}}"
-    editor:
-      preview: false
-      delete: false
+  - label: "Global Site Config"
+    name: "site_config"
+    file: "_data/meta-data.yml"
     fields:
-      - label: "Shortname"
+      - label: "Website Name"
         name: "name"
         widget: "string"
         required: true
-        hint: "Ex: john (Use samll letters)"
-      - label: "Display Name"
-        name: "display_name"
-        widget: "string"
-        required: true
-        hint: "Ex: John Doe"
-      - label: "Avatar"
-        name: "avatar"
-        widget: "image"
-        required: false
-        hint: "Use optimised images"
-      - label: "Gravatar ID"
-        name: "gravatar"
-        widget: "string"
-        required: false
-        hint: "Ex: b1cc14991db7a456fcd761680bbc8f81"
-      - label: "E-mail"
-        name: "email"
-        widget: "string"
-        required: false
-        hint: "Ex: john@example.com"
-      - label: "Website"
-        name: "web"
-        widget: "string"
-        required: false
-        hint: "Ex: johdoe.me"
-      - label: "Twitter Link"
-        name: "twitter"
-        widget: "string"
-        required: false
-        hint: "Ex: https://twitter.com/johndoe"
-      - label: "About You"
-        name: "description"
-        widget: "text"
-        required: false
-  - label: "Pages"
-    name: "pages"
-    folder: "_pages"
-    create: true
-    identifier_field: "title"
-    slug: "{{slug}}"
-    preview_path: "{{slug}}"
-    extension: "md"
-    fields:
-      - label: "Layout"
-        name: "layout"
-        widget: "hidden"
-        default: "page"
-      - label: "Permalink"
-        name: "permalink"
-        widget: "string"
-        required: true
-        hint: "Ex: /your-page-name or /name/your-page-name"
-      - label: "Publish Date"
-        name: "date"
-        widget: "datetime"
-        format: "YYYY-MM-DD HH:mm:ss"
+        hint: "Ex. My Website"
       - label: "Title"
         name: "title"
         widget: "string"
-        hint: "Enter your page title."
-      - label: "Page Image"
-        name: "image"
+        required: true
+        hint: "Ex. MyWebsite"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+        hint: "This keywords will be appeared on search engines."
+      - label: "Upload a Logo"
+        name: "logo"
+        widget: "image"
+        required: true
+        hint: "Upload optimized logo."
+      - label: "Upload a Favicon"
+        name: "favicon"
         widget: "image"
         required: false
-        hint: "Try to add optimised image below 1MB."
-      - label: "Image Shadow"
-        name: "imageshadow"
-        widget: "boolean"
-        default: "true"
-        required: false
-      - label: "Comments"
-        name: "comments"
-        widget: "hidden"
-        default: "false"
-      - label: "Comments"
-        name: "comments"
-        widget: "boolean"
-        default: "false"
-        required: false
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
-        required: false
+        hint: "Upload a optimzed image."
