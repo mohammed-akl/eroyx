@@ -14,7 +14,7 @@ collections:
     files:
       - label: "Site Info"
         name: "site_info"
-        file: "_config.yml"
+        file: "_data/meta-data.yml"
         fields:
           - label: "Website Name"
             name: "name"
@@ -35,82 +35,14 @@ collections:
             widget: "image"
             required: false
             hint: "36px*36px Recommended"
-          - label: "Baseurl"
-            name: "baseurl"
-            widget: "string"
-            required: false
-            hint: "Name of folder where files are stored."
           - label: "Favicon"
             name: "favicon"
             widget: "image"
             required: true
-          - label: "Google Analytic code"
-            name: "google_analytics"
-            widget: "string"
-            required: false
-            hint: "Ex: UA-xxxxxxxx-1"
-          - label: "Disqus Shortname"
-            name: "disqus"
-            widget: "string"
-            required: true
-            hint: "https://disqus_shortname.disqus.com"
-          - label: "Mailchimp List"
-            name: "mailchimp-list"
-            widget: "string"
-            required: false
-            hint: "https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
-          - label: "E-mail"
-            name: "email"
-            widget: "string"
-            hint: "example@domain.com"
-          - label: "Googe Adsense"
-            name: "adsense"
-            widget: "object"
-            fields:
-              - label: "Status"
-                name: "status"
-                widget: "select"
-                options:
-                  - { label: "Enable", value: "enabled" }
-                  - { label: "Disable", value: "disabled" }
-                default:
-                  - { label: "Disable", value: "disabled" }
-                required: true
-              - label: "Adsense Data Ad Client"
-                name: "adsense-data-ad-client"
-                widget: "string"
-                hint: "Ex: ca-pub-3412143450191416"
-                required: false
-              - label: "Adsense Data Ad Slot"
-                name: "adsense-data-ad-slot"
-                widget: "string"
-                hint: "Ex: 1363087678"
-                required: false
-          - label: "Lazy Images"
-            name: "lazyimages"
-            widget: "select"
-            required: true
-            options:
-              - { label: "Enable", value: "enabled" }
-              - { label: "Disable", value: "disabled" }
-            default:
-              - { label: "Disable", value: "disabled" }
-          - label: "Author Box"
-            name: "authorbox"
-            widget: "select"
-            required: true
-            options:
-              - { label: "Enable", value: "enabled" }
-              - { label: "Disable", value: "disabled" }
-            default:
-              - { label: "Disable", value: "disabled" }
-          - label: "Number of post in a page"
-            name: "paginate"
-            widget: "number"
-            default: 6
-            valueType: "float"
-            step: 1
-            hint: "Ex: 8"
+      - label: "Menu"
+        name: "menu"
+        file: "_data/menus.yml"
+        fields:
           - label: "Menu"
             name: "menu"
             widget: "list"
@@ -129,6 +61,30 @@ collections:
                 widget: "string"
                 required: false
                 hint: "Ex: Add featured to your menu."
+      - label: "Adsense"
+        name: "adsense"
+        file: "_data/adsense.yml"
+        fields:
+          - label: "Status"
+            name: "status"
+            widget: "select"
+            options:
+              - { label: "Enable", value: "enabled" }
+              - { label: "Disable", value: "disabled" }
+            default:
+              - { label: "Disable", value: "disabled" }
+            required: true
+          - label: "Adsense Data Ad Client"
+            name: "adsense-data-ad-client"
+            widget: "string"
+            hint: "Ex: ca-pub-3412143450191416"
+            required: false
+          - label: "Adsense Data Ad Slot"
+            name: "adsense-data-ad-slot"
+            widget: "string"
+            hint: "Ex: 1363087678"
+            required: false
+
   - label: "Authors"
     name: "authors"
     folder: "_authors"
