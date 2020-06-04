@@ -93,6 +93,31 @@ fields:
   label: Indian Content
   description: If the added content is Indian origin, put "ON" the option.
   default: false
+- name: Indian_language
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Malayalam
+    - Hindi
+    - Tamil
+    - Telugu
+    - Kannada
+    - Bengali
+    - Marathi
+    - Gujarati
+    - Punjabi
+    - Assamese
+    - Bhojpuri
+  label: Language
+  description: Add which language the Indian content belongs.
+  showOnly:
+    field: indian
+    value: true
 - type: list
   name: categories
   label: categories
