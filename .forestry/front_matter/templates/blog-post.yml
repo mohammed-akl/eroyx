@@ -14,15 +14,18 @@ fields:
   name: title
   label: title
 - name: author
-  type: list
+  type: select
+  default: []
   config:
-    use_select: true
-    min: 
-    max: 
+    required: false
+    options: []
     source:
       type: pages
       section: authors
+      file: 
+      path: 
   label: Author
+  description: Add the author of the content.
 - name: genre
   type: select
   default: ''
@@ -85,6 +88,11 @@ fields:
       path: 
   label: Content Rating
   description: Add the content rating.
+- name: indian
+  type: boolean
+  label: Indian Content
+  description: If the added content is Indian origin, put "ON" the option.
+  default: false
 - type: list
   name: categories
   label: categories
