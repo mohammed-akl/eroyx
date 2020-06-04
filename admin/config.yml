@@ -6,32 +6,38 @@ publish_mode: editorial_workflow
 
 media_folder: "assets/images"
 collections:
-  - label: "Global Site Config"
+  - label: "Global Site Settings"
     name: "site_config"
-    file: "_data/meta-data.yml"
-    fields:
-      - label: "Website Name"
-        name: "name"
-        widget: "string"
-        required: true
-        hint: "Ex. My Website"
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        required: true
-        hint: "Ex. MyWebsite"
-      - label: "Description"
-        name: "description"
-        widget: "text"
-        required: false
-        hint: "This keywords will be appeared on search engines."
-      - label: "Upload a Logo"
-        name: "logo"
-        widget: "image"
-        required: true
-        hint: "Upload optimized logo."
-      - label: "Upload a Favicon"
-        name: "favicon"
-        widget: "image"
-        required: false
-        hint: "Upload a optimzed image."
+    editor:
+      preview: false
+    delete: false
+    files:
+      - label: "Metadata"
+        name: "metadata"
+        file: "_data/meta-data.yml"
+        fields:
+          - label: "Website Name"
+            name: "name"
+            widget: "string"
+            required: true
+            hint: "Ex. My Website"
+          - label: "Title"
+            name: "title"
+            widget: "string"
+            required: true
+            hint: "Ex. MyWebsite"
+          - label: "Description"
+            name: "description"
+            widget: "text"
+            required: false
+            hint: "This keywords will be appeared on search engines."
+          - label: "Upload a Logo"
+            name: "logo"
+            widget: "image"
+            required: true
+            hint: "Upload optimized logo."
+          - label: "Upload a Favicon"
+            name: "favicon"
+            widget: "image"
+            required: false
+            hint: "Upload a optimzed image."
