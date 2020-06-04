@@ -17,10 +17,8 @@ collections:
     output: true
   genre:
     output: true
-collections:
-  countries:
+  country:
     output: true
-collections:
   languages:
     output: true
 
