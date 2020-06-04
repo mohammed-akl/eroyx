@@ -741,18 +741,24 @@ body.active-side {
     }
 }
 
-.btn-green {
-  color: #fff;
-  border-color: #40FFDC;
-  background: #40FFDC;
+.btn-white {
+    color: #ee0979;
+    background: #FFF;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 4px #e6e6e6e0;
 }
 
 .ftr-btn {
   margin-right: 20px;
+  display: inline;
+  padding: 10px 100px;
+  font-weight: 600;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 600px) {
   .ftr-btn {
+    display: block;
     width: 100%;
   }
 }
@@ -855,8 +861,9 @@ body.active-side {
 }
 .details {
     font-size: 20px;
-    display: inline;
+    display: inline-flex;
     margin-right: 15px;
+    margin-top: 10px;
 }
 .details-primary {
     color: #fff;
@@ -873,4 +880,12 @@ body.active-side {
 }
 .details-section {
     text-align: center;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.margin-15px {
+  margin-top: 15px;
 }

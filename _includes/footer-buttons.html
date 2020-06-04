@@ -1,11 +1,8 @@
-<div class="rating mt-4 mb-4 d-flex align-items-center">
+<div class="rating mt-4 mb-4 align-items-center">
 {% if page.trailer %}
-<a target="_blank" href="{{page.trailer}}" class="btn btn-dark ftr-btn"> Trailer</a>
+<a target="_blank" href="{{page.trailer}}" class="btn gradient-bg margin-15px white-text ftr-btn"> Trailer</a>
 {% endif %}
 {% if page.watch %}
-<a target="_blank" href="{{page.watch}}" class="btn btn-green ftr-btn"> Watch Now</a>
-{% endif %}
-{% if page.buy %}
-<a target="_blank" href="{{page.buy}}" class="btn btn-green ftr-btn"> Buy Now</a>
+<a target="_blank" href="{{page.watch}}" class="btn btn-white margin-15px ftr-btn"> Watch Now</a>
 {% endif %}
 </div>

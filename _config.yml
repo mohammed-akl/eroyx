@@ -19,7 +19,7 @@ collections:
     output: true
   country:
     output: true
-  languages:
+  language:
     output: true
 
 # Archives

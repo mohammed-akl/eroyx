@@ -286,7 +286,7 @@ collections:
       - label: "Language"
         name: "language"
         widget: "relation"
-        collection: "languages"
+        collection: "language"
         searchFields: [name]
         displayFields: [name]
         valueField: "name"
