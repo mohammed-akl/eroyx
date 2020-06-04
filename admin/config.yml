@@ -282,7 +282,7 @@ collections:
         displayFields: [title]
         valueField: "title"
         required: true
-        hint: "Create a genre and select it."
+        hint: "Create a country and select it."
       - label: "Content Rating"
         name: "content_rating"
         widget: "select"
