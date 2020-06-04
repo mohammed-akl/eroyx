@@ -133,21 +133,10 @@ fields:
 - type: number
   name: rating
   label: rating
-- name: type
-  type: list
   config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: simple
-    options:
-    - Drama
-    - Movie
-    - Webseries
-    - Documentry
-    - Other
-  label: Content Type
+    min: 0
+    max: 10
+    step: 0.1
 - type: text
   name: watch
   label: watch
@@ -159,8 +148,3 @@ fields:
   config:
     required: false
   label: Trailer
-- name: buy
-  type: text
-  config:
-    required: false
-  label: Buy
