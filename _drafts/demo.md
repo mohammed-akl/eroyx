@@ -1,0 +1,21 @@
+---
+layout: post
+author: _authors/muhammed-ashfar.md
+year: 2020
+date: 2020-06-02 21:00:00 +0000
+title: Demo
+genre: Action
+content_rating: 3+
+indian: false
+Indian_language: []
+categories: []
+tags: []
+image: "/assets/images/3.jpg"
+description: wasdfgh
+rating: 9.9
+watch: ''
+imageshadow: true
+trailer: ''
+
+---
+Soon

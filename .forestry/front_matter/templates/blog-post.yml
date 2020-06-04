@@ -148,3 +148,5 @@ fields:
   config:
     required: false
   label: Trailer
+pages:
+- _posts/demo.md
