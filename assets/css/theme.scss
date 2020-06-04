@@ -841,3 +841,36 @@ body.active-side {
 .box-shadow-2 {
   box-shadow: 0 30px 60px -10px rgba(0,0,0,0.22), 0 18px 36px -18px rgba(0,0,0,0.25);
 }
+
+.content-details {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+.details {
+    font-size: 20px;
+    display: inline;
+    margin-right: 15px;
+}
+.details-primary {
+    color: #fff;
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px 10px;
+}
+.details-secondary {
+    background-color: #fff;
+    border-radius: 0px 5px 5px 0px;
+    padding: 5px 10px;
+    margin-left: -5px;
+    color: #ee0979;
+}
+.details-section {
+    text-align: center;
+}

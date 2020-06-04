@@ -1,0 +1,40 @@
+<div class="details-section">
+{% if page.genre %}
+<div class="details">
+<span class="content-details details-primary">Genre</span>
+<span class="content-details details-secondary">{{genre.title}}</span>
+</div>
+{% endif %}
+{% if page.country %}
+<div class="details">
+<span class="content-details details-primary">Country</span>
+<span class="content-details details-secondary">{{country.title}}</span>
+</div>
+{% endif %}
+{% if page.indian_content == "true" %}
+{% if page.language %}
+<div class="details">
+<span class="content-details details-primary">Language</span>
+<span class="content-details details-secondary">{{language.title}}</span>
+</div>
+{% endif %}
+{% endif %}
+{% if page.year %}
+<div class="details">
+<span class="content-details details-primary">Release Year</span>
+<span class="content-details details-secondary">{{page.year}}</span>
+</div>
+{% endif %}
+{% if page.rating %}
+<div class="details">
+<span class="content-details details-primary">Rating</span>
+<span class="content-details details-secondary">{{page.rating}}</span>
+</div>
+{% endif %}
+{% if page.content_rating %}
+<div class="details">
+<span class="content-details details-primary">Content Rating</span>
+<span class="content-details details-secondary">{{page.content_rating}}</span>
+</div>
+{% endif %}
+</div>

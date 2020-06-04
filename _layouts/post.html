@@ -6,6 +6,7 @@ post_class: post-template
 ---
 {% assign genre = site.genre | where: "title", page.genre | first %}
 {% assign country = site.countries | where: "title", page.country | first %}
+{% assign language = site.languages | where: "title", page.language | first %}
 <div class="entry-header">
     <!-- Post Title -->
     <h1 class="posttitle gradient-text">{{ page.title }}</h1>
@@ -39,6 +40,9 @@ post_class: post-template
 <!-- Featured Image -->
 {% include featured-image.html %}
 
+<!-- Content details -->
+{% include details.html %}
+<!-- End content details -->
 <!-- Content -->
 {% include article.html %}
 

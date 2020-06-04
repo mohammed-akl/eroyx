@@ -4,6 +4,7 @@ layout: post
 type: Drama Review
 title: Dr. Romantic
 author: muhammed ashfar
+genre: Action
 categories:
   - Drama
   - Korean Drama

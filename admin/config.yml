@@ -215,3 +215,71 @@ collections:
         widget: "text"
         required: false
         hint: "About the country"
+  - label: "Language"
+    name: "language"
+    folder: "_languages"
+    create: true
+    identifier_field: "title"
+    slug: "{{slug}}"
+    editor:
+      preview: false
+      delete: false
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: true
+        hint: "Ex: Malayalam"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+        hint: "About the contents in particular language."
+  - label: "Post"
+    name: "post"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{title}}"
+    extension: "md"
+    fields:
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "post"
+      - label: "Post Title"
+        name: "title"
+        widget: "string"
+        required: true
+        hint: "Ex: My First Awesome Post!"
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        searchFields: [display_name]
+        displayFields: [display_name]
+        valueField: "name"
+        required: true
+        hint: "Create a author and select it."
+      - label: "Genre"
+        name: "genre"
+        widget: "relation"
+        collection: "genre"
+        searchFields: [title]
+        displayFields: [title]
+        valueField: [title]
+        required: true
+        hint: "Create a genre and select it."
+      - label: "Country"
+        name: "country"
+        widget: "relation"
+        collection: "countries"
+        searchFields: [title]
+        displayFields: [title]
+        valueField: [title]
+        required: true
+        hint: "Create a genre and select it."

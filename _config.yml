@@ -10,20 +10,32 @@ sass:
   style: compressed
 markdown: kramdown
 url: https://eroyx.tk
+
+# Collections
 collections:
   authors:
     output: true
   genre:
     output: true
+  countries:
+    output: true
+  languages:
+    output: true
+
+# Archives
 jekyll-archives:
   enabled:
     - categories
   layout: archive
   permalinks:
     category: /category/:name/
+
+# Markdown
 kramdown:
   syntax_highlighter_opts:
     disable: true
+
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -35,6 +47,8 @@ highlighter: none
 include:
   - _pages
 permalink: /:title/
+
+# Exclude
 exclude:
   - changelog.md
   - LICENSE.txt
