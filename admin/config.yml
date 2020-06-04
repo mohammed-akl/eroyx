@@ -1,9 +1,11 @@
 backend:
-  name: github
-  repo: muhammedashfar7/eroyx
+  name: git-gateway
   branch: master
 
 publish_mode: editorial_workflow
+site_url: https://eroyx.tk
+display_url: https://eroyx.tk
+logo_url: https://eroyx.tk/assets/images/eroyx_ii.png
 
 media_folder: "assets/images"
 collections:
@@ -291,6 +293,7 @@ collections:
         searchFields: [name]
         displayFields: [name]
         valueField: "name"
+        multiple: true
         required: true
         hint: "Create a country and select it."
       - label: "Content Rating"

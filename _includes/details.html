@@ -1,6 +1,6 @@
 {% assign genre = site.genre | where: "title", page.genre | first %}
 {% assign country = site.country | where: "title", page.country | first %}
-{% assign language = site.language | where: "title", page.language | first %}
+{% assign language = site.language | where: "name", page.language | first %}
 <div class="details-section">
 {% if page.genre %}
 <div class="details">
@@ -14,13 +14,11 @@
 <span class="content-details details-secondary">{{country.title}}</span>
 </div>
 {% endif %}
-{% if page.indian_content == "true" %}
 {% if page.language %}
 <div class="details">
 <span class="content-details details-primary">Language</span>
 <span class="content-details details-secondary">{{language.title}}</span>
 </div>
-{% endif %}
 {% endif %}
 {% if page.year %}
 <div class="details">
