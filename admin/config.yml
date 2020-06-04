@@ -179,7 +179,7 @@ collections:
     name: "genre"
     folder: "_genre"
     create: true
-    identifier_field: "name"
+    identifier_field: "title"
     slug: "{{slug}}"
     editor:
       preview: false

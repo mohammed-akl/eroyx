@@ -3,7 +3,17 @@
 
 <div class="blog-grid-item">
     <div class="card h-100 box-shadow-1">
-  <span class="badge badge-primary position">{{post.type}}</span>
+      <div class="absolute">
+      {% if post.genre %}
+      <span class="badge badge-primary position">{{genre.title}}</span>
+      {% endif %}
+      {% if post.year %}
+      <span class="badge badge-primary position">{{post.year}}</span>
+      {% endif %}
+      {% if post.content_rating %}
+      <span class="badge badge-primary position">{{post.content_rating}}</span>
+      {% endif %}
+      </div>
         <div class="maxthumb">
             <a href="{{ site.baseurl }}{{ post.url }}">
                 {% if post.image %}
