@@ -283,6 +283,15 @@ collections:
         valueField: "title"
         required: true
         hint: "Create a country and select it."
+      - label: "Language"
+        name: "language"
+        widget: "relation"
+        collection: "languages"
+        searchFields: [title]
+        displayFields: [title]
+        valueField: "title"
+        required: true
+        hint: "Create a country and select it."
       - label: "Content Rating"
         name: "content_rating"
         widget: "select"
