@@ -283,3 +283,15 @@ collections:
         valueField: [title]
         required: true
         hint: "Create a genre and select it."
+      - label: "Content Rating"
+        name: "content_rating"
+        widget: "select"
+        options:
+          - { label: "5+", value: "5+" }
+          - { label: "10+", value: "10+" }
+          - { label: "13+", value: "13+" }
+          - { label: "16+", value: "16+" }
+          - { label: "18+", value: "18+" }
+      - label: "Review"
+        name: "body"
+        widget: "markdown"
