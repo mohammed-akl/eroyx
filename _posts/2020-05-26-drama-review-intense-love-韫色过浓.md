@@ -3,7 +3,9 @@ date: 2020-05-25T12:05:50.000Z
 layout: post
 title: "Intense Love"
 author: muhammed ashfar
-type: Drama Review
+year: 2020
+genre: Drama
+content_rating: 18+
 categories:
   - Review
   - Drama

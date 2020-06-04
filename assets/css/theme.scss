@@ -791,13 +791,15 @@ body.active-side {
 }
 
 .position {
-    position: absolute;
     border-radius: 5px;
-    margin: 20px 0px 0px -5px;
+    margin: 20px 5px 0px -5px;
     background: linear-gradient(to right, #ff6a00, #ee0979);
     padding: 3px 5px;
   }
 
+.absolute {
+  position: absolute;
+}
   .meta-footer-thumb {
       float: right;
       background: #fff;
