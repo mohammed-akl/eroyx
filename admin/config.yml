@@ -195,3 +195,23 @@ collections:
         widget: "text"
         required: false
         hint: "About the genre"
+  - label: "Country"
+    name: "country"
+    folder: "_countries"
+    create: true
+    identifier_field: "title"
+    slug: "{{slug}}"
+    editor:
+      preview: false
+      delete: false
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: true
+        hint: "Ex: India"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+        hint: "About the country"
