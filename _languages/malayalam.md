@@ -1,3 +1,3 @@
 ---
-title: Malayalam
+name: Malayalam
 ---

@@ -219,14 +219,14 @@ collections:
     name: "language"
     folder: "_languages"
     create: true
-    identifier_field: "title"
+    identifier_field: "name"
     slug: "{{slug}}"
     editor:
       preview: false
       delete: false
     fields:
-      - label: "Title"
-        name: "title"
+      - label: "Name"
+        name: "name"
         widget: "string"
         required: true
         hint: "Ex: Malayalam"
@@ -287,9 +287,9 @@ collections:
         name: "language"
         widget: "relation"
         collection: "languages"
-        searchFields: [title]
-        displayFields: [title]
-        valueField: "title"
+        searchFields: [name]
+        displayFields: [name]
+        valueField: "name"
         required: true
         hint: "Create a country and select it."
       - label: "Content Rating"
