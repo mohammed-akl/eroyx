@@ -13,6 +13,8 @@ url: https://eroyx.tk
 collections:
   authors:
     output: true
+  genre:
+    output: true
 jekyll-archives:
   enabled:
     - categories

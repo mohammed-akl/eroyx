@@ -126,3 +126,77 @@ collections:
             widget: "string"
             required: true
             default: ""
+  - label: "Authors"
+    name: "authors"
+    folder: "_authors"
+    create: true
+    identifier_field: "name"
+    slug: "{{slug}}"
+    editor:
+      preview: false
+      delete: false
+    fields:
+      - label: "Shortname"
+        name: "name"
+        widget: "string"
+        required: true
+        hint: "Ex: john (Use samll letters)"
+      - label: "Display Name"
+        name: "display_name"
+        widget: "string"
+        required: true
+        hint: "Ex: John Doe"
+      - label: "Avatar"
+        name: "avatar"
+        widget: "image"
+        required: false
+        hint: "Use optimised images"
+      - label: "Gravatar ID"
+        name: "gravatar"
+        widget: "string"
+        required: false
+        hint: "Ex: b1cc14991db7a456fcd761680bbc8f81"
+      - label: "E-mail"
+        name: "email"
+        widget: "string"
+        required: false
+        hint: "Ex: john@example.com"
+      - label: "Website"
+        name: "web"
+        widget: "string"
+        required: false
+        hint: "Ex: johdoe.me"
+      - label: "Twitter Link"
+        name: "twitter"
+        widget: "string"
+        required: false
+        hint: "Ex: https://twitter.com/johndoe"
+      - label: "About You"
+        name: "description"
+        widget: "text"
+        required: false
+  - label: "Genre"
+    name: "genre"
+    folder: "_genre"
+    create: true
+    identifier_field: "name"
+    slug: "{{slug}}"
+    editor:
+      preview: false
+      delete: false
+    fields:
+      - label: "Name"
+        name: "name"
+        widget: "string"
+        required: true
+        hint: "Ex: action (Use samll letters)"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: true
+        hint: "Ex: Action"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+        hint: "About the genre"
