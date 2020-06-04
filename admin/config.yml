@@ -121,9 +121,8 @@ collections:
             default: 2
             step: 1
             required: false
-          - label: "Where site files are located"
+          - label: "Baseurl"
             name: "baseurl"
             widget: "string"
             required: true
             default: ""
-            hint: "Ex. If files are at root use ''""
