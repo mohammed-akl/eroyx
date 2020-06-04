@@ -198,7 +198,7 @@ collections:
         hint: "About the genre"
   - label: "Country"
     name: "country"
-    folder: "_countries"
+    folder: "_country"
     create: true
     identifier_field: "title"
     slug: "{{slug}}"
@@ -218,7 +218,7 @@ collections:
         hint: "About the country"
   - label: "Language"
     name: "language"
-    folder: "_languages"
+    folder: "_language"
     create: true
     identifier_field: "name"
     slug: "{{slug}}"
