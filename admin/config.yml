@@ -271,7 +271,7 @@ collections:
         collection: "genre"
         searchFields: [title]
         displayFields: [title]
-        valueField: [title]
+        valueField: "title"
         required: true
         hint: "Create a genre and select it."
       - label: "Country"
@@ -280,7 +280,7 @@ collections:
         collection: "countries"
         searchFields: [title]
         displayFields: [title]
-        valueField: [title]
+        valueField: "title"
         required: true
         hint: "Create a genre and select it."
       - label: "Content Rating"
