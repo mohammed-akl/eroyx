@@ -27,7 +27,7 @@ fields:
   type: select
   default: ''
   config:
-    required: false
+    required: true
     options:
     - Action
     - Adventure
@@ -57,6 +57,34 @@ fields:
       path: 
   label: Genre
   description: Select the Genre in which the movie belongs
+- name: year
+  type: number
+  description: Add the year which the movie released.
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: Release Year
+- name: content_rating
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - 3+
+    - 6+
+    - 10+
+    - 15+
+    - 18+
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Content Rating
+  description: Add the content rating.
 - type: list
   name: categories
   label: categories
