@@ -41,3 +41,89 @@ collections:
             widget: "image"
             required: false
             hint: "Upload a optimzed image."
+      - label: "Menu"
+        name: "menu"
+        file: "_data/menus.yml"
+        fields:
+          - label: "Navigation Menu"
+            name: "menu"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                required: true
+                hint: "Ex: Home"
+              - label: "Link to Item"
+                name: "url"
+                widget: "string"
+                required: true
+                hint: "Ex: /home"
+              - label: "Badge Label"
+                name: "badge"
+                widget: "string"
+                required: false
+                hint: "Ex: New"
+      - label: "Google Adsense"
+        name: "adsense"
+        file: "_data/adsense.yml"
+        fields:
+          - label: "Status"
+            name: "status"
+            widget: "boolean"
+            required: true
+          - label: "Ad Client ID"
+            name: "adsense-data-ad-client"
+            widget: "string"
+            required: false
+            hint: "Ex. ca-pub-4944786899709076"
+          - label: "Ad Slot ID"
+            name: "adsense-data-ad-slot"
+            widget: "string"
+            required: false
+            hint: "Ex.546549879894"
+      - label: "Disqus Comments"
+        name: "diqus_comments"
+        file: "_data/disqus.yml"
+        fields:
+          - label: "Disqus Shortname"
+            name: "disqus"
+            widget: "string"
+            required: false
+            hint: "Ex. disqus_shortname.disqus.com"
+      - label: "Mailchimp Mailing"
+        name: "mailchimp_mails"
+        file: "_data/mailchimp.yml"
+        fields:
+          - label: "Mailchimp mailing List"
+            name: "mailchimp-list"
+            widget: "string"
+            required: false
+            hint: "Ex. https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
+      - label: "Google Analytics"
+        name: "analytics"
+        file: "_data/analytics.yml"
+        fields:
+          - label: "Analytics ID"
+            name: "google_analytics"
+            widget: "string"
+            required: false
+            hint: "Ex: UA-xxxxxxxx-1"
+      - label: "Advanced Settings"
+        name: "advanced_settings"
+        file: "_config.yml"
+        fields:
+          - label: "No: of Posts in home"
+            name: "paginate"
+            widget: "number"
+            valueType: "float"
+            default: 2
+            step: 1
+            required: false
+          - label: "Where site files are located"
+            name: "baseurl"
+            widget: "string"
+            required: true
+            default: ""
+            hint: "Ex. If files are at root use ''""
