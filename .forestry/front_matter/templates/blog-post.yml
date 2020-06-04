@@ -23,6 +23,40 @@ fields:
       type: pages
       section: authors
   label: Author
+- name: genre
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Action
+    - Adventure
+    - Mystery
+    - Horror
+    - Crime
+    - Thriller
+    - Family
+    - Drama
+    - Romance
+    - LGBTQ
+    - History
+    - Fantasy
+    - Animation
+    - Biography
+    - Musical
+    - Comedy
+    - Sci-Fi
+    - Documentry
+    - War
+    - Sports
+    - Other
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Genre
+  description: Select the Genre in which the movie belongs
 - type: list
   name: categories
   label: categories
