@@ -149,4 +149,4 @@ fields:
     required: false
   label: Trailer
 pages:
-- _posts/demo.md
+- _posts/2020-06-02-demo.md
