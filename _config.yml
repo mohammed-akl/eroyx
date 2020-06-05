@@ -20,7 +20,7 @@ collections:
     permalink: /genre/:title
   country:
     output: true
-    permalink: /country/:title
+    permalink: /country/:name
   language:
     output: true
     permalink: /language/:name
@@ -32,6 +32,11 @@ defaults:
       path: "genre"
     values:
       layout: genre
+  # All country
+  - scope:
+      path: "country"
+    values:
+      layout: country
 
 # Archives
 jekyll-archives:

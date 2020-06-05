@@ -11,7 +11,7 @@
 {% if page.genre %}
 <div class="details">
 <span class="content-details details-primary">Genre</span>
-<span class="content-details details-secondary">{{page.genre}}</span>
+<span class="content-details details-secondary">{% for genre in page.genre %}{{ genre }} &nbsp;{% endfor %}</span>
 </div>
 {% endif %}
 {% if page.country %}
@@ -23,7 +23,7 @@
 {% if page.language %}
 <div class="details">
 <span class="content-details details-primary">Language</span>
-<span class="content-details details-secondary">{{page.language}}</span>
+<span class="content-details details-secondary">{% for language in page.language %}{{ language }} &nbsp;{% endfor %}</span>
 </div>
 {% endif %}
 {% if page.year %}

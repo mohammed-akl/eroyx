@@ -298,6 +298,11 @@ collections:
         widget: "string"
         required: true
         hint: "Ex: My First Awesome Post!"
+      - label: "Thumbnail"
+        name: "image"
+        widget: "image"
+        required: true
+        hint: "Use 730*400 image."
       - label: "Author"
         name: "author"
         widget: "relation"
@@ -315,6 +320,7 @@ collections:
         displayFields: [title]
         valueField: "title"
         required: true
+        multiple: true
         hint: "Create a genre and select it."
       - label: "Country"
         name: "country"
@@ -333,6 +339,7 @@ collections:
         displayFields: [name]
         valueField: "name"
         required: false
+        multiple: true
         hint: "Create a country and select it."
       - label: "Director"
         name: "director"
@@ -355,6 +362,7 @@ collections:
         min: 0
         step: 1
         required: false
+        hint: "Ex. 160. Time should be in minutes."
       - label: "Content Rating"
         name: "content_rating"
         widget: "select"
@@ -386,6 +394,11 @@ collections:
         widget: "string"
         required: false
         hint: "Place the youtube link of trailer."
+      - label: "Image Shadow"
+        name: "imageshadow"
+        widget: "boolean"
+        required: false
+        default: "false"
       - label: "Streaming Link"
         name: "watch"
         widget: "string"
@@ -399,3 +412,52 @@ collections:
       - label: "Review"
         name: "body"
         widget: "markdown"
+  - label: "Pages"
+    name: "pages"
+    folder: "_pages"
+    create: true
+    identifier_field: "title"
+    slug: "{{slug}}"
+    preview_path: "{{slug}}"
+    extension: "md"
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "page"
+      - label: "Permalink"
+        name: "permalink"
+        widget: "string"
+        required: true
+        hint: "Ex: /your-page-name or /name/your-page-name"
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "Enter your page title."
+      - label: "Page Image"
+        name: "image"
+        widget: "image"
+        required: false
+        hint: "Try to add optimised image below 1MB."
+      - label: "Image Shadow"
+        name: "imageshadow"
+        widget: "boolean"
+        default: "true"
+        required: false
+      - label: "Comments"
+        name: "comments"
+        widget: "hidden"
+        default: "false"
+      - label: "Comments"
+        name: "comments"
+        widget: "boolean"
+        default: "false"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        required: false
