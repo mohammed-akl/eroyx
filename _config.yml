@@ -19,6 +19,7 @@ collections:
     output: true
   countries:
     output: true
+    label: countries
   languages:
     output: true
 
