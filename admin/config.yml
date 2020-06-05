@@ -180,7 +180,7 @@ collections:
         required: false
   - label: "Genre"
     name: "genre"
-    folder: "_genre"
+    folder: "genre"
     create: true
     identifier_field: "title"
     slug: "{{slug}}"
@@ -200,7 +200,7 @@ collections:
         hint: "About the genre"
   - label: "Country"
     name: "country"
-    folder: "_countries"
+    folder: "country"
     create: true
     identifier_field: "title"
     slug: "{{slug}}"
