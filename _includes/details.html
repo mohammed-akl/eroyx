@@ -17,7 +17,7 @@
 {% if page.language %}
 <div class="details">
 <span class="content-details details-primary">Language</span>
-<span class="content-details details-secondary">{% for language in site.languages %}{{language.name}}{% endfor %},</span>
+<span class="content-details details-secondary">{{language.name}}</span>
 </div>
 {% endif %}
 {% if page.year %}
@@ -47,7 +47,7 @@
 {% if page.subtitle %}
 <div class="details">
 <span class="content-details details-primary">Subtitles</span>
-<span class="content-details details-secondary">{% for subtitle in site.subtitle %}{{page.subtitle}}{% endfor %},</span>
+<span class="content-details details-secondary">{{page.subtitle}}</span>
 </div>
 {% endif %}
 </div>

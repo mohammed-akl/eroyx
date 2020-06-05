@@ -220,7 +220,7 @@ collections:
         hint: "About the country"
   - label: "Language"
     name: "language"
-    folder: "_languages"
+    folder: "language"
     create: true
     identifier_field: "name"
     slug: "{{slug}}"
@@ -289,13 +289,18 @@ collections:
       - label: "Language"
         name: "language"
         widget: "relation"
-        collection: "languages"
+        collection: "language"
         searchFields: [name]
         displayFields: [name]
         valueField: "name"
         multiple: true
         required: false
         hint: "Create a country and select it."
+      - label: "Subtitle"
+        name: "subtitle"
+        widget: "string"
+        required: false
+        hint: "Ex. Mal, Eng"
       - label: "Duration"
         name: "duration"
         widget: "number"
