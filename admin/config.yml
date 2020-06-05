@@ -298,11 +298,6 @@ collections:
         widget: "string"
         required: true
         hint: "Ex: My First Awesome Post!"
-      - label: "Thumbnail"
-        name: "image"
-        widget: "image"
-        required: true
-        hint: "Use 730*400 image."
       - label: "Author"
         name: "author"
         widget: "relation"
