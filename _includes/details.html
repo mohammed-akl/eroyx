@@ -2,6 +2,12 @@
 {% assign country = site.country | where: "title", page.country | first %}
 {% assign language = site.language | where: "name", page.language | first %}
 <div class="details-section">
+{% if page.director %}
+<div class="details">
+<span class="content-details details-primary">Director</span>
+<span class="content-details details-secondary">{{page.director}}</span>
+</div>
+{% endif %}
 {% if page.genre %}
 <div class="details">
 <span class="content-details details-primary">Genre</span>
@@ -17,7 +23,7 @@
 {% if page.language %}
 <div class="details">
 <span class="content-details details-primary">Language</span>
-<span class="content-details details-secondary">{{page.name}}</span>
+<span class="content-details details-secondary">{{page.language}}</span>
 </div>
 {% endif %}
 {% if page.year %}

@@ -113,6 +113,25 @@ collections:
             widget: "string"
             required: false
             hint: "Ex: UA-xxxxxxxx-1"
+      - label: "Genre"
+        name: "genre"
+        file: "_data/genre.yml"
+        fields:
+          - label: "Genre"
+            name: "genre"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                required: true
+                hint: "Ex. Action"
+              - label: "Font Awesome icon code"
+                name: "icon"
+                widget: "string"
+                required: true
+                hint: "Ex. fas fa-snowboarding"
       - label: "Advanced Settings"
         name: "advanced_settings"
         file: "_config.yml"
@@ -238,6 +257,26 @@ collections:
         widget: "text"
         required: false
         hint: "About the contents in particular language."
+  - label: "Director"
+    name: "director"
+    folder: "director"
+    create: true
+    identifier_field: "name"
+    slug: "{{slug}}"
+    editor:
+      preview: false
+      delete: false
+    fields:
+      - label: "Name"
+        name: "name"
+        widget: "string"
+        required: true
+        hint: "Ex: James Cameron"
+      - label: "About"
+        name: "about"
+        widget: "text"
+        required: false
+        hint: "About the director."
   - label: "Post"
     name: "post"
     folder: "_posts"
@@ -295,6 +334,15 @@ collections:
         valueField: "name"
         required: false
         hint: "Create a country and select it."
+      - label: "Director"
+        name: "director"
+        widget: "relation"
+        collection: "director"
+        searchFields: [name]
+        displayFields: [name]
+        valueField: "name"
+        required: false
+        hint: "Create a director and select it."
       - label: "Subtitle"
         name: "subtitle"
         widget: "string"

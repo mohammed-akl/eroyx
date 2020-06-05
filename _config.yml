@@ -17,11 +17,21 @@ collections:
     output: true
   genre:
     output: true
-  countries:
+    permalink: /genre/:title
+  country:
     output: true
-    label: countries
-  languages:
+    permalink: /country/:title
+  language:
     output: true
+    permalink: /language/:name
+
+# Defaults
+defaults:
+  # All genre
+  - scope:
+      path: "genre"
+    values:
+      layout: genre
 
 # Archives
 jekyll-archives:
