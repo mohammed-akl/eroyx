@@ -280,7 +280,7 @@ collections:
       - label: "Country"
         name: "country"
         widget: "relation"
-        collection: "countries"
+        collection: "country"
         searchFields: [title]
         displayFields: [title]
         valueField: "title"
