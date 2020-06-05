@@ -5,19 +5,19 @@
 {% if page.genre %}
 <div class="details">
 <span class="content-details details-primary">Genre</span>
-<span class="content-details details-secondary">{{genre.title}}</span>
+<span class="content-details details-secondary">{{page.genre}}</span>
 </div>
 {% endif %}
 {% if page.country %}
 <div class="details">
 <span class="content-details details-primary">Country</span>
-<span class="content-details details-secondary">{{country.title}}</span>
+<span class="content-details details-secondary">{{page.country}}</span>
 </div>
 {% endif %}
 {% if page.language %}
 <div class="details">
 <span class="content-details details-primary">Language</span>
-<span class="content-details details-secondary">{{language.name}}</span>
+<span class="content-details details-secondary">{{page.name}}</span>
 </div>
 {% endif %}
 {% if page.year %}
@@ -29,7 +29,7 @@
 {% if page.duration %}
 <div class="details">
 <span class="content-details details-primary">Duration</span>
-<span class="content-details details-secondary">{{page.duration}}</span>
+<span class="content-details details-secondary">{{page.duration}}min</span>
 </div>
 {% endif %}
 {% if page.rating %}

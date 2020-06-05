@@ -2,9 +2,9 @@ menu:
   - title: Home
     url: /
     badge: ""
-  - title: Categories
-    url: /categories
-    badge: ""
+  - title: Genre
+    url: /genre
+    badge: beta
   - title: Tags
     url: /tags
     badge: ""

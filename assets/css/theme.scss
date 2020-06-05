@@ -284,6 +284,16 @@ img, img:hover {
             color:inherit;
             font-weight:700;
         }
+      }
+    .card-footer-2 {
+        font-size:14px;
+            border-top:0;
+            border-radius: 15px;
+            padding: 1rem 1.25rem;
+            a {
+                color:inherit;
+                font-weight:700;
+            }
     }
     .post-date {
         float:right;
@@ -396,6 +406,7 @@ img, img:hover {
 }
 .card.h-100 {
   border-radius: 15px;
+  width: 100%;
 }
 // blog
 .article-post, .entry-header, .comments, .rating, .authorbox {
@@ -814,7 +825,7 @@ body.active-side {
       width: 30px;
       height: 30px;
       text-align: center;
-      padding: 3px;
+      padding: 4px;
       box-shadow: 0 0 1px 4px #f9f9f978;
     }
 
@@ -889,3 +900,20 @@ body.active-side {
 .margin-15px {
   margin-top: 15px;
 }
+
+.box-shadow-3 {
+  box-shadow: 0 0 1px 4px #ff17176b;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.border-radius-15 {
+  border-radius: 15px;
+}
+.card-footer-2 {
+    color: #fff;
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    background-color: rgba(0, 0, 0, 0);
+  }

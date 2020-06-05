@@ -293,7 +293,6 @@ collections:
         searchFields: [name]
         displayFields: [name]
         valueField: "name"
-        multiple: true
         required: false
         hint: "Create a country and select it."
       - label: "Subtitle"
@@ -329,6 +328,21 @@ collections:
         name: "tags"
         widget: "list"
         hint: "Tags help to find the content in search."
+      - label: "Post Reaction"
+        name: "reaction"
+        widget: "boolean"
+        required: false
+        hint: "Put reaction ON to show reaction buttons."
+      - label: "Trailer Link"
+        name: "trailer"
+        widget: "string"
+        required: false
+        hint: "Place the youtube link of trailer."
+      - label: "Streaming Link"
+        name: "watch"
+        widget: "string"
+        required: false
+        hint: "Place the link to watch the movie'"
       - label: "Small Description"
         name: "description"
         widget: "text"
