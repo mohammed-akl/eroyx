@@ -394,11 +394,6 @@ collections:
         widget: "string"
         required: false
         hint: "Place the youtube link of trailer."
-      - label: "Image Shadow"
-        name: "imageshadow"
-        widget: "boolean"
-        required: false
-        default: "false"
       - label: "Streaming Link"
         name: "watch"
         widget: "string"
