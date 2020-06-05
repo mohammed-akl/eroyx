@@ -17,13 +17,13 @@ collections:
     output: true
   genre:
     output: true
-    permalink: /genre/:title
+    permalink: /genre/:title/
   country:
     output: true
-    permalink: /country/:name
+    permalink: /country/:name/
   language:
     output: true
-    permalink: /language/:name
+    permalink: /language/:name/
 
 # Defaults
 defaults:

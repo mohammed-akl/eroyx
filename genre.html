@@ -15,7 +15,7 @@ comments: false
         <div class="card-footer-2 bg-white">
             <div class="wrapfooter">
                 <span class="author-meta">
-                <span class="post-name"><a href="{{site.baseurl}}/genre/{{item.title | downcase}}">{{ item.title }}</a></span>
+                <span class="post-name"><a href="{{site.baseurl}}/genre/{{ item.title | slugify | downcase }}">{{ item.title }}</a></span>
                 <span class="meta-footer-thumb">
                   <i class="{{item.icon}}"></i>
                 </span>
