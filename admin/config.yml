@@ -132,6 +132,20 @@ collections:
                 widget: "string"
                 required: true
                 hint: "Ex. fas fa-snowboarding"
+      - label: "Country"
+        name: "country"
+        file: "_data/country.yml"
+        fields:
+          - label: "Countries"
+            name: "countries"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+                required: true
+                hint: "Ex. India"
       - label: "Advanced Settings"
         name: "advanced_settings"
         file: "_config.yml"
@@ -298,6 +312,11 @@ collections:
         widget: "string"
         required: true
         hint: "Ex: My First Awesome Post!"
+      - label: "Thumbnail"
+        name: "image"
+        widget: "image"
+        required: true
+        hint: "Use 730*400 image."
       - label: "Author"
         name: "author"
         widget: "relation"
@@ -315,6 +334,7 @@ collections:
         displayFields: [title]
         valueField: "title"
         required: true
+        multiple: true
         hint: "Create a genre and select it."
       - label: "Country"
         name: "country"
@@ -333,6 +353,7 @@ collections:
         displayFields: [name]
         valueField: "name"
         required: false
+        multiple: true
         hint: "Create a country and select it."
       - label: "Director"
         name: "director"
@@ -355,6 +376,7 @@ collections:
         min: 0
         step: 1
         required: false
+        hint: "Should in minutes."
       - label: "Content Rating"
         name: "content_rating"
         widget: "select"
@@ -380,6 +402,11 @@ collections:
         name: "reaction"
         widget: "boolean"
         required: false
+      - label: "Image Shadow"
+        name: "imageshadow"
+        widget: "boolean"
+        required: false
+        default: "false"
         hint: "Put reaction ON to show reaction buttons."
       - label: "Trailer Link"
         name: "trailer"
