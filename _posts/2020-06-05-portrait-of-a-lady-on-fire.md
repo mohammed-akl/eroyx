@@ -11,8 +11,9 @@ genre:
 country: France
 language:
   - French
+  - Italian
 director: Celine Sciamma
-subtitle: Eng, Mal
+subtitle: English, Malayalam
 duration: 122
 content_rating: 18+
 rating: 8.2
