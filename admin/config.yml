@@ -399,6 +399,7 @@ collections:
         widget: "number"
         valueType: "float"
         required: false
+        hint: "Ex: 2020"
       - label: "Tags"
         name: "tags"
         widget: "list"
