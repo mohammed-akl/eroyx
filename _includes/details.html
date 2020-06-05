@@ -17,13 +17,19 @@
 {% if page.language %}
 <div class="details">
 <span class="content-details details-primary">Language</span>
-<span class="content-details details-secondary">{% for language in page.language %}{{language.title}},{% endfor %}</span>
+<span class="content-details details-secondary">{% for language in site.languages %}{{language.name}}{% endfor %},</span>
 </div>
 {% endif %}
 {% if page.year %}
 <div class="details">
 <span class="content-details details-primary">Release Year</span>
 <span class="content-details details-secondary">{{page.year}}</span>
+</div>
+{% endif %}
+{% if page.duration %}
+<div class="details">
+<span class="content-details details-primary">Duration</span>
+<span class="content-details details-secondary">{{page.duration}}</span>
 </div>
 {% endif %}
 {% if page.rating %}
@@ -36,6 +42,12 @@
 <div class="details">
 <span class="content-details details-primary">Content Rating</span>
 <span class="content-details details-secondary">{{page.content_rating}}</span>
+</div>
+{% endif %}
+{% if page.subtitle %}
+<div class="details">
+<span class="content-details details-primary">Subtitles</span>
+<span class="content-details details-secondary">{% for subtitle in site.subtitle %}{{page.subtitle}}{% endfor %},</span>
 </div>
 {% endif %}
 </div>

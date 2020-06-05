@@ -200,7 +200,7 @@ collections:
         hint: "About the genre"
   - label: "Country"
     name: "country"
-    folder: "_country"
+    folder: "_countries"
     create: true
     identifier_field: "title"
     slug: "{{slug}}"
@@ -220,7 +220,7 @@ collections:
         hint: "About the country"
   - label: "Language"
     name: "language"
-    folder: "_language"
+    folder: "_languages"
     create: true
     identifier_field: "name"
     slug: "{{slug}}"
@@ -280,7 +280,7 @@ collections:
       - label: "Country"
         name: "country"
         widget: "relation"
-        collection: "country"
+        collection: "countries"
         searchFields: [title]
         displayFields: [title]
         valueField: "title"
@@ -289,13 +289,20 @@ collections:
       - label: "Language"
         name: "language"
         widget: "relation"
-        collection: "language"
+        collection: "languages"
         searchFields: [name]
         displayFields: [name]
         valueField: "name"
         multiple: true
-        required: true
+        required: false
         hint: "Create a country and select it."
+      - label: "Duration"
+        name: "duration"
+        widget: "number"
+        valueType: "float"
+        min: 0
+        step: 1
+        required: false
       - label: "Content Rating"
         name: "content_rating"
         widget: "select"

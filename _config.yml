@@ -17,9 +17,9 @@ collections:
     output: true
   genre:
     output: true
-  country:
+  countries:
     output: true
-  language:
+  languages:
     output: true
 
 # Archives

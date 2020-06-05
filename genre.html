@@ -1,0 +1,13 @@
+---
+title: "Genre"
+layout: default
+permalink: "/genre"
+---
+
+
+<h4 class="mt-5 mb-neg-30" id="{{ genre | replace: " ","-" }}"><span class="text-capitalize badge badge-primary text-small">{{ genre }}</span></h4>
+<div class="blog-grid-container owl-carousel owl-theme">
+{% for post in site.genre.action %}
+{% include postbox-2.html %}
+{% endfor %}
+</div>
