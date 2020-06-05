@@ -2,10 +2,15 @@
 date: 2020-06-05T16:57:59.000Z
 layout: post
 title: Portrait Of A Lady On Fire
+image: /assets/images/portrait-of-a-lady-on-fire.jpg
 author: muhammed ashfar
-genre: Drama
+genre:
+  - Drama
+  - Romance
+  - History
 country: France
-language: French
+language:
+  - French
 director: Celine Sciamma
 subtitle: Eng, Mal
 duration: 122
@@ -18,6 +23,7 @@ tags:
   - Romance
   - History
 reaction: true
+imageshadow: true
 trailer: https://youtu.be/R-fQPTwma9o
 watch: https://fmovies.wtf/film/portrait-of-a-lady-on-fire.np90m
 ---
