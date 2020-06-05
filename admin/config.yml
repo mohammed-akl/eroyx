@@ -315,7 +315,6 @@ collections:
         displayFields: [title]
         valueField: "title"
         required: true
-        multiple: true
         hint: "Create a genre and select it."
       - label: "Country"
         name: "country"
@@ -334,7 +333,6 @@ collections:
         displayFields: [name]
         valueField: "name"
         required: false
-        multiple: true
         hint: "Create a country and select it."
       - label: "Director"
         name: "director"
@@ -357,7 +355,6 @@ collections:
         min: 0
         step: 1
         required: false
-        hint: "Ex. 160. Time should be in minutes."
       - label: "Content Rating"
         name: "content_rating"
         widget: "select"
