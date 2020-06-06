@@ -4,13 +4,13 @@ menu:
     badge: ""
   - title: Genre
     url: /genre
-    badge: New
+    badge: ""
   - title: Countries
     url: /countries
-    badge: beta
+    badge: New
   - title: Indian
     url: /indian
-    badge: beta
+    badge: new
   - title: Tags
     url: /tags
     badge: ""
