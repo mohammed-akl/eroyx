@@ -22,7 +22,10 @@ content_rating: 18+
 rating: 8.2
 year: 2019
 tags:
+  - France
   - French
+  - Celine Sciamma
+  - 18+
   - Italian
   - Drama
   - Romance

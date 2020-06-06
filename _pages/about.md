@@ -7,9 +7,10 @@ image: /assets/images/eroyx_ii.png
 imageshadow: false
 comments: false
 ---
-**eroyx** comes to you with cool new features articles and contents. We always try to express our ideas in a simple way. Now we started **Reviews**, **Life** **style**, **Culture**, **Games** and many more. New cool features are waiting to be updated.
+**eroyx** is a review based online platform with **Reviews** of movies of different languages, orgin etc... Explore the world of eroyx to feel the ocean of movies, all time epics etc.. New cool features are waiting to be updated.
 
-Now you can request for reviews and contents like **Games**, **Dramas**, **Movies** etc.
+All the contents are sponcered by **Owl Meter Reviews** and **Troll D Company**. **Owl Meter Reviews** is telegram based review group and **Troll D Company** is instagram based movie suggestion as well as media platform.
+
 
 If you find any content appropriate please inform as or report it via **Report** section.
 
@@ -17,4 +18,4 @@ If you find any content appropriate please inform as or report it via **Report**
 
 **Have a Great Day!**
 
-<a target="_blank" href="https://eroyx.tk/category" class="btn-gradient gradient-bg"> Explore Now</a>
+<a target="_blank" href="https://eroyx.tk/category" class="btn gradient-bg margin-15px white-text ftr-btn"> Explore Now</a>

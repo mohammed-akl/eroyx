@@ -5,7 +5,7 @@ backend:
 publish_mode: editorial_workflow
 site_url: https://eroyx.tk
 display_url: https://eroyx.tk
-logo_url: https://eroyx.tk/assets/images/eroyx_ii.png
+logo_url: https://eroyx.tk/assets/images/favicon.png
 
 media_folder: "assets/images"
 collections:
@@ -317,6 +317,11 @@ collections:
         widget: "image"
         required: true
         hint: "Use 730*400 image."
+      - label: "Featured Image"
+        name: "featured_image"
+        widget: "image"
+        required: true
+        hint: "Use portrait posters."
       - label: "Author"
         name: "author"
         widget: "relation"

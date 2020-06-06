@@ -115,7 +115,7 @@ img, img:hover {
 }
 // menu
 .navbar-brand img {
-    max-height:80px;
+    max-height:75px;
     margin-bottom:40px;
     margin-top:40px;
 }
@@ -937,3 +937,10 @@ body.active-side {
     width: 290px;
   }
 }
+
+.contact {
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 0 30px 60px -10px rgba(0,0,0,0.22), 0 18px 36px -18px rgba(0,0,0,0.25);
+    margin-top: 10px;
+  }

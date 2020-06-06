@@ -1,0 +1,29 @@
+---
+title: Indian
+layout: page
+permalink: /indian
+comments: false
+---
+<div class="blog-grid-container">
+<!-- begin post -->
+{% assign author = site.authors | where: "name", post.author | first %}
+{% assign genre = site.genre | where: "title", post.genre | first %}
+{% assign country = site.countries | where: "title", post.country | first %}
+  {% for item in site.data.indian-language.language %}
+<div class="blog-grid-item">
+    <div class="card box-shadow-3 width-100 border-radius-15">
+        <div class="card-footer-2 bg-white">
+            <div class="wrapfooter">
+                <span class="author-meta">
+                <span class="post-name"><a href="{{site.baseurl}}/indian/{{ item.name | downcase }}">{{ item.name }}</a></span>
+                <span class="meta-footer-thumb">
+                  <i class="fas fa-language"></i>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    {% endfor %}
+</div>
+<!-- end post -->

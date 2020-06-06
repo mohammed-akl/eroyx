@@ -39,6 +39,11 @@ defaults:
       path: "country"
     values:
       layout: country
+  # Indian Language
+  - scope:
+      path: "language"
+    values:
+      layout: language
 
 # Archives
 jekyll-archives:

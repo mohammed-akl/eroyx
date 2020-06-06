@@ -8,6 +8,9 @@ menu:
   - title: Countries
     url: /countries
     badge: beta
+  - title: Indian
+    url: /indian
+    badge: beta
   - title: Tags
     url: /tags
     badge: ""
