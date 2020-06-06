@@ -54,7 +54,7 @@
 {% if page.subtitle %}
 <div class="details">
 <span class="content-details details-primary">Subtitles</span>
-<span class="content-details details-secondary">{% for subtitle in page.subtitle %}{{ subtitle }} &nbsp;{% endfor %}</span>
+<span class="content-details details-secondary">{% for subtitle in page.subtitle %}<a href="{{subtitle.file}}">{{ subtitle }}</a> &nbsp;{% endfor %}</span>
 </div>
 {% endif %}
 </div>
