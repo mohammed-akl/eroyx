@@ -1,5 +1,5 @@
 ---
-date: 2020-06-04 19:57:59
+date: 2020-06-04T19:57:59.000Z
 layout: post
 title: Portrait Of A Lady On Fire
 image: /assets/images/portrait-of-a-lady-on-fire.jpg
@@ -13,7 +13,7 @@ language:
   - French
   - Italian
 director: Celine Sciamma
-subtitle: English, Malayalam
+subtitle: Malayalam
 duration: 122
 content_rating: 18+
 rating: 8.2
