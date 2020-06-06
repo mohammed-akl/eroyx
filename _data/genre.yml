@@ -33,6 +33,8 @@ genre:
     icon: fas fa-grin-squint-tears
   - title: Sci-Fi
     icon: fas fa-user-astronaut
+  - title: Super Hero
+    icon: fas fa-superpowers
   - title: Documentary
     icon: fas fa-file-video
   - title: War
