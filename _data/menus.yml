@@ -4,6 +4,9 @@ menu:
     badge: ""
   - title: Genre
     url: /genre
+    badge: New
+  - title: Countries
+    url: /countries
     badge: beta
   - title: Tags
     url: /tags
