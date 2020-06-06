@@ -3,6 +3,7 @@ date: 2020-06-04T19:57:59.000Z
 layout: post
 title: Portrait Of A Lady On Fire
 image: /assets/images/portrait-of-a-lady-on-fire.jpg
+featured_image: /assets/images/portait-of-lady-in-fire.jpg
 author: muhammed ashfar
 genre:
   - Drama
@@ -13,7 +14,9 @@ language:
   - French
   - Italian
 director: Celine Sciamma
-subtitle: Malayalam
+subtitle:
+    - name: Malayalam
+      file: /assets/images/portrait-of-a-lady-on-fire-2019-infotainmentchannels.srt
 duration: 122
 content_rating: 18+
 rating: 8.2

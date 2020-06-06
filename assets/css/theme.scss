@@ -5,7 +5,7 @@
 $brown: #B59F62;
 $teal: #40FFDC;
 $black: #111;
-$primary: #F45C43;
+$primary: #ee0979;
 $dark:    $black;
 $enable-rounded: false;
 
@@ -431,9 +431,9 @@ img, img:hover {
     margin-bottom:50px;
 }
 .image-shadow {
-    -webkit-box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
-    -moz-box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
-    box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
+    -webkit-box-shadow: 0 30px 60px -10px rgba(0,0,0,0.22), 0 18px 36px -18px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 30px 60px -10px rgba(0,0,0,0.22), 0 18px 36px -18px rgba(0,0,0,0.25);
+    box-shadow: 0 30px 60px -10px rgba(0,0,0,0.22), 0 18px 36px -18px rgba(0,0,0,0.25);
 }
 .entry-header {
     .author-thumb {
@@ -917,3 +917,23 @@ body.active-side {
     background: linear-gradient(to right, #ff6a00, #ee0979);
     background-color: rgba(0, 0, 0, 0);
   }
+
+  .pc-image {
+      border-radius: 15px;
+      height: 600px;
+      width: 400px;
+  }
+
+  @media (max-width: 997px) {
+    .pc-image {
+    height: 500px;
+    width: 340px;
+  }
+}
+
+  @media (max-width: 472px) {
+    .pc-image {
+    height: 390px;
+    width: 290px;
+  }
+}

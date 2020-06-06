@@ -1,7 +1,6 @@
 {% assign genre = site.genre | where: "title", page.genre | first %}
 {% assign country = site.country | where: "title", page.country | first %}
 {% assign language = site.language | where: "name", page.language | first %}
-{% assign subtitle = site.subtitle | where: "title", page.subtitle | first %}
 <div class="details-section">
 {% if page.director %}
 <div class="details">
@@ -12,7 +11,7 @@
 {% if page.genre %}
 <div class="details">
 <span class="content-details details-primary">Genre</span>
-<span class="content-details details-secondary">{% for genre in page.genre %}{{ genre }} &nbsp;{% endfor %}</span>
+<span class="content-details details-secondary">{% for genre in page.genre %}{{ genre }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</span>
 </div>
 {% endif %}
 {% if page.country %}
@@ -24,7 +23,7 @@
 {% if page.language %}
 <div class="details">
 <span class="content-details details-primary">Language</span>
-<span class="content-details details-secondary">{% for language in page.language %}{{ language }} &nbsp;{% endfor %}</span>
+<span class="content-details details-secondary">{% for language in page.language %}{{ language }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</span>
 </div>
 {% endif %}
 {% if page.year %}
@@ -41,7 +40,7 @@
 {% endif %}
 {% if page.rating %}
 <div class="details">
-<span class="content-details details-primary">Rating</span>
+<span class="content-details details-primary">IMDb</span>
 <span class="content-details details-secondary">{{page.rating}}</span>
 </div>
 {% endif %}
@@ -54,7 +53,7 @@
 {% if page.subtitle %}
 <div class="details">
 <span class="content-details details-primary">Subtitles</span>
-<span class="content-details details-secondary">{% for subtitle in page.subtitle %}<a href="{{subtitle.file}}">{{ subtitle }}</a> &nbsp;{% endfor %}</span>
+<span class="content-details details-secondary">{% for item in page.subtitle %}{% if item.file %}<a href="{{item.file}}">{% endif %}{{ item.name }}</a>{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</span>
 </div>
 {% endif %}
 </div>
