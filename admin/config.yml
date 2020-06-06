@@ -291,6 +291,30 @@ collections:
         widget: "text"
         required: false
         hint: "About the director."
+  - label: "Subtitle"
+    name: "subtitle"
+    folder: "subtitle"
+    create: true
+    identifier_field: "title"
+    slug: "{{slug}}"
+    editor:
+      preview: false
+      delete: false
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: true
+        hint: "Ex: Malayalam"
+      - label: "File"
+        name: "file"
+        widget: "file"
+        allow_multiple: false
+        media_library:
+          config:
+            multiple: false
+        required: false
+        hint: "About the director."
   - label: "Post"
     name: "post"
     folder: "_posts"
@@ -366,9 +390,13 @@ collections:
         hint: "Create a director and select it."
       - label: "Subtitle"
         name: "subtitle"
-        widget: "string"
+        widget: "relation"
+        collection: "subtitle"
+        searchFields: [title]
+        displayFields: [title]
+        valueField: "title"
         required: false
-        hint: "Ex. Mal, Eng"
+        hint: "Ex. English, Malayalam"
       - label: "Duration"
         name: "duration"
         widget: "number"

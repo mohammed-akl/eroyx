@@ -24,6 +24,8 @@ collections:
   language:
     output: true
     permalink: /language/:name/
+  subtitle:
+    output: true
 
 # Defaults
 defaults:

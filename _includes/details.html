@@ -1,6 +1,7 @@
 {% assign genre = site.genre | where: "title", page.genre | first %}
 {% assign country = site.country | where: "title", page.country | first %}
 {% assign language = site.language | where: "name", page.language | first %}
+{% assign subtitle = site.subtitle | where: "title", page.subtitle | first %}
 <div class="details-section">
 {% if page.director %}
 <div class="details">
@@ -53,7 +54,7 @@
 {% if page.subtitle %}
 <div class="details">
 <span class="content-details details-primary">Subtitles</span>
-<span class="content-details details-secondary">{{page.subtitle}}</span>
+<span class="content-details details-secondary">{% for subtitle in page.subtitle %}{{ subtitle }} &nbsp;{% endfor %}</span>
 </div>
 {% endif %}
 </div>
