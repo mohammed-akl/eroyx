@@ -13,6 +13,9 @@ country: South Korea
 language:
   - Korean
 director: Lee Jang-hoon
+subtitle:
+  - file: /assets/images/be.with.you.2018.720p.bluray.x264-ml.srt
+    name: Malayalam
 duration: 132
 content_rating: 10+
 rating: 7.6
