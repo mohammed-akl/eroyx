@@ -787,6 +787,7 @@ body.active-side {
   box-shadow: 0 0 1px 4px #ff17176b;
   -webkit-box-shadow: 0 0 1px 4px #ff17176b;
   -moz-box-shadow: 0 0 1px 4px #ff17176b;
+  color: #fff;
 }
 
 .gradient-text {
@@ -965,3 +966,29 @@ body.active-side {
       -webkit-box-shadow: 0 0 1px 4px #2ccde757;
       -moz-box-shadow: 0 0 1px 4px #2ccde757;
   }
+
+.modal-dialog {
+  border-radius: 15px;
+}
+
+.modal-content {
+  border: transparent;
+  border-radius: 15px;
+}
+
+.modal-header {
+  border: transparent;
+}
+
+.modal-footer {
+  border: transparent;
+}
+
+.btn {
+  border-radius: 5px;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+}
+
+.lunrsearchresult {
+  list-style-type: none;
+}
