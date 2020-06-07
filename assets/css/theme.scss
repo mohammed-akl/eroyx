@@ -241,6 +241,7 @@ img, img:hover {
     padding: 0;
     display: flex;
     align-items:center;
+    margin-bottom: 15px; 
     .author-thumb {
         width:40px;
         border-radius:50%;
@@ -782,6 +783,8 @@ body.active-side {
   border-radius: 5px;
   background: linear-gradient(to right, #ff6a00, #ee0979);
   box-shadow: 0 0 1px 4px #ff17176b;
+  -webkit-box-shadow: 0 0 1px 4px #ff17176b;
+  -moz-box-shadow: 0 0 1px 4px #ff17176b;
 }
 
 .gradient-text {
@@ -957,4 +960,6 @@ body.active-side {
       border-radius: 5px;
       background: linear-gradient(to right, #5cdef3, #12c6e3);
       box-shadow: 0 0 1px 4px #2ccde757;
+      -webkit-box-shadow: 0 0 1px 4px #2ccde757;
+      -moz-box-shadow: 0 0 1px 4px #2ccde757;
   }
