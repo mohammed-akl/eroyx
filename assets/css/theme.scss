@@ -766,7 +766,7 @@ body.active-side {
 .ftr-btn {
   margin-right: 20px;
   display: inline;
-  padding: 10px 100px;
+  padding: 10px 0px;
   font-weight: 600;
 }
 
@@ -774,6 +774,12 @@ body.active-side {
   .ftr-btn {
     display: block;
     width: 100%;
+  }
+}
+
+@media (min-width: 1192px) {
+  .ftr-btn {
+    padding: 10px 100px;
   }
 }
 
@@ -1011,8 +1017,6 @@ body.active-side {
 
 .btn-ftr-post {
     max-width: 1000px;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
