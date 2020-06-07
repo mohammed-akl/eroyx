@@ -1,7 +1,7 @@
 ---
 date: 2020-06-06T01:49:45.000Z
 layout: post
-title: Strange Circus (Kimyō na Sākasu)
+title: Strange Circus
 image: /assets/images/unnamed.jpg
 featured_image: /assets/images/strange-circus.jpg
 author: Owl Meter
@@ -25,6 +25,7 @@ tags:
   - Japan
   - Japanese
   - Sion Sono
+  - Kimyō na Sākasu
 imageshadow: "false"
 trailer: https://youtu.be/wUBTVug4SP8
 ---
