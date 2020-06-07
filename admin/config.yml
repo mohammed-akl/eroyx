@@ -421,10 +421,6 @@ collections:
         name: "tags"
         widget: "list"
         hint: "Tags help to find the content in search."
-      - label: "Post Reaction"
-        name: "reaction"
-        widget: "boolean"
-        required: false
       - label: "Image Shadow"
         name: "imageshadow"
         widget: "boolean"
@@ -441,6 +437,11 @@ collections:
         widget: "string"
         required: false
         hint: "Place the link to watch the movie'"
+      - label: "Telegram Download Link"
+        name: "telegram"
+        widget: "string"
+        required: false
+        hint: "Place the telegram link of movie."
       - label: "Small Description"
         name: "description"
         widget: "text"

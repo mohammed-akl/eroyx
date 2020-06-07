@@ -951,3 +951,10 @@ body.active-side {
       margin-top: 5px;
       box-shadow: 0px 2px 5px 0px rgba(0, 52, 102, 0.11) !important;
   }
+
+  .telegram-bg {
+      color: #fff;
+      border-radius: 5px;
+      background: linear-gradient(to right, #5cdef3, #12c6e3);
+      box-shadow: 0 0 1px 4px #2ccde757;
+  }
