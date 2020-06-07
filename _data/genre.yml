@@ -34,7 +34,7 @@ genre:
   - title: Sci-Fi
     icon: fas fa-user-astronaut
   - title: Super Hero
-    icon: fas fa-superpowers
+    icon: fab fa-superpowers
   - title: Documentary
     icon: fas fa-file-video
   - title: War
