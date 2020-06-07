@@ -241,7 +241,7 @@ img, img:hover {
     padding: 0;
     display: flex;
     align-items:center;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
     .author-thumb {
         width:40px;
         border-radius:50%;
@@ -280,7 +280,10 @@ img, img:hover {
        font-size:14px;
         border-top:0;
         border-radius: 0px 0px 15px 15px;
-        padding: 1rem 1.25rem;
+        padding: 2rem 1.25rem 1rem 1.25rem;
+        bottom: 0px;
+        position: absolute;
+        width: 100%;
         a {
             color:inherit;
             font-weight:700;
@@ -305,7 +308,7 @@ img, img:hover {
         height:190px;
         width:100%;
         object-position:top;
-        border-radius: 15px 15px 0px 0px;
+        border-radius: 15px;
     }
 }
 .firstpage {
@@ -323,7 +326,7 @@ img, img:hover {
         }
         .img-thumb {
             object-fit:cover;
-            height:412px;
+            height:425px;
             width:100%;
             object-position:top;
         }
@@ -335,7 +338,6 @@ img, img:hover {
         }
         .img-thumb {
             object-fit:cover;
-            height:160px;
             width:100%;
             object-position:top;
         }
@@ -350,8 +352,8 @@ img, img:hover {
 .pagination {
     justify-content:center;
     a {
-        background: rgba(0,0,0,0.05);
-        color:#000;
+        background: linear-gradient(to right, #ff6a00, #ee0979);
+        color:#fff;
         cursor:pointer;
         &:hover {
             background: $primary;
@@ -803,7 +805,7 @@ body.active-side {
 
 .card-footer {
   color: #fff;
-  background: linear-gradient(to right, #ff6a00, #ee0979);
+  background: linear-gradient(to top, #dc3545, #ee097900);
 }
 
 .author-thumb {
