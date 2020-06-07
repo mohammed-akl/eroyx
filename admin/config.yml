@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: admin
 
 publish_mode: editorial_workflow
 site_url: https://eroyx.tk
@@ -15,104 +15,6 @@ collections:
       preview: false
     delete: false
     files:
-      - label: "Metadata"
-        name: "metadata"
-        file: "_data/meta-data.yml"
-        fields:
-          - label: "Website Name"
-            name: "name"
-            widget: "string"
-            required: true
-            hint: "Ex. My Website"
-          - label: "Title"
-            name: "title"
-            widget: "string"
-            required: true
-            hint: "Ex. MyWebsite"
-          - label: "Description"
-            name: "description"
-            widget: "text"
-            required: false
-            hint: "This keywords will be appeared on search engines."
-          - label: "Upload a Logo"
-            name: "logo"
-            widget: "image"
-            required: true
-            hint: "Upload optimized logo."
-          - label: "Upload a Favicon"
-            name: "favicon"
-            widget: "image"
-            required: false
-            hint: "Upload a optimzed image."
-      - label: "Menu"
-        name: "menu"
-        file: "_data/menus.yml"
-        fields:
-          - label: "Navigation Menu"
-            name: "menu"
-            widget: "list"
-            required: false
-            fields:
-              - label: "Title"
-                name: "title"
-                widget: "string"
-                required: true
-                hint: "Ex: Home"
-              - label: "Link to Item"
-                name: "url"
-                widget: "string"
-                required: true
-                hint: "Ex: /home"
-              - label: "Badge Label"
-                name: "badge"
-                widget: "string"
-                required: false
-                hint: "Ex: New"
-      - label: "Google Adsense"
-        name: "adsense"
-        file: "_data/adsense.yml"
-        fields:
-          - label: "Status"
-            name: "status"
-            widget: "boolean"
-            required: true
-          - label: "Ad Client ID"
-            name: "adsense-data-ad-client"
-            widget: "string"
-            required: false
-            hint: "Ex. ca-pub-4944786899709076"
-          - label: "Ad Slot ID"
-            name: "adsense-data-ad-slot"
-            widget: "string"
-            required: false
-            hint: "Ex.546549879894"
-      - label: "Disqus Comments"
-        name: "diqus_comments"
-        file: "_data/disqus.yml"
-        fields:
-          - label: "Disqus Shortname"
-            name: "disqus"
-            widget: "string"
-            required: false
-            hint: "Ex. disqus_shortname.disqus.com"
-      - label: "Mailchimp Mailing"
-        name: "mailchimp_mails"
-        file: "_data/mailchimp.yml"
-        fields:
-          - label: "Mailchimp mailing List"
-            name: "mailchimp-list"
-            widget: "string"
-            required: false
-            hint: "Ex. https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
-      - label: "Google Analytics"
-        name: "analytics"
-        file: "_data/analytics.yml"
-        fields:
-          - label: "Analytics ID"
-            name: "google_analytics"
-            widget: "string"
-            required: false
-            hint: "Ex: UA-xxxxxxxx-1"
       - label: "Genre"
         name: "genre"
         file: "_data/genre.yml"
@@ -146,71 +48,6 @@ collections:
                 widget: "string"
                 required: true
                 hint: "Ex. India"
-      - label: "Advanced Settings"
-        name: "advanced_settings"
-        file: "_config.yml"
-        fields:
-          - label: "No: of Posts in home"
-            name: "paginate"
-            widget: "number"
-            valueType: "float"
-            default: 2
-            step: 1
-            required: false
-          - label: "Baseurl"
-            name: "baseurl"
-            widget: "string"
-            required: true
-            default: ""
-  - label: "Authors"
-    name: "authors"
-    folder: "_authors"
-    create: true
-    identifier_field: "name"
-    slug: "{{slug}}"
-    editor:
-      preview: false
-      delete: false
-    fields:
-      - label: "Shortname"
-        name: "name"
-        widget: "string"
-        required: true
-        hint: "Ex: john (Use samll letters)"
-      - label: "Display Name"
-        name: "display_name"
-        widget: "string"
-        required: true
-        hint: "Ex: John Doe"
-      - label: "Avatar"
-        name: "avatar"
-        widget: "image"
-        required: false
-        hint: "Use optimised images"
-      - label: "Gravatar ID"
-        name: "gravatar"
-        widget: "string"
-        required: false
-        hint: "Ex: b1cc14991db7a456fcd761680bbc8f81"
-      - label: "E-mail"
-        name: "email"
-        widget: "string"
-        required: false
-        hint: "Ex: john@example.com"
-      - label: "Website"
-        name: "web"
-        widget: "string"
-        required: false
-        hint: "Ex: johdoe.me"
-      - label: "Twitter Link"
-        name: "twitter"
-        widget: "string"
-        required: false
-        hint: "Ex: https://twitter.com/johndoe"
-      - label: "About You"
-        name: "description"
-        widget: "text"
-        required: false
   - label: "Genre"
     name: "genre"
     folder: "genre"
