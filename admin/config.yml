@@ -263,7 +263,7 @@ collections:
         widget: "boolean"
         required: false
         default: true
-        hint: "Put reaction ON to show reaction buttons."
+        hint: "Put image shadow ON to show post image shadow."
       - label: "Trailer Link"
         name: "trailer"
         widget: "string"
