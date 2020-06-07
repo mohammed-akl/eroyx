@@ -1,5 +1,5 @@
 ---
-date: 2020-05-31 05:34:14
+date: 2020-05-31T05:34:14.000Z
 layout: post
 title: The curse of La Llorona
 image: /assets/images/the_curse_of_la-llorona_artwork_landscape_lowres.jpg
@@ -12,6 +12,8 @@ language:
   - English
   - Spanish
 director: Michael Chaves
+subtitle:
+  - name: English
 duration: 93
 content_rating: 16+
 rating: 5.3
