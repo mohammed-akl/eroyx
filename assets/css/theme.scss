@@ -992,3 +992,19 @@ body.active-side {
 .lunrsearchresult {
   list-style-type: none;
 }
+
+.btn-2 {
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 5px;
+    min-width: 180px;
+    border: transparent;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
