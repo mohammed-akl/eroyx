@@ -15,7 +15,7 @@ language:
 director: Sion Sono
 duration: 109
 content_rating: 18+
-rating: 7
+rating: 7.5
 year: 2005
 tags:
   - Owl Meter
