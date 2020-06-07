@@ -425,7 +425,7 @@ collections:
         name: "imageshadow"
         widget: "boolean"
         required: false
-        default: "false"
+        default: true
         hint: "Put reaction ON to show reaction buttons."
       - label: "Trailer Link"
         name: "trailer"

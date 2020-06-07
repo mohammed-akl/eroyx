@@ -13,6 +13,8 @@ genre:
     icon: fas fa-user-secret
   - title: Family
     icon: fas fa-users
+  - title: Feel Good
+    icon: fas fa-smile
   - title: Drama
     icon: fas fa-theater-masks
   - title: Romance
