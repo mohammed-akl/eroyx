@@ -1,8 +1,8 @@
 ---
-date: 2020-06-07 15:08:12
+date: 2020-06-07T15:08:12.000Z
 layout: post
 title: Strange Circus (Kimyō na Sākasu)
-image: /assets/images/473strange_circus.jpg
+image: /assets/images/unnamed.jpg
 featured_image: /assets/images/strange-circus.jpg
 author: Owl Meter
 genre:
