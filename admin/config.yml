@@ -48,6 +48,56 @@ collections:
                 widget: "string"
                 required: true
                 hint: "Ex. India"
+  - label: "Authors"
+    name: "authors"
+    folder: "_authors"
+    create: true
+    identifier_field: "name"
+    slug: "{{slug}}"
+    delete: false
+    editor:
+      preview: false
+      delete: false
+    fields:
+      - label: "Shortname"
+        name: "name"
+        widget: "string"
+        required: true
+        hint: "Ex: john (Use samll letters)"
+      - label: "Display Name"
+        name: "display_name"
+        widget: "string"
+        required: true
+        hint: "Ex: John Doe"
+      - label: "Avatar"
+        name: "avatar"
+        widget: "image"
+        required: false
+        hint: "Use optimised images"
+      - label: "Gravatar ID"
+        name: "gravatar"
+        widget: "string"
+        required: false
+        hint: "Ex: b1cc14991db7a456fcd761680bbc8f81"
+      - label: "E-mail"
+        name: "email"
+        widget: "string"
+        required: false
+        hint: "Ex: john@example.com"
+      - label: "Website"
+        name: "web"
+        widget: "string"
+        required: false
+        hint: "Ex: johdoe.me"
+      - label: "Twitter Link"
+        name: "twitter"
+        widget: "string"
+        required: false
+        hint: "Ex: https://twitter.com/johndoe"
+      - label: "About You"
+        name: "description"
+        widget: "text"
+        required: false 
   - label: "Genre"
     name: "genre"
     folder: "genre"
