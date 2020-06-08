@@ -443,7 +443,7 @@ img, img:hover {
         width:50px;
         border-radius:50%;
         margin-right:10px;
-        border:2px solid darken($primary,20%);
+        border:2px solid #e41160;
         padding:2px;
     }
 }
@@ -456,7 +456,7 @@ img, img:hover {
     .author-thumb {
         width:70px;
         border-radius:50%;
-        border:2px solid darken($primary,20%);
+        border:2px solid #e41160;
         padding:2px;
     }
 }
@@ -1004,7 +1004,6 @@ body.active-side {
     vertical-align: middle;
     cursor: pointer;
     user-select: none;
-    background-color: transparent;
     border: transparent;
     border-radius: 5px;
     font-size: 1rem;
@@ -1028,3 +1027,26 @@ body.active-side {
     height: 50px;
     border-radius: 50%;
 }
+
+.authorbox {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+  @media (max-width: 770px) {
+    .authorbox {
+      display: block !important;
+    }
+  }
+
+  @media (min-width: 770px) {
+    .authorbox {
+      display: flex !important;
+    }
+  }
+
+  .margin-bottom-10 {
+    margin-bottom: 10px;
+  }
