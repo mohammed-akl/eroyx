@@ -8,11 +8,11 @@ author: Ashiq
 genre:
   - Horror
   - Mystery
-  - Thriller
 country: India
 language:
   - Hindi
-director: Raj Khosla
+director:
+  - Raj Khosla
 duration: 140
 content_rating: 13+
 rating: 8
@@ -30,6 +30,7 @@ trailer: https://youtu.be/u574BjGyrOY
 watch: "
   https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ab3ce86-c9f5-57db-20b3-fb\
   f486d467b0&ref_=atv_dp_share_mv&r=web"
+telegram: https://t.me/Cc_Foreign/139
 description: " "
 ---
 **1964ൽ** രാജ് കോഷ്‌ല സംവിധാനം ചെയ്ത പുറത്തുവന്ന\
