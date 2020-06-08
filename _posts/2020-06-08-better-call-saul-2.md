@@ -21,7 +21,6 @@ tags:
   - Drama
   - United States
   - English
-  - "2015"
   - Vince Gilligan
   - Peter Gould
   - Bob Odenkirk
