@@ -26,6 +26,8 @@ collections:
     permalink: /language/:name/
   subtitle:
     output: true
+  director:
+    output: true
 
 # Defaults
 defaults:

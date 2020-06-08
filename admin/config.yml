@@ -97,7 +97,7 @@ collections:
       - label: "About You"
         name: "description"
         widget: "text"
-        required: false 
+        required: false
   - label: "Genre"
     name: "genre"
     folder: "genre"
@@ -255,6 +255,7 @@ collections:
         displayFields: [name]
         valueField: "name"
         required: false
+        multiple: true
         hint: "Create a director and select it."
       - label: "Subtitle"
         name: "subtitle"

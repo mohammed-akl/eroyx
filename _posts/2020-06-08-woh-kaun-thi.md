@@ -15,7 +15,7 @@ language:
 director: Raj Khosla
 duration: 140
 content_rating: 13+
-rating: 8
+rating: 8.0
 year: 1964
 tags:
   - Mr Goodfather
