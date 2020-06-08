@@ -10,6 +10,7 @@ genre:
 country: United States
 language:
   - English
+duration: 164
 content_rating: 13+
 rating: 8.3
 year: 1968
