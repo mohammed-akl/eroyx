@@ -1,7 +1,7 @@
 ---
-date: 2020-06-08 11:02:06
+date: 2020-06-07 16:32:06
 layout: post
-title: 2001 A space Odyssey
+title: "2001: A space Odyssey"
 image: /assets/images/images-29-.jpeg
 featured_image: /assets/images/images-28-.jpeg
 author: Ashiq
@@ -11,6 +11,7 @@ country: United States
 language:
   - English
 content_rating: 13+
+rating: 8.3
 year: 1968
 tags:
   - Stanley Kubrick
