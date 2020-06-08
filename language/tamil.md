@@ -1,3 +1,3 @@
 ---
-name: Tamil
+title: Tamil
 ---

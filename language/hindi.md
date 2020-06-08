@@ -1,3 +1,3 @@
 ---
-name: Hindi
+title: Hindi
 ---

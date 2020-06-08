@@ -148,8 +148,8 @@ collections:
       preview: false
       delete: false
     fields:
-      - label: "Name"
-        name: "name"
+      - label: "Title"
+        name: "title"
         widget: "string"
         required: true
         hint: "Ex: Malayalam"
@@ -241,9 +241,9 @@ collections:
         name: "language"
         widget: "relation"
         collection: "language"
-        searchFields: [name]
-        displayFields: [name]
-        valueField: "name"
+        searchFields: [title]
+        displayFields: [title]
+        valueField: "title"
         required: false
         multiple: true
         hint: "Create a country and select it."

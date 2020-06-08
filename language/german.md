@@ -1,3 +1,3 @@
 ---
-name: German
+title: German
 ---

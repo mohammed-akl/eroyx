@@ -20,10 +20,10 @@ collections:
     permalink: /genre/:title/
   country:
     output: true
-    permalink: /country/:name/
+    permalink: /country/:title/
   language:
     output: true
-    permalink: /language/:name/
+    permalink: /language/:title/
   subtitle:
     output: true
   director:

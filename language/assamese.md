@@ -1,3 +1,3 @@
 ---
-name: Assamese
+title: Assamese
 ---

@@ -1,3 +1,3 @@
 ---
-name: Bhojpuri
+title: Bhojpuri
 ---

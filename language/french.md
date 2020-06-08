@@ -1,3 +1,3 @@
 ---
-name: French
+title: French
 ---

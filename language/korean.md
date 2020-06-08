@@ -1,3 +1,3 @@
 ---
-name: Korean
+title: Korean
 ---

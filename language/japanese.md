@@ -1,3 +1,3 @@
 ---
-name: Japanese
+title: Japanese
 ---
