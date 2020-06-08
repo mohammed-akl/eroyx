@@ -1,0 +1,14 @@
+# .github/workflows/main.yml
+
+name: Trigger Netlify Build
+on:
+  schedule:
+    # Every 20 minutes
+    - cron: '0-59/5 * * * *'
+jobs:
+  build:
+    name: Netlify build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl request
+        run: curl -X POST -d {} https://api.netlify.com/build_hooks/5eddddfc1311f87667d10c98
