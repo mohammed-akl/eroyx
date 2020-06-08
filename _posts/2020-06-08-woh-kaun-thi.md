@@ -1,7 +1,7 @@
 ---
-date: 2020-06-08 14:08:36
+date: 2020-06-08T14:08:36.000Z
 layout: post
-title: Woh kaun thi
+title: Woh Kaun Thi
 image: /assets/images/images-30-.jpeg
 featured_image: /assets/images/images-30-.jpeg
 author: Ashiq
@@ -12,11 +12,18 @@ genre:
 country: India
 language:
   - Hindi
+duration: 140
 content_rating: 13+
 rating: 8
 year: 1964
 tags:
-  - Woh Kaun thi Hindi review
+  - Mr Goodfather
+  - Woh Kaun Thi
+  - Horror
+  - Mystery
+  - Thriller
+  - Hindi
+  - India
 imageshadow: true
 trailer: https://youtu.be/u574BjGyrOY
 watch: "
