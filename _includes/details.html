@@ -5,7 +5,7 @@
 {% if page.director %}
 <div class="details">
 <span class="content-details details-primary">Director</span>
-<span class="content-details details-secondary">{{page.director}}</span>
+<span class="content-details details-secondary">{% for director in page.director %}{{ director }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</span>
 </div>
 {% endif %}
 {% if page.genre %}
