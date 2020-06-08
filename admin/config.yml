@@ -255,6 +255,7 @@ collections:
         displayFields: [name]
         valueField: "name"
         required: false
+        multiple: true
         hint: "Create a director and select it."
       - label: "Subtitle"
         name: "subtitle"
