@@ -1,5 +1,5 @@
 ---
-date: 2020-06-07 16:37:55
+date: 2020-06-07T16:37:55.000Z
 layout: post
 title: Better Call Saul
 image: /assets/images/screenshot_20200608-102522.png
@@ -13,6 +13,7 @@ language:
   - English
 duration: 46
 content_rating: 18+
+rating: 8.7
 year: 2015
 tags:
   - ASV
@@ -20,7 +21,6 @@ tags:
   - Drama
   - United States
   - English
-  - "2015"
   - Vince Gilligan
   - Peter Gould
   - Bob Odenkirk
