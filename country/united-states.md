@@ -1,3 +1,3 @@
 ---
-title: United States
+title: USA
 ---
