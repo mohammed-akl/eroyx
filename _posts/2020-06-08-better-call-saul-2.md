@@ -1,5 +1,5 @@
 ---
-date: 2020-06-08 11:31:55
+date: 2020-06-07 16:37:55
 layout: post
 title: Better Call Saul
 image: /assets/images/screenshot_20200608-102522.png
@@ -13,7 +13,7 @@ language:
   - English
 duration: 46
 content_rating: 18+
-year: ""
+year: 2015
 tags:
   - ASV
   - Crime
