@@ -7,6 +7,8 @@ featured_image: /assets/images/images-28-.jpeg
 author: Ashiq
 genre:
   - Sci-Fi
+  - Thriller
+  - Drama
 country: United States
 language:
   - English
@@ -18,6 +20,12 @@ year: 1968
 tags:
   - Stanley Kubrick
   - 2001 A space Odyssey
+  - Thriller
+  - Sci-Fi
+  - Drama
+  - Mr Goodfather
+  - English
+  - United States
 imageshadow: true
 trailer: https://youtu.be/oR_e9y-bka0
 telegram: https://t.me/Cc_Foreign/852
