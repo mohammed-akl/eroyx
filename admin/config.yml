@@ -315,16 +315,26 @@ collections:
         required: false
         default: true
         hint: "Put image shadow ON to show post image shadow."
-      - label: "Trailer Link"
-        name: "trailer"
+      - label: "Youtube Trailer"
+        name: "youtubeId"
         widget: "string"
         required: false
         hint: "Place the youtube link of trailer."
-      - label: "Streaming Link"
-        name: "watch"
+      - label: "Netflix Stream"
+        name: "netflix"
         widget: "string"
         required: false
-        hint: "Place the link to watch the movie'"
+        hint: "Place the link to watch the movie on Netflix"
+      - label: "Amazon Prime Streaming"
+        name: "primeVideo"
+        widget: "string"
+        required: false
+        hint: "Place the link to watch the movie on Amazon Prime"
+      - label: "Other Streaming Link"
+        name: "streamNow"
+        widget: "string"
+        required: false
+        hint: "Place the link to watch the movie"
       - label: "Telegram Download Link"
         name: "telegram"
         widget: "string"

@@ -32,8 +32,8 @@ tags:
   - History
 reaction: true
 imageshadow: true
-trailer: https://youtu.be/R-fQPTwma9o
-watch: https://fmovies.wtf/film/portrait-of-a-lady-on-fire.np90m
+youtubeId: https://youtu.be/R-fQPTwma9o
+streamNow: https://fmovies.wtf/film/portrait-of-a-lady-on-fire.np90m
 ---
 
 

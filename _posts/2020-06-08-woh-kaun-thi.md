@@ -26,9 +26,9 @@ tags:
   - Hindi
   - India
 imageshadow: true
-trailer: https://youtu.be/u574BjGyrOY
-watch: "
-  https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ab3ce86-c9f5-57db-20b3-fb\
+youtubeId: https://youtu.be/u574BjGyrOY
+primeVideo: "
+https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ab3ce86-c9f5-57db-20b3-fb\
   f486d467b0&ref_=atv_dp_share_mv&r=web"
 description: " "
 ---

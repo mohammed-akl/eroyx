@@ -1051,3 +1051,24 @@ body.active-side {
   .margin-bottom-10 {
     margin-bottom: 10px;
   }
+
+  .netflix-bg {
+      color: #fff;
+      border-radius: 5px;
+      background: linear-gradient(to right, #000000, #e31213);
+      box-shadow: 0 0 1px 4px #ff00007d;
+      -webkit-box-shadow: 0 0 1px 4px #ff00007d;
+      -moz-box-shadow: 0 0 1px 4px #ff00007d;
+  }
+  .prime-bg {
+      color: #fff;
+      border-radius: 5px;
+      background: linear-gradient(to right, #56d4ff, #19869e);
+      box-shadow: 0 0 1px 4px #2ccde757;
+      -webkit-box-shadow: 0 0 1px 4px #82e2ff75;
+      -moz-box-shadow: 0 0 1px 4px #2ccde757;
+  }
+  a.btn-2:hover {
+    color: #e9ecef;
+    text-decoration: none;
+}

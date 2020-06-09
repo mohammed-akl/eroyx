@@ -30,8 +30,8 @@ tags:
   - Lee Jang-hoon
   - Jigeum Mannareo Gabmida
 imageshadow: true
-trailer: https://youtu.be/y3qhbh9lDko
-watch: https://www2.dramacool.movie/be-with-you-2018-episode-1.html
+youtubeId: https://youtu.be/y3qhbh9lDko
+streamNow: https://www2.dramacool.movie/be-with-you-2018-episode-1.html
 telegram: "@WMR_Be.with.You.2018.Korean.720p.BR.x265.Hevc.mkv"
 ---
 **മഴ കൊണ്ടു മാത്രം മുളയ്ക്കുന്ന വിത്തുകൾ ചിലതുണ്ട് മണ്ണിൻ മനസ്സിൽ.**<br>
