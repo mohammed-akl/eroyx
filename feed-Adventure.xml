@@ -11,7 +11,7 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.categories.Movie %}
+    {% for post in site.tags.Adventure %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
@@ -24,7 +24,7 @@ layout: null
         {% for cat in post.categories %}
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
-        {% assign post_image = post.image.path | default: post.image %}
+        {% assign post_image = post.featured_image.path | default: post.featured_image %}
         {% if post_image %}
           {% unless post_image contains "://" %}
             {% assign post_image = post_image | absolute_url %}
