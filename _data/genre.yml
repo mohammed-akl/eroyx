@@ -39,7 +39,11 @@ genre:
     icon: fab fa-superpowers
   - title: Documentary
     icon: fas fa-file-video
-  - title: War
-    icon: fas fa-fighter-jet
+  - title: Short
+    icon: fas fa-play
   - title: Sports
     icon: fas fa-volleyball-ball
+  - title: War
+    icon: fas fa-fighter-jet
+  - title: Western
+    icon: fas fa-globe-europe
