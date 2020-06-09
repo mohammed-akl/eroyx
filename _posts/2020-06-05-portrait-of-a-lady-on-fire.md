@@ -8,17 +8,20 @@ author: muhammed ashfar
 genre:
   - Drama
   - Romance
+  - LGBTQ
   - History
 country: France
 language:
   - French
   - Italian
-director: Celine Sciamma
 subtitle:
-    - name: Malayalam
-      file: /assets/images/portrait-of-a-lady-on-fire-2019-infotainmentchannels.srt
+  - name: Malayalam
+    file: /assets/images/portrait-of-a-lady-on-fire-2019-infotainmentchannels.srt
 duration: 122
 content_rating: 18+
+reaction: true
+director:
+  - Celine Sciamma
 rating: 8.2
 year: 2019
 tags:
@@ -30,14 +33,11 @@ tags:
   - Drama
   - Romance
   - History
-reaction: true
 imageshadow: true
 youtubeId: https://youtu.be/R-fQPTwma9o
 streamNow: https://fmovies.wtf/film/portrait-of-a-lady-on-fire.np90m
 ---
-
-
-**ഒരു രാജാ രവിവർമ്മ ചിത്രം**
+> **ഒരു രാജാ രവിവർമ്മ ചിത്രം**
 
 **Water Lilies, Tomboy** തുടങ്ങിയ ചിത്രങ്ങളിലൂടെ ഖ്യാതിയാർജ്ജിച്ച കഥാകൃത്തും സംവിധായകയുമാണ്സെലിൻ ഷാമ്മ. ഒരേസമയം പ്രണയാർദ്രവും കാവ്യാത്മകവും കലാമൂല്യവുമുള്ള ചിത്രങ്ങളായിരുന്നു അവയെല്ലാം. അതേമാത്രയിൽ, ആനി എർനൗ എന്ന ഫ്രഞ്ച് എഴുത്തുകാരിയുടെ ആത്മകഥയിൽ നിന്നും പ്രചോദനം ഉൾക്കൊണ്ടു എഴുതിയ കഥയുടെ ദൃശ്യാവിഷ്കാരമാണ് ഈ ചിത്രം. 2019 ലെ Cannes ഫിലിം ഫെസ്റ്റിവലിൽ പ്രദർശിപ്പിച്ച ചിത്രത്തിന് മികച്ച തിരക്കഥക്കുള്ളഅവാർഡ് നേടുകയും, പിന്നീട് പല വേദികളിലായി വിവിധ മേഖലകളിൽ നിരവധി പുരസ്‌കാരങ്ങൾ നേടിയെടുക്കാൻ സാധിച്ചു. പോയവർഷത്തെ മികച്ച 5 അന്യഭാഷാ ചിത്രങ്ങളുടെ പട്ടികയിൽ ഇടം നേടിയ ചിത്രം പക്ഷേ ഓസ്കാർ പട്ടികയിൽ പരിഗണിക്കപ്പെടാതെ പോയി. ഇനി കഥയിലേക്ക് വരാം.
 
