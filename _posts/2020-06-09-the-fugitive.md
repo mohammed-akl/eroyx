@@ -1,5 +1,5 @@
 ---
-date: 2020-06-09T13:34:51.000Z
+date: 2020-06-09 08:34:51
 layout: post
 title: The Fugitive
 image: /assets/images/mv5bnda4yzu5odutzti2ms00zdvmlwexmwitmdq4mzjimgzlyzrixkeyxkfqcgdeqxvyotc5mdi5nje-._v1_ql50_sy996_cr0-0-1776-996_al_.jpg
@@ -22,12 +22,18 @@ content_rating: 13+
 rating: 7.8
 year: 1993
 tags:
+  - Jagdish
   - Action
   - Mystery
   - Crime
   - Drama
+  - English
+  - Polish
+  - Spanish
+  - United States
+  - Andrew Davis
 imageshadow: true
-youtubeId: https://youtu.be/ETPVU0acnrE
+youtubeId: ETPVU0acnrE
 description: "A well organized cat and mouse game. Action, Mystery, Crime, Drama
   in a single pack. "
 ---
