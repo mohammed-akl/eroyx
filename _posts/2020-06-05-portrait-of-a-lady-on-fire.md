@@ -34,7 +34,7 @@ tags:
   - Romance
   - History
 imageshadow: true
-youtubeId: https://youtu.be/R-fQPTwma9o
+youtubeId: R-fQPTwma9o
 streamNow: https://fmovies.wtf/film/portrait-of-a-lady-on-fire.np90m
 ---
 > **ഒരു രാജാ രവിവർമ്മ ചിത്രം**

@@ -25,7 +25,7 @@ tags:
   - Peter Gould
   - Bob Odenkirk
 imageshadow: true
-youtubeId: https://m.youtube.com/watch?v=HN4oydykJFc
+youtubeId: HN4oydykJFc
 netflix: https://www.netflix.com/in/title/80021955?preventIntent=true
 description: Emmy-nominated prequel to "Breaking Bad"  which follows small-time
   attorney Jimmy McGill as he transforms into morally challenged lawyer Saul
