@@ -18,12 +18,17 @@ content_rating: 16+
 rating: 7.7
 year: 2011
 tags:
+  - C 4 CLASSICS
   - Tamil
   - Action
   - Thriller
+  - India
   - Arulnithi
-  - Mustwatchmovies
+  - Santha Kumar
+  - Must Watch
 imageshadow: true
+youtubeId: UVT-Id7feGo
+streamNow: https://www.mxplayer.in/movie/watch-mouna-guru-movie-online-418bfdfa288a2addea1fceb72fa3d040?watch=true
 ---
 പഠനത്തിൽ തല്പരനായിരുന്നെങ്കിലും മുൻകോപം കരുണാകരനെ പുതിയ കോളേജ് കണ്ടെത്തേണ്ട അവസ്ഥയിൽ എത്തിച്ചു. ചേട്ടന്റെ സഹായത്താൽ ചെന്നൈയിൽ ഒരു കോളേജിൽ അഡ്മിഷൻ ലഭിച്ച കരുണാകരൻ ഹോസ്റ്റലിൽ താമസമാക്കുന്നു. തടി രക്ഷിക്കാൻ പോലീസ് നടത്തുന്ന ശ്രമത്തിനിടയിൽ അകപ്പെടുന്നതോടെ കരുണാകരന്റെ  ജീവിതവും അപകടത്തിലാവുന്നു.
 
