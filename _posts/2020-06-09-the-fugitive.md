@@ -1,5 +1,5 @@
 ---
-date: 2020-06-09 13:34:51
+date: 2020-06-09T13:34:51.000Z
 layout: post
 title: The Fugitive
 image: /assets/images/mv5bnda4yzu5odutzti2ms00zdvmlwexmwitmdq4mzjimgzlyzrixkeyxkfqcgdeqxvyotc5mdi5nje-._v1_ql50_sy996_cr0-0-1776-996_al_.jpg
@@ -11,10 +11,15 @@ genre:
   - Drama
   - Mystery
 country: United States
+language:
+  - English
+  - Polish
+  - Spanish
 director:
   - Andrew Davis
 duration: 130
 content_rating: 13+
+rating: 7.8
 year: 1993
 tags:
   - Action
