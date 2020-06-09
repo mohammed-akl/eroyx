@@ -14,6 +14,8 @@
     <!-- End Toc -->
     {{content}}
 
-    <!-- trailer -->
+    <!-- Youtube trailer -->
+  {% if page.youtubeId %}
     {% include youtubePlayer.html id=page.youtubeId %}
+  {% endif %}
 </div>
