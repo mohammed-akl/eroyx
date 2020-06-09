@@ -1,5 +1,5 @@
 ---
-date: 2020-06-09T15:58:14.000Z
+date: 2020-06-09 09:58:14
 layout: post
 title: Mouna Guru
 image: /assets/images/images-23-.jpeg
