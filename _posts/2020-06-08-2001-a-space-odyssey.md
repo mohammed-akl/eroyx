@@ -2,7 +2,7 @@
 date: 2020-06-07T16:32:06.000Z
 layout: post
 title: "2001: A space Odyssey"
-image: /assets/images/images-2-.jpeg
+image: /assets/images/2001-poster.jpg
 featured_image: /assets/images/images-28-.jpeg
 author: Ashiq
 genre:
