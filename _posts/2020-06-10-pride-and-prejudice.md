@@ -1,5 +1,5 @@
 ---
-date: 2020-06-10 16:47:52
+date: 2020-06-10 10:16:52
 layout: post
 title: Pride and Prejudice
 image: /assets/images/img_20200610_164212_194.jpg
@@ -20,6 +20,8 @@ year: 2005
 tags:
   - Romance
   - Drama
+  - English
+  - United States
   - Keira Knightley
   - Joe Wright
 imageshadow: true
