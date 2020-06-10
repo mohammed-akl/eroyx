@@ -1,9 +1,9 @@
 ---
-date: 2020-06-10 11:49:00
+date: 2020-06-10T11:49:00.000Z
 layout: post
 title: "TRON: Legacy"
 image: /assets/images/270960.jpg
-featured_image: /assets/images/501762.jpg
+featured_image: /assets/images/518lr8eolql.jpg
 author: Sinan
 genre:
   - Sci-Fi
