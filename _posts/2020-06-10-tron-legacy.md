@@ -1,5 +1,5 @@
 ---
-date: 2020-06-10T11:49:00.000Z
+date: 2020-06-10 07:49:00
 layout: post
 title: "TRON: Legacy"
 image: /assets/images/270960.jpg
