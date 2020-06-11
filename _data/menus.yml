@@ -7,13 +7,10 @@ menu:
     badge: ""
   - title: Countries
     url: /countries
-    badge: New
+    badge: ""
   - title: Indian
     url: /indian
     badge: new
-  - title: Tags
-    url: /tags
-    badge: ""
   - title: Contact
     url: /contact
     badge: ""
