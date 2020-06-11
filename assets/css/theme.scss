@@ -1072,3 +1072,14 @@ body.active-side {
     color: #e9ecef;
     text-decoration: none;
 }
+@media (min-width: 1037px) {
+.translate {
+    float: right;
+  }
+}
+
+@media (max-width: 1037px) {
+.translate {
+    margin-left: 20px;
+  }
+}

@@ -11,9 +11,22 @@ tags:
   - Oniline review
   - World Cinema
 ---
+<!-- Recommended Section -->
+<div>
+<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">Today's</span></h4>
+</div>
+<div class="blog-grid-container owl-carousel owl-theme">
+{% for post in site.posts %}
+{% if post.recommended == true %}
+        {% include postbox-3.html %}
+{% endif %}
+{% endfor %}
+</div>
+<!-- Recommended end -->
 
 <!-- Posts Index
 ================================================== -->
+<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">Latest & All Posts</span></h4>
 <div class="blog-grid-container">
     {% for post in paginator.posts %}
         {% include postbox.html %}

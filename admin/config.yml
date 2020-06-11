@@ -309,6 +309,12 @@ collections:
         name: "tags"
         widget: "list"
         hint: "Tags help to find the content in search."
+      - label: "Put this on Recommended"
+        name: "recommended"
+        widget: "boolean"
+        required: false
+        default: false
+        hint: "Put image shadow ON to show post image shadow."
       - label: "Image Shadow"
         name: "imageshadow"
         widget: "boolean"
