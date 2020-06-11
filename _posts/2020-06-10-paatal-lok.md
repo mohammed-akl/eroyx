@@ -1,5 +1,5 @@
 ---
-date: 2020-06-10 08:09:54
+date: 2020-06-10T08:09:54.000Z
 layout: post
 title: Paatal Lok
 image: /assets/images/screenshot_20200610-094353.png
@@ -35,6 +35,7 @@ tags:
   - Abhishek Banerjee
   - Sudip Sharma
   - Anushka Sharma
+recommended: true
 imageshadow: true
 youtubeId: cNwWMW4mxO8
 primeVideo: https://www.primevideo.com/detail/0G9IEOHCN8KMY6COD9ILGH7IY5/ref=atv_hm_hom_c_oWa4KH_brws_7_1

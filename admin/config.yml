@@ -314,7 +314,7 @@ collections:
         widget: "boolean"
         required: false
         default: false
-        hint: "Put image shadow ON to show post image shadow."
+        hint: "Put recommended ON to show on today's tab"
       - label: "Image Shadow"
         name: "imageshadow"
         widget: "boolean"
