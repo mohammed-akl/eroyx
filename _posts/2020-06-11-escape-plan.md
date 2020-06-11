@@ -1,5 +1,5 @@
 ---
-date: 2020-06-11 08:22:15
+date: 2020-06-11T08:22:15.000Z
 layout: post
 title: Escape Plan
 image: /assets/images/escape_plan_2013-t2.jpg
@@ -21,7 +21,7 @@ content_rating: 10+
 rating: 6.7
 year: 2013
 tags:
-  - Jaddish
+  - Jagdish
   - Action
   - Thriller
   - Arnold Schwarzenegger
