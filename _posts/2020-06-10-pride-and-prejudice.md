@@ -2,7 +2,7 @@
 date: 2020-06-10T10:46:52.000Z
 layout: post
 title: Pride and Prejudice
-image: /assets/images/img_20200610_164212_194.jpg
+image: /assets/images/img_20200611_132204_432.jpg
 featured_image: /assets/images/mv5bmta1ndq3ntcyotneqtjeqwpwz15bbwu3mda0mza4mze-._v1_ql50_sy1000_cr0-0-674-1000_al_.jpg
 author: Jagdish
 genre:
