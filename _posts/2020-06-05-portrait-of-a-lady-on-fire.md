@@ -11,17 +11,17 @@ genre:
   - LGBTQ
   - History
 country: France
+content_rating: 18+
+reaction: true
 language:
   - French
   - Italian
+director:
+  - Celine Sciamma
 subtitle:
   - name: Malayalam
     file: /assets/images/portrait-of-a-lady-on-fire-2019-infotainmentchannels.srt
 duration: 122
-content_rating: 18+
-reaction: true
-director:
-  - Celine Sciamma
 rating: 8.2
 year: 2019
 tags:
@@ -33,8 +33,8 @@ tags:
   - Drama
   - Romance
   - History
+recommended: false
 imageshadow: true
-recommended: true
 youtubeId: R-fQPTwma9o
 streamNow: https://fmovies.wtf/film/portrait-of-a-lady-on-fire.np90m
 ---
