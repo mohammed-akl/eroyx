@@ -1087,3 +1087,11 @@ body.active-side {
     margin-left: 20px;
   }
 }
+
+.zoom {
+  transition: transform .3s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
