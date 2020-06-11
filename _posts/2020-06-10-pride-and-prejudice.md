@@ -1,5 +1,5 @@
 ---
-date: 2020-06-10 10:46:52
+date: 2020-06-10T10:46:52.000Z
 layout: post
 title: Pride and Prejudice
 image: /assets/images/img_20200610_164212_194.jpg
@@ -24,6 +24,7 @@ tags:
   - United States
   - Keira Knightley
   - Joe Wright
+recommended: true
 imageshadow: true
 youtubeId: 1dYv5u6v55Y
 description: "Pride and Prejudice is a beautiful romantic movie starring Keira
