@@ -1,14 +1,17 @@
 <div class="btn-ftr-post mt-4 mb-4 align-items-center">
-{% if page.streamNow %}
-<a target="_blank" href="{{page.streamNow}}" class="btn-2 btn-white margin-15px ftr-btn"> Stream Now <i class="far fa-play-circle"></i></a>
-{% endif %}
-{% if page.telegram %}
-<a target="_blank" href="{{page.telegram}}" class="btn-2 telegram-bg margin-15px ftr-btn"> Telegram <i class="fas fa-paper-plane"></i></a>
-{% endif %}
 {% if page.netflix %}
 <a target="_blank" href="{{page.netflix}}" class="btn-2 netflix-bg margin-15px ftr-btn"> Netflix <i class="far fa-play-circle"></i></a>
 {% endif %}
 {% if page.primeVideo %}
 <a target="_blank" href="{{page.primeVideo}}" class="btn-2 prime-bg margin-15px ftr-btn"> Prime <i class="far fa-play-circle"></i></a>
+{% endif %}
+{% if page.hotstar %}
+<a target="_blank" href="{{page.hotstar}}" class="btn-2 hotstar-bg margin-15px ftr-btn"> Hotstar <i class="far fa-play-circle"></i></a>
+{% endif %}
+{% if page.youtube %}
+<a target="_blank" href="{{page.hotstar}}" class="btn-2 youtube-bg margin-15px ftr-btn"> Youtube <i class="far fa-play-circle"></i></a>
+{% endif %}
+{% if page.streamNow %}
+<a target="_blank" href="{{page.streamNow}}" class="btn-2 btn-white margin-15px ftr-btn"> Stream Now <i class="far fa-play-circle"></i></a>
 {% endif %}
 </div>

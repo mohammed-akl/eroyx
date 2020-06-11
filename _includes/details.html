@@ -2,12 +2,6 @@
 {% assign country = site.country | where: "title", page.country | first %}
 {% assign language = site.language | where: "name", page.language | first %}
 <div class="details-section">
-{% if page.director %}
-<div class="details">
-<span class="content-details details-primary">Director</span>
-<span class="content-details details-secondary">{% for director in page.director %}{{ director }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</span>
-</div>
-{% endif %}
 {% if page.genre %}
 <div class="details">
 <span class="content-details details-primary">Genre</span>
@@ -18,6 +12,12 @@
 <div class="details">
 <span class="content-details details-primary">Country</span>
 <span class="content-details details-secondary">{{page.country}}</span>
+</div>
+{% endif %}
+{% if page.director %}
+<div class="details">
+<span class="content-details details-primary">Director</span>
+<span class="content-details details-secondary">{% for director in page.director %}{{ director }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</span>
 </div>
 {% endif %}
 {% if page.language %}

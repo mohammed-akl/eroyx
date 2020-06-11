@@ -27,7 +27,6 @@ tags:
   - Michael Chaves
 imageshadow: "false"
 youtubeId: uOV-xMYQ7sk
-telegram: https://t.me/trolldcompany/1562
 ---
 "**The Conjuring Universe**" യിലെ ആറാം ചിത്രം ആയ ഈ American supernatural horror ചിത്രം Mikki Daughtry, Tobias Iaconis എന്നിവരുടെ കഥയ്ക്കും തിരക്കഥയ്ക്കും Michael Chaves ആണ് സംവിധാനം നിർവഹിച്ചത്.
 

@@ -423,24 +423,24 @@ collections:
         name: "tags"
         widget: "list"
         hint: "Tags help to find the content in search."
-      - label: "Put this on Recommended"
-        name: "recommended"
+      - label: "Put this on featured"
+        name: "featured"
         widget: "boolean"
         required: false
         default: false
-        hint: "Put recommended ON to show on today's tab"
+        hint: "Put featured ON to show on featured tab"
       - label: "Image Shadow"
         name: "imageshadow"
         widget: "boolean"
         required: false
         default: true
         hint: "Put image shadow ON to show post image shadow."
-      - label: "Youtube Trailer"
+      - label: "Youtube Trailer code"
         name: "youtubeId"
         widget: "string"
         required: false
-        hint: "Place the youtube link of trailer."
-      - label: "Netflix Stream"
+        hint: "Place the youtube trailer code of trailer."
+      - label: "Netflix Streaming"
         name: "netflix"
         widget: "string"
         required: false
@@ -450,16 +450,21 @@ collections:
         widget: "string"
         required: false
         hint: "Place the link to watch the movie on Amazon Prime"
+      - label: "Hotstar Streaming"
+        name: "hotstar"
+        widget: "string"
+        required: false
+        hint: "Place the link to watch the movie on Hotstar"
+      - label: "Youtube Streaming"
+        name: "youtube"
+        widget: "string"
+        required: false
+        hint: "Place the link to watch the movie on Youtube"
       - label: "Other Streaming Link"
         name: "streamNow"
         widget: "string"
         required: false
         hint: "Place the link to watch the movie"
-      - label: "Telegram Download Link"
-        name: "telegram"
-        widget: "string"
-        required: false
-        hint: "Place the telegram link of movie."
       - label: "Small Description"
         name: "description"
         widget: "text"

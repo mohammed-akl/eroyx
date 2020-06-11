@@ -126,7 +126,6 @@ img, img:hover {
     width: 80px;
     height: 100%;
     z-index: 1022;
-    background: #f4f4f4;
 }
 .nav-icon {
     position: fixed;
@@ -304,7 +303,7 @@ img, img:hover {
         margin-top: 10px;
     }
     .img-thumb {
-        object-fit:cover;
+        object-fit: cover;
         height:240px;
         width:100%;
         object-position:top;
@@ -325,7 +324,7 @@ img, img:hover {
             font-size:28px;
         }
         .img-thumb {
-            object-fit:cover;
+            object-fit: fill;
             height:526px;
             width:100%;
             object-position:top;
@@ -816,7 +815,7 @@ body.active-side {
 }
 
 .author-thumb {
-  box-shadow: 0 0 1px 4px #e3e3e36b;
+  box-shadow: 0 0 1px 4px #ff9595b0;
 }
 
 .position {
@@ -891,6 +890,8 @@ body.active-side {
     display: inline-flex;
     margin-right: 15px;
     margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(166, 166, 166, 0.8);
+    border-radius: 5px;
 }
 .details-primary {
     color: #fff;
@@ -976,6 +977,24 @@ body.active-side {
       -webkit-box-shadow: 0 0 1px 4px #2ccde757;
       -moz-box-shadow: 0 0 1px 4px #2ccde757;
   }
+
+  .hotstar-bg {
+    color: #ffffff;
+    border-radius: 5px;
+    background: linear-gradient(to right, #167ac6, #22a0ff);
+    box-shadow: 0 0 1px 4px #afdcff;
+    -webkit-box-shadow: 0 0 1px 4px #afdcff;
+    -moz-box-shadow: 0 0 1px 4px #afdcff;
+}
+
+.youtube-bg {
+    color: #ffffff;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ff1121, #ff5b5b);
+    box-shadow: 0 0 1px 4px #ffbbc6;
+    -webkit-box-shadow: 0 0 1px 4px #ffbbc6;
+    -moz-box-shadow: 0 0 1px 4px #ffbbc6;
+}
 
 .modal-dialog {
   border-radius: 15px;
@@ -1076,16 +1095,8 @@ body.active-side {
     color: #e9ecef;
     text-decoration: none;
 }
-@media (min-width: 1037px) {
 .translate {
-    float: right;
-  }
-}
-
-@media (max-width: 1037px) {
-.translate {
-    margin-left: 20px;
-  }
+  text-align: center;
 }
 
 .zoom {

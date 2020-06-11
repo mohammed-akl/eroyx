@@ -1,6 +1,9 @@
 <!-- Post, Page Content
 ================================================== -->
 <div class="article-post">
+    <!-- Content details -->
+    {% include details.html %}
+    <!-- End content details -->
     <!-- Toc if any -->
     {% if page.toc %}
     {% if page.beforetoc %}
@@ -13,7 +16,9 @@
     {% endif %}
     <!-- End Toc -->
     {{content}}
-
+<!-- yandex translate -->
+{% include yandex-translate.html %}
+<!-- End Yandex-->
     <!-- Youtube trailer -->
   {% if page.youtubeId %}
     {% include youtubePlayer.html id=page.youtubeId %}
