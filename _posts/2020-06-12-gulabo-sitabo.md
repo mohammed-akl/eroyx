@@ -21,6 +21,10 @@ tags:
   - Amitabh Bachchan
   - Ayushmann Khurrana
   - Shoojit Sircar
+  - Comedy
+  - Drama
+  - India
+  - Hindi
 featured: false
 imageshadow: true
 youtubeId: o0qeQ_yHqtA
