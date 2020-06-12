@@ -1,5 +1,5 @@
 ---
-date: 2020-06-12T19:19:41.000Z
+date: 2020-06-12 04:19:41
 layout: post
 title: Gulabo Sitabo
 image: /assets/images/images-38-.jpeg
