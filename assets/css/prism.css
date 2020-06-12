@@ -507,6 +507,7 @@ Removes white gap between slides - chagnge to base color of slide images
 .carousel {
   background:#fff;
 	height: 700px;
+	background-position: center;
 }
 
 /*

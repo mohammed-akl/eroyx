@@ -1,5 +1,5 @@
 {% for post in site.posts limit:1 %}
-<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000" style="background-size:cover;background-image:url({{site.baseurl}}{{post.image}});">
+<div class="carousel slide carousel-fade" style="background-size:cover;background-image:url({{site.baseurl}}{{post.image}});">
   <div class="card-body">
       <h2 class="card-title">
           <a class="text-dark gradient-text" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a><span class="badge badge-primary">{{ post.year }}</span>
