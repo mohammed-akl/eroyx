@@ -2,8 +2,8 @@
 date: 2020-06-12 10:05:43
 layout: post
 title: Sex Education
-image: /assets/images/wp5152695.jpg
-featured_image: /assets/images/Otis-Gay-Sex-Education-Tv-And-Web-Entertainment-DKODING-1200x675.jpg
+image: /assets/images/Otis-Gay-Sex-Education-Tv-And-Web-Entertainment-DKODING-1200x675.jpg
+featured_image: /assets/images/wp4726317.jpg
 author: Sinan
 genre:
   - Comedy
