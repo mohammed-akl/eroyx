@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Home
 tags:
   - Home
@@ -12,8 +12,8 @@ tags:
   - World Cinema
 ---
 <!-- Recommended Section -->
-<div>
-<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">Featured</span></h4>
+<div class="relative">
+<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary"><i class="fas fa-heart"></i> &nbsp; Featured</span></h4>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in site.posts %}
@@ -23,20 +23,53 @@ tags:
 {% endfor %}
 </div>
 <!-- Recommended end -->
-
-<!-- Posts Index
-================================================== -->
-<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">Latest & All Posts</span></h4>
-<div class="blog-grid-container">
-    {% for post in paginator.posts %}
-        {% include postbox.html %}
-    {% endfor %}
+<!-- Latest Section -->
+<div class="relative">
+<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">Latest Post</span></h4>
 </div>
-
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
+<div class="blog-grid-container owl-carousel owl-theme">
+{% for post in site.posts limit:8 %}
+        {% include postbox-3.html %}
+{% endfor %}
 </div>
+<!-- Latest end -->
+<!-- Action Section -->
+<div class="relative">
+<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">New in Action</span></h4>
+</div>
+<div class="blog-grid-container owl-carousel owl-theme">
+{% for post in site.tags.Action limit:8 %}
+        {% include postbox-3.html %}
+{% endfor %}
+</div>
+<!-- Action end -->
+<!-- Crime Section -->
+<div class="relative">
+<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">New in Crime</span></h4>
+</div>
+<div class="blog-grid-container owl-carousel owl-theme">
+{% for post in site.tags.Crime limit:8 %}
+        {% include postbox-3.html %}
+{% endfor %}
+</div>
+<!-- Crime end -->
+<!-- Indian Section -->
+<div class="relative">
+<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">Popular Indian</span></h4>
+</div>
+<div class="blog-grid-container owl-carousel owl-theme">
+{% for post in site.tags.India limit:8 %}
+        {% include postbox-3.html %}
+{% endfor %}
+</div>
+<!-- Indian end -->
+<!-- English Section -->
+<div class="relative">
+<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">Popular In English</span></h4>
+</div>
+<div class="blog-grid-container owl-carousel owl-theme">
+{% for post in site.tags.English limit:8 %}
+        {% include postbox-3.html %}
+{% endfor %}
+</div>
+<!-- English end -->

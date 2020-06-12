@@ -19,7 +19,8 @@
  	position: relative;
  	-ms-touch-action: pan-Y;
  	touch-action: manipulation;
- 	-moz-backface-visibility: hidden
+ 	-moz-backface-visibility: hidden;
+  padding-top: 5px;
  }
 
  .owl-carousel .owl-stage:after {

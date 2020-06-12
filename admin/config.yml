@@ -465,6 +465,11 @@ collections:
         widget: "string"
         required: false
         hint: "Place the link to watch the movie"
+      - label: "Telegram file bot link"
+        name: "telegram"
+        widget: "string"
+        required: false
+        hint: "Place the telegram bot link to download the movie"
       - label: "Small Description"
         name: "description"
         widget: "text"

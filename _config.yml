@@ -3,7 +3,7 @@ title: eroyx
 description: We will take you on the fabulous world of exploration. Travel,
   Lifestyle, Culture, Movie, Food, Games, Dramas, Shows and much more...
 baseurl: ""
-paginate_path: /page:num/
+paginate_path: "/_page/page:num/"
 paginate: 9
 sass:
   sass_dir: _sass

@@ -324,8 +324,7 @@ img, img:hover {
             font-size:28px;
         }
         .img-thumb {
-            object-fit: fill;
-            height:526px;
+            object-fit: cover;
             width:100%;
             object-position:top;
         }
@@ -1105,4 +1104,85 @@ body.active-side {
 
 .zoom:hover {
   transform: scale(1.1);
+}
+
+.zoom-2 {
+  transition: transform .3s;
+}
+
+.zoom-2:hover {
+  transform: scale(1.03);
+}
+
+.meta-footer-index {
+    float: right;
+    background: linear-gradient(to left, #ff6a00, #ee0979);
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 4px;
+    box-shadow: 0 0 1px 4px #f4f4f4;
+    margin-right: -30px;
+}
+
+#lunrsearchresults {
+  position: absolute;
+}
+
+.top-margin {
+  margin-top: -300px;
+}
+
+.relative {
+  position: relative;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    width: 70%;
+    float: left;
+    margin-top: 12%;
+    margin-left: 15%;
+}
+
+.card-text {
+    margin-bottom: 10px;
+    display: block;
+    color: #fff;
+}
+.header-btn {
+    margin-top: 15px;
+    display: block;
+}
+@media (max-width: 600px) {
+  .card-body {
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+}
+.top-margin {
+    margin-top: -250px;
+}
+}
+
+@media (min-width: 1200px) {
+  .card-body {
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+}
+}
+
+.header-gradient {
+    position: relative;
+    height: 20%;
+    background: linear-gradient(to bottom,#f4f4f4,#ee097900);
+}
+
+.text-dark.gradient-text {
+  text-decoration: none;
 }
