@@ -2,7 +2,7 @@
 date: 2020-06-12T10:49:41.000Z
 layout: post
 title: Gulabo Sitabo
-image: /assets/images/images-38-.jpeg
+image: /assets/images/gulabo-sithabo.jpeg
 featured_image: /assets/images/images-38-.jpeg
 author: Ashiq
 genre:
