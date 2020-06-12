@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: admin
+  branch: ad
 
 publish_mode: editorial_workflow
 site_url: https://eroyx.tk
