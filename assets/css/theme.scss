@@ -1160,9 +1160,9 @@ body.active-side {
 }
 @media (max-width: 600px) {
   .card-body {
-    width: 80%;
+    width: 85%;
     float: left;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .top-margin {
     margin-top: -250px;
@@ -1177,7 +1177,14 @@ body.active-side {
 }
 }
 
+@media (min-width: 1300px) {
 .header-gradient {
+    height: 30%;
+}
+}
+
+.header-gradient {
+    top: 0;
     position: relative;
     height: 20%;
     background: linear-gradient(to bottom,#f4f4f4,#ee097900);
