@@ -1,5 +1,5 @@
 ---
-date: 2020-06-13T12:40:38.000Z
+date: 2020-06-13 07:40:38
 layout: post
 title: The, Sixth Sense
 image: /assets/images/img_20200613_123624_957.jpg
