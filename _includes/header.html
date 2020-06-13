@@ -2,7 +2,7 @@
 <div class="carousel slide carousel-fade" style="background-size:cover;background-image:url({{site.baseurl}}{{post.image}});">
   <div class="card-body">
       <h2 class="card-title">
-          <a class="text-dark gradient-text" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a><span class="badge badge-primary">{{ post.year }}</span>
+          <span class="badge badge-primary margin-5">{{ post.year }}</span><a class="text-dark gradient-text" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a>
       </h2>
       <span class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</span>
       <span class="badge badge-primary"><i class="fas fa-star"></i>{{ post.rating }}</span> <span class="badge badge-primary">{{ post.director }}</span>
