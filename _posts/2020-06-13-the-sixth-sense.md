@@ -1,5 +1,5 @@
 ---
-date: 2020-06-13 12:40:38
+date: 2020-06-13T12:40:38.000Z
 layout: post
 title: The, Sixth Sense
 image: /assets/images/img_20200613_123624_957.jpg
@@ -29,6 +29,7 @@ featured: true
 imageshadow: true
 youtubeId: 3-ZP95NF_Wk
 hotstar: https://www.hotstar.com/in/movies/the-sixth-sense/1260018039/watch?utm_source=gwa
+telegram: https://telegram.me/UniversalHelperBot?start=download_Document_412
 description: "The sixth sense is a movie directed by Manoj Night Shyamalan.
   Bruce Willis has done lead role in this mystery drama movie. "
 ---
