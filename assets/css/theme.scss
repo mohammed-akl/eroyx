@@ -575,8 +575,6 @@ img, img:hover {
 }
 .wrap-search {
     position: fixed;
-    left: 30px;
-    bottom: 25px;
     z-index: 1026;
 }
 .modal-open .modal {
@@ -1179,11 +1177,35 @@ body.active-side {
     margin-left: 20%;
 }
 }
+@media (min-width: 600.99px) {
+    i.fas.fa-search.show-search.color {
+       background: #fff;
+       padding: 13px;
+       border-radius: 10px;
+       box-shadow: 0 1px 3px rgba(128, 128, 128, 0.8);
+   }
+    .wrap-search {
+       right: 20px;
+       top: 20px;
+   }
+    .bd-search {
+       margin-right: 10px;
+   }
+}
 
 @media (min-width: 601px) {
-.header-gradient {
-    visibility: collapse;
+    .header-gradient {
+       visibility: collapse;
+   }
 }
+@media (max-width: 600px) {
+    .wrap-search{
+      right: 30px;
+      bottom: 25px;
+   }
+   i.fas.fa-search.show-search.color {
+     visibility: hidden;
+   }
 }
 
 .header-gradient {
