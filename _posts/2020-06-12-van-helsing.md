@@ -1,5 +1,5 @@
 ---
-date: 2020-06-12T23:54:51.000Z
+date: 2020-06-12 04:54:51
 layout: post
 title: Van Helsing
 image: /assets/images/unnamed-1-.jpg
