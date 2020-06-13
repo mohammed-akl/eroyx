@@ -1177,9 +1177,9 @@ body.active-side {
 }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 601px) {
 .header-gradient {
-    height: 30%;
+    visibility: collapse;
 }
 }
 
