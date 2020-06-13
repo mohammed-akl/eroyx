@@ -1,7 +1,7 @@
 ---
 date: 2020-06-13 07:40:38
 layout: post
-title: The, Sixth Sense
+title: The Sixth Sense
 image: /assets/images/img_20200613_123624_957.jpg
 featured_image: /assets/images/mv5by2i4mgzhnjytnmq1mi00ytgxltllodytogy1owy1ntg3zwjjxkeyxkfqcgdeqxvymtmxodk2otu-._v1_ql50_sy1000_cr0-0-666-1000_al_.jpg
 author: Jagdish
