@@ -123,7 +123,6 @@ img, img:hover {
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 80px;
     height: 100%;
     z-index: 1022;
 }
@@ -684,8 +683,8 @@ body.active-side {
 }
 
 @media (max-width: 600px) {
-    .nav-icon, .sidebar, .share, .wrap-search {
-        position:relative;
+    .nav-icon, .sidebar, .wrap-search {
+        position:absolute;
     }
     .container {
         padding-left:15px;
@@ -1143,7 +1142,7 @@ body.active-side {
     padding: 1.25rem;
     width: 70%;
     float: left;
-    margin-top: 12%;
+    margin-top: 25%;
     margin-left: 15%;
     background: linear-gradient(to right,#00000059,#00000054);
     border-radius: 20px;
@@ -1162,19 +1161,21 @@ body.active-side {
   .card-body {
     width: 85%;
     float: left;
-    margin-left: 5%;
+    margin-left: 7%;
     margin-bottom: 5px;
+    margin-top: 40%;
 }
 .top-margin {
     margin-top: -250px;
 }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 901px) {
   .card-body {
     width: 60%;
     float: left;
     margin-left: 20%;
+    margin-top: 17%;
 }
 }
 @media (min-width: 600.99px) {
@@ -1201,7 +1202,7 @@ body.active-side {
 @media (max-width: 600px) {
     .wrap-search{
       right: 30px;
-      bottom: 25px;
+      top: 20px;
    }
    i.fas.fa-search.show-search.color {
      visibility: hidden;
@@ -1221,4 +1222,30 @@ body.active-side {
 
 .margin-5 {
   margin-right: 5px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: 400px;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    line-height: 1;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.item {
+  height: 100%;
+  background-position: center;
+}
+
+.share {
+  position: relative;
+}
+
+.default {
+  margin-top: 100px;
 }

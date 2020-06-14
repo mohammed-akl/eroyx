@@ -17,9 +17,13 @@
 
 {% seo %}
 
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
 <link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
 
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/progression.css" rel="stylesheet">
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" rel="stylesheet">
 
@@ -53,6 +57,9 @@
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body>
+	<!-- Home Header -->
+	{% include header.html %}
+	<!--End Home Header -->
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
 		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
@@ -61,7 +68,7 @@
 
 <!-- Begin Sidebar Navigation
 ================================================== -->
-
+	  {% include search-lunr.html %}
 <div class="sidebar">
 </div>
 <div class="nav-icon gradient-bg">
@@ -79,11 +86,7 @@
     </ul>
 </nav>
 
-{% include search-lunr.html %}
 
-<!-- Home Header -->
-{% include header.html %}
-<!--End Home Header -->
 <!-- End Sidebar Navigation
 ================================================== -->
 <div class="site-content {% if page.url == '/' %} firstpage {% endif %} top-margin">
@@ -165,7 +168,7 @@
 <script src="{{ site.baseurl }}/assets/js/prism.js"></script>
 
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
-
+<script src="{{ site.baseurl }}/assets/js/bootstrap.js"></script>
 {% if site.lazyimages == "enabled" %}
 <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
 {% endif %}
