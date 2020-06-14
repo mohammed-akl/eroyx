@@ -1,0 +1,3 @@
+---
+name: Joseph McGinty Nichol
+---
