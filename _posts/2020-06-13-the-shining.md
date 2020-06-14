@@ -2,7 +2,7 @@
 date: 2020-06-14T00:20:58.000Z
 layout: post
 title: The Shining
-image: /assets/images/images-2-1-.jpeg
+image: /assets/images/the_shining_quad_2017.jpg
 featured_image: /assets/images/images-41-.jpeg
 author: Ashiq
 genre:
