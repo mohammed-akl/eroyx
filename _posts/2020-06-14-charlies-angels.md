@@ -1,5 +1,5 @@
 ---
-date: 2020-06-14T10:47:06.000Z
+date: 2020-06-14 06:47:06
 layout: post
 title: "Charlie's Angels "
 image: /assets/images/charlie-poster-1.jpg
