@@ -28,7 +28,7 @@ tags:
   - United States
   - Van Helsing Malayalam Review
   - ""
-featured: true
+featured: false
 imageshadow: true
 youtubeId: 3fdRKme00uI
 ---
