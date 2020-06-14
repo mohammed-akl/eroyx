@@ -1,5 +1,5 @@
 ---
-date: 2020-06-14 10:47:06
+date: 2020-06-14T10:47:06.000Z
 layout: post
 title: "Charlie's Angels "
 image: /assets/images/charlie-poster-1.jpg
@@ -14,6 +14,8 @@ language:
   - English
 director:
   - Joseph McGinty Nichol
+subtitle:
+  - name: "English "
 duration: 98
 content_rating: 13+
 rating: 5.5
