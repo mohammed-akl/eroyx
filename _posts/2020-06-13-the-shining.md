@@ -1,5 +1,5 @@
 ---
-date: 2020-06-14T00:20:58.000Z
+date: 2020-06-13 18:20:58
 layout: post
 title: The Shining
 image: /assets/images/the_shining_quad_2017.jpg
