@@ -815,11 +815,18 @@ body.active-side {
 }
 
 .position {
-    border-radius: 5px;
     margin: 20px 5px 0px -5px;
     background: linear-gradient(to right, #ff6a00, #ee0979);
     padding: 3px 5px;
+    border-radius: 5px;
   }
+
+  .position-2 {
+      border-radius: 10px;
+      margin: 5px 5px 0px 5px;
+      background: linear-gradient(to right, #ff6a00, #ee0979);
+      padding: 3px 5px;
+    }
 
 .absolute {
   position: absolute;
@@ -857,7 +864,11 @@ body.active-side {
    border-radius: 5px;
    padding: 5px 10px;
  }
-
+ .badge-primary-2 {
+   background: linear-gradient(to right, #ff6a00, #ee0979);
+   padding: 5px 10px;
+   color: #fff;
+ }
 .box-shadow-1 {
   box-shadow: 0 0 10px #bcbcbc;
 }
@@ -1015,7 +1026,29 @@ body.active-side {
 }
 
 .lunrsearchresult {
-  list-style-type: none;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0,52,102,.11) !important;
+    background:  #fff;
+}
+
+.mb-0 {
+    margin-left: -35px;
+}
+
+.modal-content {
+    background: transparent;
+}
+
+.modal-header {
+    border: transparent;
+    background: linear-gradient(to right,#ff6a00,#ee0979);
+    border-radius: 20px;
+    margin: 0px 19px;
+    color: #fff;
+    margin-top: 10px;
 }
 
 .btn-2 {
@@ -1100,7 +1133,7 @@ body.active-side {
 }
 
 .zoom:hover {
-  transform: scale(1.1);
+  transform: scale(1.078);
 }
 
 .zoom-2 {
@@ -1109,19 +1142,6 @@ body.active-side {
 
 .zoom-2:hover {
   transform: scale(1.03);
-}
-
-.meta-footer-index {
-    float: right;
-    background: linear-gradient(to left, #ff6a00, #ee0979);
-    color: #fff;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    padding: 4px;
-    box-shadow: 0 0 1px 4px #f4f4f4;
-    margin-right: -30px;
 }
 
 #lunrsearchresults {
