@@ -1,5 +1,5 @@
 ---
-date: 2020-06-16T22:13:08.000Z
+date: 2020-06-16 08:13:08
 layout: post
 title: True Detective (S01)
 image: /assets/images/td4.jpg
