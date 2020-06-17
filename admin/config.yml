@@ -2,6 +2,11 @@ backend:
   name: git-gateway
   branch: ad
 
+# when using the default proxy server port
+local_backend: true
+
+
+
 publish_mode: editorial_workflow
 site_url: https://eroyx.tk
 display_url: https://eroyx.tk

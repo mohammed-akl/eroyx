@@ -1,0 +1,42 @@
+{% assign author = site.authors | where: "name", page.author | first %}
+<div class="card profile">
+    <div class="card-header profileName">
+      {{author.display_name}}
+      {% if author.status == "top writer" %}
+      <span class="isVerified">
+          <svg width="24" height="24" viewBox="0 0 24 24">
+  <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z"></path>
+</svg>
+        </span>
+        {% endif %}
+      <div class="isOnline">
+        <small>Member Since {{ author.date | date_to_string }}</small>
+      </div>
+    </div>
+    <div class="card-body profileBody">
+      <div class="profilePic">
+        {% if author.avatar %}
+        <img class="avatar" src="{{author.avatar}}" alt="{{author.display_name}}">
+        {% else %}
+        <img class="avatar" src="{{site.baseurl}}/assets/images/avatar.jpg" alt="{{author.display_name}}">
+        {% endif %}
+      </div>
+      <div class="profileInfo">
+        <p>{{author.role}}</p>
+      </div>
+    </div>
+    <div class="card-footer actions">
+      <div class="actionFirst">
+        <a href="{{author.facebook}}"><i class="fab fa-facebook-f"></i><br/> Facebook</a>
+      </div>
+      <div class="actionSecond">
+        <a href="{{author.instagram}}"><i class="fab fa-instagram"></i><br/> Instagram</a>
+      </div>
+      <div class="actionSecond">
+        <a href="{{author.twitter}}"><i class="fab fa-twitter"></i><br/> Twitter</a>
+      </div>
+      <div class="actionSecond">
+        <a href="{{author.github}}"><i class="fab fa-github-alt"></i><br/> GitHub</a>
+      </div>
+    </div>
+  </div>

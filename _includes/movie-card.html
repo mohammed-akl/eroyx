@@ -1,0 +1,23 @@
+<div class="movie_card" id="{{ post.title | slugify }}">
+  <div class="info_section">
+    <div class="movie_header">
+      <img class="locandina" src="{{site.baseurl}}{{post.featured_image}}"/>
+      <h1>{{post.title}}</h1>
+      <h4>{{post.year}}, {% for director in post.director %}{{ director }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</h4>
+      <span class="minutes"><i class="fas fa-stopwatch"></i> {{post.duration}} min</span><span class="minutes"><i class="fas fa-star-half-alt"></i> {{post.rating}}</span>
+      <p class="type gradient-text">{% for genre in post.genre %}{{ genre }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</p>
+    </div>
+    <div class="movie_desc">
+      <p class="text">
+        {{ post.excerpt | strip_html | truncatewords:18 }}
+      </p>
+    </div>
+    <div class="movie_social">
+      <ul>
+        <li><a href="{{post.url}}"><i class="fas fa-bookmark gradient-text"></i></a></li>
+        <li><i class="fas fa-share-alt gradient-text"></i></li>
+      </ul>
+    </div>
+  </div>
+  <div class="blur_back bright_back" style="background-image: url({{site.baseurl}}{{post.image}})"></div>
+</div>

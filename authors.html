@@ -1,0 +1,20 @@
+---
+title: Authors
+layout: default
+permalink: /authors
+comments: false
+---
+<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">Top 3 Writers</span></h4>
+<div class="blog-grid-container">
+{% for author in site.authors %}
+{% if author.status == "top writer" %}
+{% include author-card.html %}
+{% endif %}
+{% endfor %}
+</div>
+<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">All Writers</span></h4>
+<div class="blog-grid-container">
+  {% for author in site.authors %}
+    {% include author-card.html %}
+  {% endfor %}
+</div>

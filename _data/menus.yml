@@ -11,6 +11,9 @@ menu:
   - title: Indian
     url: /indian
     badge: new
+  - title: Author
+    url: /authors
+    badge: new
   - title: Contact
     url: /contact
     badge: ""

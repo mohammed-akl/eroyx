@@ -1,0 +1,13 @@
+<section class="hero-section">
+  <div class="card-5-grid">
+    {% for post in site.posts limit:4 %}
+    <a class="card-5" href="{{post.url}}">
+      <div class="card-5__background" style="background-image: url({{site.baseurl}}{{post.featured_image}})"></div>
+      <div class="card-5__content">
+        <p class="card-5__category">{% for genre in post.genre %}{{ genre }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</p>
+        <h3 class="card-5__heading">{{post.title}}</h3>
+      </div>
+    </a>
+    {% endfor %}
+  <div>
+</section>

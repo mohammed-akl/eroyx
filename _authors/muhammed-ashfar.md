@@ -1,6 +1,7 @@
 ---
 name: muhammed ashfar
 display_name: Muhammed Ashfar
+role: Founder & Administrator
 avatar: /assets/images/67847867_2344043419183919_2596314593789739008_o.jpg
 email: muhammed.ashfar.7@gmail.com
 web: https://muhd.tk

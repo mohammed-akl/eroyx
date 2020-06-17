@@ -21,6 +21,8 @@
 
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
 
+<link href="{{ site.baseurl }}/assets/css/styles.css" rel="stylesheet">
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" rel="stylesheet">
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
@@ -68,7 +70,9 @@
     <div class="hamburger-bar"></div>
 </div>
 <div id="blackover-nav" class="blackover"></div>
-<nav id="menu">
+{% for post in site.posts limit:1 %}
+<nav id="menu" style="background-image: url({{site.baseurl}}{{post.image}})">
+{% endfor %}
     <ul>
         <h3 class="gradient-text">Navigation</h3>
     {% for item in site.data.menus.menu %}
@@ -80,7 +84,6 @@
 </nav>
 
 {% include search-lunr.html %}
-
 
 <!-- End Sidebar Navigation
 ================================================== -->
