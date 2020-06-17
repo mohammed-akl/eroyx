@@ -4,7 +4,7 @@
   <div class="carousel-inner" role="listbox">
     {% assign latest_post = site.posts[0] %}
     <div class="item active" style="background-size:cover;background-image:url({{site.baseurl}}{{latest_post.image}});">
-        <div class="card-body">
+        <div class="card-body-home">
             <h2 class="card-title">
                 <span class="badge badge-primary margin-5">{{ latest_post.title }} </span>
             </h2>
@@ -14,7 +14,7 @@
     </div>
  {%- assign second_post = site.posts[1] -%}
     <div class="item" style="background-size:cover;background-image:url({{site.baseurl}}{{second_post.image}});">
-        <div class="card-body">
+        <div class="card-body-home">
         <h2 class="card-title">
             <span class="badge badge-primary margin-5">{{ second_post.title }}</span>
         </h2>
@@ -24,7 +24,7 @@
     </div>
  {%- assign third_post = site.posts[2] -%}
        <div class="item" style="background-size:cover;background-image:url({{site.baseurl}}{{third_post.image}});">
-           <div class="card-body">
+           <div class="card-body-home">
            <h2 class="card-title">
                <span class="badge badge-primary margin-5">{{ third_post.title }}</span>
            </h2>
@@ -34,7 +34,7 @@
        </div>
   {%- assign fourth_post = site.posts[3] -%}
         <div class="item" style="background-size:cover;background-image:url({{site.baseurl}}{{fourth_post.image}});">
-            <div class="card-body">
+            <div class="card-body-home">
               <h2 class="card-title">
                   <span class="badge badge-primary margin-5">{{ fourth_post.title }}</span>
               </h2>
