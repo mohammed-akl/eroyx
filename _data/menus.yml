@@ -5,15 +5,12 @@ menu:
   - title: Genre
     url: /genre
     badge: ""
-  - title: Countries
-    url: /countries
-    badge: ""
-  - title: Indian
-    url: /indian
-    badge: new
+  - title: Franchises
+    url: /franchises
+    badge: New
   - title: Authors
     url: /authors
-    badge: new
+    badge: New
   - title: Contact
     url: /contact
     badge: ""

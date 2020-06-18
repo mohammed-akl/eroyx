@@ -421,7 +421,7 @@
     display: block;
 }
 @media (max-width: 600px) {
-  .card-body {
+  .card-body-home {
     width: 85%;
     float: left;
     margin-left: 7%;
@@ -434,7 +434,7 @@
 }
 
 @media (min-width: 901px) {
-  .card-body {
+  .card-body-home {
     width: 60%;
     float: left;
     margin-left: 20%;
@@ -541,10 +541,14 @@ Details of Author , Post Count, Author Social */
   margin:5px;
 }
 
-.card-body {
+.card-body-author {
   color:#eee;
   margin-top:1.5em;
   background: linear-gradient(to right,#ef0d7491,#fe66057d);
+  margin: 0px 50px;
+  border-radius: 20px;
+  padding: 20px;
+
 }
 .avatar {
   border-radius:50%;
