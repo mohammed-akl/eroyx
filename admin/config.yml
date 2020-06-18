@@ -122,7 +122,6 @@ collections:
             widget: "number"
             valueType: "float"
             default: 2
-            step: 1
             required: false
           - label: "Baseurl"
             name: "baseurl"
@@ -393,7 +392,6 @@ collections:
         widget: "number"
         valueType: "float"
         min: 0
-        step: 1
         required: false
         hint: "Should in minutes."
       - label: "Content Rating"
@@ -411,7 +409,6 @@ collections:
         valueType: "float"
         min: 0.0
         max: 10.0
-        step: 0.1
         required: false
       - label: "Release Year"
         name: "year"
