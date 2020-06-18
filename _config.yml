@@ -13,6 +13,9 @@ url: https://eroyx.tk
 
 # Collections
 collections:
+  franchises:
+    output: true
+    permalink: /franchise/:title
   authors:
     output: true
   genre:
@@ -31,6 +34,11 @@ collections:
 
 # Defaults
 defaults:
+  # Franchises
+  - scope:
+      path: "_franchises"
+    values:
+      layout: franchise
   # All genre
   - scope:
       path: "genre"

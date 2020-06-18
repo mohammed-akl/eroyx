@@ -167,6 +167,50 @@ collections:
                 widget: "string"
                 required: true
                 hint: "Ex. India"
+  - label: "Franchises"
+    name: "franchises"
+    folder: "_franchises"
+    create: true
+    identifier_field: "name"
+    slug: "{{slug}}"
+    editor:
+      preview: false
+      delete: false
+    fields:
+      - label: "Shortname"
+        name: "name"
+        widget: "string"
+        required: true
+        hint: "Ex: avengers (Use samll letters)"
+      - label: "Name of the Franchise"
+        name: "title"
+        widget: "string"
+        required: true
+        hint: "Ex: Avengers"
+      - label: "Thumbnail"
+        name: "thumbnail"
+        widget: "image"
+        required: true
+        hint: "Use portrait image"
+      - label: "Production or Distributor"
+        name: "production"
+        widget: "string"
+        required: true
+        hint: "Ex: Marvel Studios"
+      - label: "Movie Number in Franchise"
+        name: "noMovies"
+        widget: "number"
+        valueType: "float"
+        min: 0.0
+        max: 10.0
+        step: 0.1
+        required: true
+        hint: "Ex: 10"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: true
+        hint: "About the franchise in short words."
   - label: "Authors"
     name: "authors"
     folder: "_authors"
@@ -328,6 +372,15 @@ collections:
         widget: "image"
         required: true
         hint: "Use portrait posters."
+      - label: "Franchise"
+        name: "franchise"
+        widget: "relation"
+        collection: "franchises"
+        searchFields: [title]
+        displayFields: [title]
+        valueField: "name"
+        required: true
+        hint: "Create a author and select it."
       - label: "Author"
         name: "author"
         widget: "relation"

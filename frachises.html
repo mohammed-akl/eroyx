@@ -1,0 +1,11 @@
+---
+layout: default
+title: Franchises
+permalink: /franchises
+---
+<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">{{page.title}}</span></h4>
+<div class="blog-grid-container">
+{% for franchise in site.franchises %}
+        {% include franchise.html %}
+{% endfor %}
+</div>
