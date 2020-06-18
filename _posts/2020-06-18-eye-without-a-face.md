@@ -2,7 +2,7 @@
 date: 2020-06-18 08:00:58
 layout: post
 title: Eye Without A Face
-image: /assets/images/images-46-.jpeg
+image: /assets/images/eyes-without-a-face-poster.jpg
 featured_image: /assets/images/images-46-.jpeg
 author: Ashiq
 genre:
