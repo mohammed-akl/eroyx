@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: ad
+  branch: updates
 
 # when using the default proxy server port
 local_backend: true
