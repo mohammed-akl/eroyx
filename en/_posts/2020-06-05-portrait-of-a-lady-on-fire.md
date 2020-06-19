@@ -1,20 +1,20 @@
 ---
-lang: en
-lang-ref: Portrait-Of-A-Lady-On-Fire
-date: 2020-06-04T19:57:59.000Z
-layout: post
-title: Portrait Of A Lady On Fire
-image: /assets/images/portrait-of-a-lady-on-fire.jpg
-featured_image: /assets/images/portait-of-lady-in-fire.jpg
-author: muhammed ashfar
 genre:
   - Drama
   - Romance
   - LGBTQ
   - History
-country: France
 content_rating: 18+
 reaction: true
+date: 2020-06-04T19:57:59.000Z
+lang: en
+lang-ref: Portrait-Of-A-Lady-On-Fire
+layout: post
+title: Portrait Of A Lady On Fire
+image: /assets/images/portrait-of-a-lady-on-fire.jpg
+featured_image: /assets/images/portait-of-lady-in-fire.jpg
+author: muhammed ashfar
+country: France
 language:
   - French
   - Italian
@@ -24,25 +24,17 @@ subtitle:
   - name: Malayalam
     file: /assets/images/portrait-of-a-lady-on-fire-2019-infotainmentchannels.srt
 duration: 122
+imageshadow: true
+streamNow: https://fmovies.wtf/film/portrait-of-a-lady-on-fire.np90m
+recommended: false
 rating: 8.2
 year: 2019
-recommended: false
-imageshadow: true
 youtubeId: R-fQPTwma9o
-streamNow: https://fmovies.wtf/film/portrait-of-a-lady-on-fire.np90m
 ---
-> **ഒരു രാജാ രവിവർമ്മ ചിത്രം**
+Celine Shamma is a renowned storyteller and director with films like Water Lilies and Tomboy. They were all romantic, poetic and artistic images at the same time. At the same time, the film is a visual illustration of a story inspired by the autobiography of a French writer named Annie Ernou. The film, which premiered at the Cannes Film Festival in 2019, won a Best Screenplay Award and later won multiple awards at various venues. The film was listed in the top 5 foreign language films of last year but was not considered an Oscar. Now let's get to the story.
 
-**Water Lilies, Tomboy** തുടങ്ങിയ ചിത്രങ്ങളിലൂടെ ഖ്യാതിയാർജ്ജിച്ച കഥാകൃത്തും സംവിധായകയുമാണ്സെലിൻ ഷാമ്മ. ഒരേസമയം പ്രണയാർദ്രവും കാവ്യാത്മകവും കലാമൂല്യവുമുള്ള ചിത്രങ്ങളായിരുന്നു അവയെല്ലാം. അതേമാത്രയിൽ, ആനി എർനൗ എന്ന ഫ്രഞ്ച് എഴുത്തുകാരിയുടെ ആത്മകഥയിൽ നിന്നും പ്രചോദനം ഉൾക്കൊണ്ടു എഴുതിയ കഥയുടെ ദൃശ്യാവിഷ്കാരമാണ് ഈ ചിത്രം. 2019 ലെ Cannes ഫിലിം ഫെസ്റ്റിവലിൽ പ്രദർശിപ്പിച്ച ചിത്രത്തിന് മികച്ച തിരക്കഥക്കുള്ളഅവാർഡ് നേടുകയും, പിന്നീട് പല വേദികളിലായി വിവിധ മേഖലകളിൽ നിരവധി പുരസ്‌കാരങ്ങൾ നേടിയെടുക്കാൻ സാധിച്ചു. പോയവർഷത്തെ മികച്ച 5 അന്യഭാഷാ ചിത്രങ്ങളുടെ പട്ടികയിൽ ഇടം നേടിയ ചിത്രം പക്ഷേ ഓസ്കാർ പട്ടികയിൽ പരിഗണിക്കപ്പെടാതെ പോയി. ഇനി കഥയിലേക്ക് വരാം.
+The painter Marianne arrives on a remote island of 18th-century France, Britain, to paint a portrait of Helois, the daughter of the Duke. Helois must now marry the Italians in place of his sister, since his sister, who was engaged to the nobleman of Milanese Italy, recently died. But before Marianne arrived, Heloise had already ruined her mother's plan to send her portrait to Milan with a painter for evaluation of her upcoming husband. Now, Marianna must try to study Heloise by falsely pretending to be her acting companion, and then secretly drawing her. Is it possible to complete this creative work by forging a false image?
 
-> ചൈത്രം ചായം ചാലിച്ചു
->
-> നിൻ്റെ ചിത്രം വരക്കുന്നു.
->
-> ചാരു ചിത്രം വരക്കുന്നു. (**ചില്ല്, 1982**)
+To put it simply, "A True Masterpiece". Undoubtedly, you have seen such an impressive and recent story. Every frame in this movie is as good and beautiful as a Ravi Varma film. The cinematography with the color palette is admirable. The fables, kept in memory of forbidden eternal love, are absolutely divine. Needless to say, Noemi Merlan and Adel Einel were living the characters with their own magnetic field. It is a spectacular show that can share a love without words even at a glance. The very coincidental Acapella song really helped to give a heavenly feel. So the picture presents a huge array of adjectives. You can definitely see this creative experience appealing to any type of audience.
 
-ചിത്രകാരിയായ മരിയാനെ പതിനെട്ടാം നൂറ്റാണ്ടിലെ ഫ്രാൻസിന്റെ ബ്രിട്ടനിയുടെ ഒരു വിദൂര ദ്വീപിൽ, പ്രഭ്വിയുടെ മകളായ ഹെലോയിസിന്റെ ഛായാചിത്രം വരയ്ക്കാൻ എത്തിച്ചേരുന്നു. ഇറ്റലിയുടെ മിലാനീസിലെ കുലീനനുമായി വിവാഹനിശ്ചയം ചെയ്യപ്പെട്ട സഹോദരി അടുത്തിടെ മരണപെട്ടതിനാൽ, ഹെലോയിസ് ഇപ്പോൾ സഹോദരിയുടെ സ്ഥാനത്ത് ആ ഇറ്റാലിക്കാരനെ വിവാഹം കഴിക്കണം. എന്നാൽ മരിയാനെ വരുന്നതിനുമുമ്പ്, വരാനിരിക്കുന്ന ഭർത്താവിന്റെ വിലയിരുത്തലിനായി ഒരു ചിത്രകാരനെ കൊണ്ട് തന്റെ ഛായാചിത്രം വരച്ച് മിലാനിലേക്ക് അയയ്ക്കാനുള്ള അമ്മയുടെ പദ്ധതി ഹെലോയ്സ് ഇതിനകം തന്നെ നശിപ്പിച്ചിരുന്നു. ഇപ്പോൾ, മരിയാന തന്റെ നടയുടെ കൂട്ടാളിയായി അഭിനയിക്കുകയെന്ന വ്യാജേന ഹെലോയ്‌സിനെ പഠിക്കാൻ ശ്രമിക്കണം, തുടർന്ന് അവളെ രഹസ്യമായി വരയ്ക്കുകയും വേണം. ഒരു വ്യാജ പരിവേഷം കെട്ടിയാടി ഈ ക്രിയാത്മകമായ സൃഷ്ടി പൂർത്തിയാക്കുക സാധ്യമോ?
-
-ഒറ്റവാക്യത്തിൽ പറഞ്ഞാൽ "A True Masterpiece" എന്ന് വിശേഷിപ്പിക്കാം. ഇത്രമേൽ ദൃശ്യമികവാർന്ന, അത്രമേൽ കഥാമൂല്യമുള്ള ഒരു ചിത്രം ഈ അടുത്തകാലത്ത് കണ്ടിട്ടുണ്ടോ എന്നത് സംശയം. ഈ സിനിമയിലെ ഓരോ ഫ്രെയിമും ഒരു രവി വർമ്മ ചിത്രം പോലെ മികവുറ്റതും മനോഹരവുമാണ്. നിറങ്ങളുടെ ചായക്കൂട്ടുകളെ ഒപ്പിയെടുത്ത ഛായാഗ്രഹണം പ്രശംസനീയം. വിലക്കപ്പെട്ട അനശ്വര പ്രണയത്തിന്റെ ഓർമയിൽ സൂക്ഷിച്ച അറിയാക്കഥകൾ തികച്ചും ദൈവീകം. നോയമി മെർലാൻ, അദെൽ എയിനൽ എന്നിവർ കണ്ണുകളാൽ കാന്തവലയം സൃഷ്ടിച്ച് കഥാപാത്രങ്ങളായി ജീവിക്കുകയായിരുന്നു എന്ന് പറയേണ്ടിവരും. ഒരു നോട്ടത്തിനു പോലും വാക്കുക്കൾക്കതീതമായ പ്രണയം പങ്കിടാൻ കഴിയും എന്ന് കാട്ടിയ അതിഗംഭീര പ്രകടനം. വളരെ യാദൃശ്ചികമായി വന്ന Acapella ഗാനം തീർത്തും ഒരു സ്വർഗ്ഗീയാനുഭൂതി പകരാൻ സഹായിച്ചു. അങ്ങനെ വിശേഷണങ്ങളുടെ ഒരു വൻ നിരയാണ് ചിത്രം സമ്മാനിക്കുന്നത്. ഏതു തരം പ്രേക്ഷകനെയും പ്രീതിപ്പെടുത്തുന്ന ഈ സർഗ്ഗാനുഭവം തീർച്ചയായും കണ്ടുനോക്കാം.
-
-കാണേണ്ടവർ നല്ല Quality Print ഇൽ തന്നെ കാണാൻ ശ്രമിക്കുക.
+Try to see the quality in Good Quality Print.
