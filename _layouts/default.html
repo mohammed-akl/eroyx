@@ -76,8 +76,8 @@
     <ul>
         <h3 class="gradient-text">Navigation</h3>
     {% for item in site.data.menus.menu %}
-      {% if item.title, item.badge and item.url %}
-        <li><a href="{{ site.baseurl }}{{item.url}}">{{ item.title}} <span class="badge badge-primary">{{ item.badge }}</span></a></li>
+      {% if item.title and item.url %}
+        <li><a href="{{ site.baseurl }}{{item.url}}">{{ item.title}} {% if item.badge %}<span class="badge badge-primary">{{ item.badge }}</span>{% endif %}</a></li>
       {% endif %}
     {% endfor %}
     </ul>

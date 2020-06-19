@@ -1,4 +1,5 @@
 ---
+layout: franchise
 name: godfather trilogy
 title: Godfather Trilogy
 thumbnail: /assets/images/download.jpg

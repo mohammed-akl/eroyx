@@ -1,4 +1,5 @@
 ---
+layout: franchise
 name: avengers
 title: Avengers
 thumbnail: /assets/images/avengers-endgame-poster.jpg

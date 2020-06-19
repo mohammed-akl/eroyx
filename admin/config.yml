@@ -127,7 +127,6 @@ collections:
             widget: "number"
             valueType: "float"
             default: 2
-            step: 1
             required: false
           - label: "Baseurl"
             name: "baseurl"
@@ -177,16 +176,20 @@ collections:
       preview: false
       delete: false
     fields:
-      - label: "Shortname"
-        name: "name"
-        widget: "string"
-        required: true
-        hint: "Ex: avengers (Use samll letters)"
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "franchise"
       - label: "Name of the Franchise"
         name: "title"
         widget: "string"
         required: true
         hint: "Ex: Avengers"
+      - label: "Shortname"
+        name: "name"
+        widget: "string"
+        required: true
+        hint: "Ex: avengers (Use samll letters)"
       - label: "Thumbnail"
         name: "thumbnail"
         widget: "image"
@@ -201,9 +204,6 @@ collections:
         name: "noMovies"
         widget: "number"
         valueType: "float"
-        min: 0.0
-        max: 10.0
-        step: 0.1
         required: true
         hint: "Ex: 10"
       - label: "Description"
@@ -341,9 +341,9 @@ collections:
         widget: "text"
         required: false
         hint: "About the director."
-  - label: "Post"
-    name: "post"
-    folder: "_posts"
+  - label: "Malayalam Posts"
+    name: "mal_post"
+    folder: "mal/_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: "{{title}}"
@@ -353,6 +353,14 @@ collections:
         name: "date"
         widget: "datetime"
         format: "YYYY-MM-DD HH:mm:ss"
+      - label: "Content Language"
+        name: "lang"
+        widget: "hidden"
+        default: "mal"
+      - label: "Post Reference"
+        name: "lang-ref"
+        widget: "hidden"
+        default: "{{title}}"
       - label: "Layout"
         name: "layout"
         widget: "hidden"
@@ -379,7 +387,7 @@ collections:
         searchFields: [title]
         displayFields: [title]
         valueField: "name"
-        required: true
+        required: false
         hint: "Create a author and select it."
       - label: "Author"
         name: "author"
@@ -451,7 +459,6 @@ collections:
         widget: "number"
         valueType: "float"
         min: 0
-        step: 1
         required: false
         hint: "Should in minutes."
       - label: "Content Rating"
@@ -469,7 +476,6 @@ collections:
         valueType: "float"
         min: 0.0
         max: 10.0
-        step: 0.1
         required: false
       - label: "Release Year"
         name: "year"
@@ -481,6 +487,194 @@ collections:
         name: "tags"
         widget: "list"
         hint: "Tags help to find the content in search."
+      - label: "Put this on featured"
+        name: "featured"
+        widget: "boolean"
+        required: false
+        default: false
+        hint: "Put featured ON to show on featured tab"
+      - label: "Image Shadow"
+        name: "imageshadow"
+        widget: "boolean"
+        required: false
+        default: true
+        hint: "Put image shadow ON to show post image shadow."
+      - label: "Youtube Trailer code"
+        name: "youtubeId"
+        widget: "string"
+        required: false
+        hint: "Place the youtube trailer code of trailer."
+      - label: "Netflix Streaming"
+        name: "netflix"
+        widget: "string"
+        required: false
+        hint: "Place the link to watch the movie on Netflix"
+      - label: "Amazon Prime Streaming"
+        name: "primeVideo"
+        widget: "string"
+        required: false
+        hint: "Place the link to watch the movie on Amazon Prime"
+      - label: "Hotstar Streaming"
+        name: "hotstar"
+        widget: "string"
+        required: false
+        hint: "Place the link to watch the movie on Hotstar"
+      - label: "Youtube Streaming"
+        name: "youtube"
+        widget: "string"
+        required: false
+        hint: "Place the link to watch the movie on Youtube"
+      - label: "Other Streaming Link"
+        name: "streamNow"
+        widget: "string"
+        required: false
+        hint: "Place the link to watch the movie"
+      - label: "Telegram file bot link"
+        name: "telegram"
+        widget: "string"
+        required: false
+        hint: "Place the telegram bot link to download the movie"
+      - label: "Small Description"
+        name: "description"
+        widget: "text"
+        required: false
+        hint: "This text is used by search engines."
+      - label: "Review"
+        name: "body"
+        widget: "markdown"
+  - label: "English Posts"
+    name: "en_post"
+    folder: "en/_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{title}}"
+    extension: "md"
+    fields:
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+      - label: "Content Language"
+        name: "lang"
+        widget: "hidden"
+        default: "en"
+      - label: "Post Reference"
+        name: "lang-ref"
+        widget: "hidden"
+        default: "{{title}}"
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "post"
+      - label: "Post Title"
+        name: "title"
+        widget: "string"
+        required: true
+        hint: "Ex: My First Awesome Post!"
+      - label: "Thumbnail"
+        name: "image"
+        widget: "image"
+        required: true
+        hint: "Use 730*400 image."
+      - label: "Featured Image"
+        name: "featured_image"
+        widget: "image"
+        required: true
+        hint: "Use portrait posters."
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        searchFields: [display_name]
+        displayFields: [display_name]
+        valueField: "name"
+        required: true
+        hint: "Create a author and select it."
+      - label: "Genre"
+        name: "genre"
+        widget: "relation"
+        collection: "genre"
+        searchFields: [title]
+        displayFields: [title]
+        valueField: "title"
+        required: true
+        multiple: true
+        hint: "Create a genre and select it."
+      - label: "Country"
+        name: "country"
+        widget: "relation"
+        collection: "country"
+        searchFields: [title]
+        displayFields: [title]
+        valueField: "title"
+        required: true
+        hint: "Create a country and select it."
+      - label: "Language"
+        name: "language"
+        widget: "relation"
+        collection: "language"
+        searchFields: [title]
+        displayFields: [title]
+        valueField: "title"
+        required: false
+        multiple: true
+        hint: "Create a country and select it."
+      - label: "Director"
+        name: "director"
+        widget: "relation"
+        collection: "director"
+        searchFields: [name]
+        displayFields: [name]
+        valueField: "name"
+        required: false
+        multiple: true
+        hint: "Create a director and select it."
+      - label: "Subtitle"
+        name: "subtitle"
+        widget: "list"
+        fields:
+          - label: "Name"
+            name: "name"
+            widget: "string"
+            hint: "Ex: Malayalam"
+          - label: "File Upload"
+            name: "file"
+            widget: "file"
+            allow_multiple: false
+            media_library:
+              config:
+                multiple: false
+            required: false
+        hint: "Ex. English, Malayalam"
+      - label: "Duration"
+        name: "duration"
+        widget: "number"
+        valueType: "float"
+        min: 0
+        required: false
+        hint: "Should in minutes."
+      - label: "Content Rating"
+        name: "content_rating"
+        widget: "select"
+        options:
+          - { label: "5+", value: "5+" }
+          - { label: "10+", value: "10+" }
+          - { label: "13+", value: "13+" }
+          - { label: "16+", value: "16+" }
+          - { label: "18+", value: "18+" }
+      - label: "Movie Rating"
+        name: "rating"
+        widget: "number"
+        valueType: "float"
+        min: 0.0
+        max: 10.0
+        required: false
+      - label: "Release Year"
+        name: "year"
+        widget: "number"
+        valueType: "float"
+        required: false
+        hint: "Ex: 2020"
       - label: "Put this on featured"
         name: "featured"
         widget: "boolean"

@@ -2,48 +2,29 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    {% assign latest_post = site.posts[0] %}
-    <div class="item active" style="background-size:cover;background-image:url({{site.baseurl}}{{latest_post.image}});">
+    {% assign posts = site.posts | where:"lang", page.lang %}
+    {% for post in posts limit:1 %}
+    <div class="item active" style="background-size:cover;background-image:url({{site.baseurl}}{{post.image}});">
         <div class="card-body-home">
             <h2 class="card-title">
-                <span class="badge badge-primary margin-5">{{ latest_post.title }} </span>
+                <span class="badge badge-primary margin-5">{{ post.title }} </span>
             </h2>
-            <span class="card-text">{{ latest_post.excerpt | strip_html | truncatewords:10 }}</span>
-            <span class="badge badge-primary">{{ latest_post.year }}</span> <span class="badge badge-primary"><i class="fas fa-star"></i>{{ latest_post.rating }}</span> <span class="badge badge-primary">{{ latest_post.director }}</span>
+            <span class="card-text">{{ post.excerpt | strip_html | truncatewords:10 }}</span>
+            <span class="badge badge-primary">{{ post.year }}</span> <span class="badge badge-primary"><i class="fas fa-star"></i>{{ post.rating }}</span> <span class="badge badge-primary">{{ post.director }}</span>
         </div>
     </div>
- {%- assign second_post = site.posts[1] -%}
-    <div class="item" style="background-size:cover;background-image:url({{site.baseurl}}{{second_post.image}});">
+    {% endfor %}
+    {% for post in posts limit:4 %}
+    <div class="item" style="background-size:cover;background-image:url({{site.baseurl}}{{post.image}});">
         <div class="card-body-home">
-        <h2 class="card-title">
-            <span class="badge badge-primary margin-5">{{ second_post.title }}</span>
-        </h2>
-        <span class="card-text">{{ second_post.excerpt | strip_html | truncatewords:10 }}</span>
-        <span class="badge badge-primary">{{ second_post.year }}</span> <span class="badge badge-primary"><i class="fas fa-star"></i>{{ second_post.rating }}</span> <span class="badge badge-primary">{{ second_post.director }}</span>
-      </div>
-    </div>
- {%- assign third_post = site.posts[2] -%}
-       <div class="item" style="background-size:cover;background-image:url({{site.baseurl}}{{third_post.image}});">
-           <div class="card-body-home">
-           <h2 class="card-title">
-               <span class="badge badge-primary margin-5">{{ third_post.title }}</span>
-           </h2>
-           <span class="card-text">{{ second_post.excerpt | strip_html | truncatewords:10 }}</span>
-           <span class="badge badge-primary">{{ third_post.year }}</span> <span class="badge badge-primary"><i class="fas fa-star"></i>{{ third_post.rating }}</span> <span class="badge badge-primary">{{ third_post.director }}</span>
-         </div>
-       </div>
-  {%- assign fourth_post = site.posts[3] -%}
-        <div class="item" style="background-size:cover;background-image:url({{site.baseurl}}{{fourth_post.image}});">
-            <div class="card-body-home">
-              <h2 class="card-title">
-                  <span class="badge badge-primary margin-5">{{ fourth_post.title }}</span>
-              </h2>
-              <span class="card-text">{{ fourth_post.excerpt | strip_html | truncatewords:10 }}</span>
-              <span class="badge badge-primary">{{ fourth_post.year }}</span> <span class="badge badge-primary"><i class="fas fa-star"></i>{{ fourth_post.rating }}</span> <span class="badge badge-primary">{{ fourth_post.director }}</span>
-            </div>
+            <h2 class="card-title">
+                <span class="badge badge-primary margin-5">{{ post.title }} </span>
+            </h2>
+            <span class="card-text">{{ post.excerpt | strip_html | truncatewords:10 }}</span>
+            <span class="badge badge-primary">{{ post.year }}</span> <span class="badge badge-primary"><i class="fas fa-star"></i>{{ post.rating }}</span> <span class="badge badge-primary">{{ post.director }}</span>
         </div>
-
-
+    </div>
+    {% endfor %}
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" onclick="$('#carousel-example-generic').carousel('prev')">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
