@@ -42,7 +42,7 @@ description: A spy organisation recruits a promising street kid into the
 ---
 **2014**-ൽ റിലീസ് ചെയ്ത ആക്ഷൻ, കോമഡി, അഡ്‌വെന്റർ മൂവി ആണ് **Kingsman: The Secret Service.**
 
-2012ൽ Mark Miller എഴുതി Dave Gibbons ആർട്ട്‌വർക്കുകൾ ചെയ്തു പ്രസിദ്ധീകരിച്ച വളരെ പ്രശസ്തമായ **Kingsman** കോമിക്സിനെ ബേസ് ചെയ്ത്. **Matthew** Vaughn(Kick Ass, X-men First Class)നിർമിച്ച സിനിമയാണിത്. First Graphic Novel ആയിരുന്നു **Kingsman**.
+2012ൽ Mark Miller എഴുതി Dave Gibbons ആർട്ട്‌വർക്കുകൾ ചെയ്തു പ്രസിദ്ധീകരിച്ച വളരെ പ്രശസ്തമായ **Kingsman** കോമിക്സിനെ ബേസ് ചെയ്ത്. **Matthew** **Vaughn** (Kick Ass, X-men First Class) നിർമിച്ച സിനിമയാണിത്. First Graphic Novel ആയിരുന്നു **Kingsman**.
 
 **Kingsman** ഒരു Super-Secret Spy Organization ആണ്. ഒരു അര വട്ടനായ Tech Genius ആണ് Valentine (**Samuel L. Jackson**) അങ്ങേര് മനുഷ്യരാശിയെ തന്നെ നശിപ്പിക്കാൻ കഴിവുള്ള ഒരു പ്രൊജക്റ്റ്‌ ചെയ്യാനുള്ള തയ്യാറെടുപ്പിലാണ് അതിൽ നിന്ന് അയാളെ തടയാൻ നിയോഗിക്കപെട്ട **Kingsman** ഏജന്റ്സ് ആണ് **Collin Firth** (**Harry Hart**), **Gary Eggsy** **Unwin(Taron Egerton).**
 
