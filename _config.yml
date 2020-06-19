@@ -13,9 +13,6 @@ url: https://eroyx.tk
 
 # Collections
 collections:
-  mal/_post:
-    output: true
-    permalink: /mal/:title
   franchises:
     output: true
     permalink: /franchise/:title/
