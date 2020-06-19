@@ -1,5 +1,5 @@
 ---
-date: 2020-06-18 07:50:52
+date: 2020-06-18T07:50:52.000Z
 layout: post
 title: The Outlaw
 image: /assets/images/images-16-.jpeg
@@ -30,7 +30,7 @@ tags:
   - Korean
   - South Korean
   - ""
-featured: true
+featured: false
 imageshadow: true
 youtubeId: MvPaDziB-ac
 description: The Outlaws is a 2017 South Korean crime action film directed by
