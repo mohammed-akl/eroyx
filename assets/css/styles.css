@@ -860,6 +860,7 @@ Details of Author , Post Count, Author Social */
   display: flex;
   flex-direction: row;
   height: 60px;
+  padding: 20px;
 }
 .twitter-lang {
   margin-left: 16px;
