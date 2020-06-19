@@ -360,7 +360,7 @@ collections:
       - label: "Post Reference"
         name: "lang-ref"
         widget: "string"
-        hint: ""
+        hint: "Input should be unique amoung the translated post."
       - label: "Layout"
         name: "layout"
         widget: "hidden"

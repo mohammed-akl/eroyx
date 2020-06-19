@@ -4,6 +4,9 @@
     <!-- Content details -->
     {% include details.html %}
     <!-- End content details -->
+    <!-- Language Selecting Section -->
+    {% include lan-selector.html %}
+    <!-- End Language Selection -->
     <!-- Toc if any -->
     {% if page.toc %}
     {% if page.beforetoc %}
@@ -16,8 +19,6 @@
     {% endif %}
     <!-- End Toc -->
     {{content}}
-<!-- yandex translate -->
-{% include yandex-translate.html %}
 <!-- End Yandex-->
     <!-- Youtube trailer -->
   {% if page.youtubeId %}
