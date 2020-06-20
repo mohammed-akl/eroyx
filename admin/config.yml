@@ -592,10 +592,6 @@ collections:
         widget: "boolean"
         default: true
         hint: "ON to add language changing widget."
-      - label: "Post Reference"
-        name: "lang-ref"
-        widget: "hidden"
-        default: "{{slug}}"
       - label: "Layout"
         name: "layout"
         widget: "hidden"
