@@ -1,6 +1,8 @@
 ---
+date: 2020-06-18T11:24:14.000Z
 lang: mal
-date: 2020-06-18 11:24:14
+lang-ref: the-godfather-2
+lang_selector: true
 layout: post
 title: The GodFather 2
 image: /assets/images/the_godfather_part_ii_poster.jpg
@@ -38,4 +40,6 @@ description: The Godfather Part 2 was released on December 20, 1974. The  film
   his childhood in Sicily in 1901 to his founding of the Corleone family in New
   York City.
 ---
-**Micheal Corleone** was the godfather of **Vito Corleone**'s empire. He co-operate to **Heyman Roth**. The movie tell ruling of **Michel** and his family and Vito Corleone's flash back (Vito Corleone 9 years old his family attacked by local gangsters.Then he come to develop his EMPIRE). The movie get several Oscar awards.
+ **വീറ്റോ കോർലിയോണിന്റെ** സാമ്രാജ്യത്തിന്റെ ഗോഡ്ഫാദറായിരുന്നു **മൈക്കൽ കോർലിയോൺ** . അദ്ദേഹം ഹെയ്മാൻ റോത്തിനെ സഹകരിക്കുന്നു. മൈക്കലിന്റേയും അദ്ദേഹത്തിന്റെ കുടുംബത്തിന്റേയും വിറ്റോ കോർലിയോണിന്റെ ഫ്ലാഷ് ബാക്ക് (വിറ്റോ കോർലിയോണിന് 9 വയസ്സ് പ്രായമുള്ള അദ്ദേഹത്തിന്റെ കുടുംബം പ്രാദേശിക ഗുണ്ടാസംഘങ്ങൾ ആക്രമിച്ചു. തുടർന്ന് അദ്ദേഹം തന്റെ EMPIRE വികസിപ്പിക്കാൻ വരുന്നു). 
+
+സിനിമയ്ക്ക് നിരവധി ഓസ്കാർ അവാർഡുകൾ ലഭിക്കുന്നു.
