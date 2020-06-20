@@ -1,6 +1,8 @@
 ---
+date: 2020-06-18T23:10:20.000Z
 lang: en
-date: 2020-06-18 23:10:20
+lang-ref: the-godfather
+lang_selector: true
 layout: post
 title: The GodFather
 lang-ref: the-godfather
@@ -28,6 +30,6 @@ description: "The Godfather was released on March 15, 1972. The feature-length
   godfather Vito Corleone was established empire hand hovered to his son
   Michael. "
 ---
-**Don Vito Corleone** was a mafia's godfather. **Corleone** was powerful of other godfathers. His empire hand hovered to younger son **Michel**.
+ **ഡോൺ വിറ്റോ കോർലിയോൺ**  ഒരു മാഫിയയുടെ ഗോഡ്ഫാദറായിരുന്നു.  **കോർലിയോൺ**  മറ്റ് ഗോഡ്ഫാദറുകളിൽ ശക്തനായിരുന്നു. അവന്റെ സാമ്രാജ്യത്തിന്റെ കൈ ഇളയ മകന്  **മിഷേൽ**  നൽകി.
 
-The story was **Mario Puzo**'s epic novel "**The Godfather**"'s cinematic version. These trilogy get **oscars** and character of godfather get Best Actor. The whole movie's are best of the all mafia movies especially first part. Several movies inspired by **Francis Ford Coppola's** '**The God Father**'.
+ **മരിയോ പുസോ**  യുടെ ഇതിഹാസ നോവൽ " **ദി ഗോഡ്ഫാദർ** " ന്റെ സിനിമാറ്റിക് പതിപ്പായിരുന്നു കഥ. ഈ ത്രയത്തിന്  **ഓസ്കാർ**  ലഭിക്കുകയും ഗോഡ്ഫാദറിന്റെ കഥാപാത്രത്തിന് മികച്ച നടൻ ലഭിക്കുകയും ചെയ്യുന്നു. എല്ലാ മാഫിയ സിനിമകളിലും പ്രത്യേകിച്ച് ആദ്യ ഭാഗത്തിൽ മുഴുവൻ മൂവികളും മികച്ചതാണ്.  **ഫ്രാൻസിസ് ഫോർഡ് കൊപ്പോളയുടെ**  ' **ഗോഡ് ഫാദർ** ' പ്രചോദനം ഉൾക്കൊണ്ട നിരവധി സിനിമകൾ.
