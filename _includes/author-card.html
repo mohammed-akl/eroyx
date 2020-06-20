@@ -27,16 +27,24 @@
     </div>
     <div class="card-footer actions">
       <div class="actionFirst">
+        {% if author.facebook %}
         <a href="{{author.facebook}}"><i class="fab fa-facebook-f"></i><br/> Facebook</a>
+        {% endif %}
       </div>
       <div class="actionSecond">
+        {% if author.facebook %}
         <a href="{{author.instagram}}"><i class="fab fa-instagram"></i><br/> Instagram</a>
+        {% endif %}
       </div>
       <div class="actionSecond">
+        {% if author.facebook %}
         <a href="{{author.twitter}}"><i class="fab fa-twitter"></i><br/> Twitter</a>
+        {% endif %}
       </div>
       <div class="actionSecond">
+        {% if author.facebook %}
         <a href="{{author.github}}"><i class="fab fa-github-alt"></i><br/> GitHub</a>
+        {% endif %}
       </div>
     </div>
   </div>

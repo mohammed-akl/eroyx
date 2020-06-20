@@ -222,6 +222,11 @@ collections:
       preview: false
       delete: false
     fields:
+      - label: "Join Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+        required: false
       - label: "Shortname"
         name: "name"
         widget: "string"
@@ -252,11 +257,26 @@ collections:
         widget: "string"
         required: false
         hint: "Ex: johdoe.me"
-      - label: "Twitter Link"
+      - label: "Facebook Username"
+        name: "facebook"
+        widget: "string"
+        required: false
+        hint: "Ex: john_doe"
+      - label: "Instagram Username"
+        name: "instagram"
+        widget: "string"
+        required: false
+        hint: "Ex: john_doe"
+      - label: "Twitter Username"
         name: "twitter"
         widget: "string"
         required: false
-        hint: "Ex: https://twitter.com/johndoe"
+        hint: "Ex: john_doe"
+      - label: "GitHub Username"
+        name: "github"
+        widget: "string"
+        required: false
+        hint: "Ex: johndoe4"
       - label: "About You"
         name: "description"
         widget: "text"
@@ -361,6 +381,11 @@ collections:
         name: "lang-ref"
         widget: "string"
         hint: "Input should be unique amoung the translated post."
+      - label: "Language Selector"
+        name: "lang_selector"
+        widget: "boolean"
+        default: true
+        hint: "ON to add language changing widget."
       - label: "Layout"
         name: "layout"
         widget: "hidden"
@@ -558,6 +583,15 @@ collections:
         name: "lang"
         widget: "hidden"
         default: "en"
+      - label: "Post Reference"
+        name: "lang-ref"
+        widget: "string"
+        hint: "Input should be unique amoung the translated post."
+      - label: "Language Selector"
+        name: "lang_selector"
+        widget: "boolean"
+        default: true
+        hint: "ON to add language changing widget."
       - label: "Post Reference"
         name: "lang-ref"
         widget: "hidden"

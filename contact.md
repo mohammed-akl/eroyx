@@ -3,6 +3,7 @@ layout: page
 title: Contact
 permalink: /contact
 comments: false
+lang_selector: false
 ---
 
 <form action="{{site.baseurl}}/message-send" method="POST" netlify>    

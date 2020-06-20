@@ -860,7 +860,9 @@ body.active-side {
       }
     }
     .movie_desc{
-      padding: 25px 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 5px;
       height: 50%;
       font-weight: 500;
       font-size: 0.9rem;
@@ -905,7 +907,7 @@ body.active-side {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768.1px) {
   .movie_header{
     width: 100%;
   }
@@ -950,4 +952,18 @@ body.active-side {
     background: linear-gradient(to top, #e5e6e6 50%, transparent 100%);
     display: inline-grid;
   }
+}
+@media (max-width: 1300px) {
+  .movie_desc {
+  padding-top: 5px;
+ }
+}
+@media (min-width: 1300.1px) {
+  .movie_desc {
+  padding-top: 40px;
+ }
+}
+
+.shadow {
+  box-shadow: none !important;
 }

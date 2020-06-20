@@ -4,9 +4,11 @@
     <!-- Content details -->
     {% include details.html %}
     <!-- End content details -->
+    {% if page.lang_selector == true %}
     <!-- Language Selecting Section -->
     {% include lan-selector.html %}
     <!-- End Language Selection -->
+    {% endif %}
     <!-- Toc if any -->
     {% if page.toc %}
     {% if page.beforetoc %}

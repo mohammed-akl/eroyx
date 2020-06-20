@@ -3,7 +3,7 @@ layout: franchise
 name: godfather trilogy
 title: Godfather Trilogy
 thumbnail: /assets/images/download.jpg
-production: Alfran production, American Zoetrope
+production: Alfran, Zoetrope
 noMovies: 3
 description: '"The Godfather" is an American film series that consists of three
   crime films directed by Francis Ford Coppola inspired by the 1969 novel of the

@@ -837,14 +837,14 @@ pre > code.diff-highlight .token.inserted:not(.prefix) {
 
 .card-5__category{
   color: var(--text-light);
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   margin-bottom: var(--spacing-s);
   text-transform: uppercase;
 }
 
 .card-5__heading{
   color: var(--text-lighter);
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
   line-height: 1.4;
   word-spacing: 100vw;
