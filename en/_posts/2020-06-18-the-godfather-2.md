@@ -1,6 +1,8 @@
 ---
+date: 2020-06-18T11:24:14.000Z
 lang: en
-date: 2020-06-18 11:24:14
+lang-ref: the-godfather-2
+lang_selector: true
 layout: post
 title: The GodFather 2
 image: /assets/images/the_godfather_part_ii_poster.jpg
