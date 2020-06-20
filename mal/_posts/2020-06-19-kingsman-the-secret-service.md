@@ -2,6 +2,7 @@
 date: 2020-06-19T22:42:13.000Z
 lang: mal
 lang-ref: kingsman-the-secret-service
+lang_selector: true
 layout: post
 title: "Kingsman: The Secret Service"
 image: /assets/images/images-18-.jpeg
