@@ -1,6 +1,8 @@
 ---
+date: 2020-06-18T23:10:20.000Z
 lang: mal
-date: 2020-06-18 23:10:20
+lang-ref: the-godfather
+lang_selector: true
 layout: post
 title: The GodFather
 image: /assets/images/living-room-home-wall-decoration-fabric-poster-the-godfather-movies-vito-corleone.jpg_q50.jpg
