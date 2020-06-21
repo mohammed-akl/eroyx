@@ -1,7 +1,8 @@
 ---
-date: 2020-06-19 23:57:35
+date: 2020-06-19T23:57:35.000Z
 lang: mal
-lang-ref: kingsman:the-golden-circle
+lang-ref: kingsman-the-golden-circle
+lang_selector: true
 layout: post
 title: "Kingsman: The Golden Circle"
 image: /assets/images/images-20-.jpeg
