@@ -569,6 +569,7 @@ img, img:hover {
 .share {
     position:fixed;left:15px;bottom:40%;z-index: 1026;
     text-align:center;
+    visibility: collapse;
     ul {
         list-style:none;
         padding-left:0;
