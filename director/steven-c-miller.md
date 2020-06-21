@@ -1,3 +1,0 @@
----
-name: Steven C. Miller
----

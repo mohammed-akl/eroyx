@@ -1,3 +1,0 @@
----
-name: Cary Joji Fukunaga
----

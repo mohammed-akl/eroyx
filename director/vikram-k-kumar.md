@@ -1,3 +1,0 @@
----
-name: Vikram K. Kumar
----

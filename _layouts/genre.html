@@ -1,9 +1,0 @@
----
-layout: default
----
-<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">{{page.title}}</span></h4>
-<div class="blog-grid-container">
-{% for post in site.tags[page.title] %}
-        {% include postbox.html %}
-{% endfor %}
-</div>

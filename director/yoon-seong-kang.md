@@ -1,3 +1,0 @@
----
-name: Yoon-Seong Kang
----

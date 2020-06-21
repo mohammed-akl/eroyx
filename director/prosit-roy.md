@@ -1,3 +1,0 @@
----
-name: Prosit Roy
----

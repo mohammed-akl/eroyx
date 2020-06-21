@@ -1,3 +1,0 @@
----
-name: Alejandro G. Iñárritu
----

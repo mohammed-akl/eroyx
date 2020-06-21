@@ -1,3 +1,0 @@
----
-name: Santha Kumar
----

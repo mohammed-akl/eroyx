@@ -1,3 +1,0 @@
----
-name: Kim Han Min
----

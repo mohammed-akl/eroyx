@@ -1,3 +1,0 @@
----
-name: Baran bo Odar
----
