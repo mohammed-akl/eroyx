@@ -20,17 +20,6 @@ duration: 121
 content_rating: 10+
 rating: 7.1
 year: 2017
-tags:
-  - Yoon-Seong Kang
-  - Sinan Shamseer
-  - The Outlaw
-  - Action
-  - Crime
-  - Thriller
-  - Chinese
-  - Korean
-  - South Korean
-  - ""
 featured: true
 imageshadow: true
 youtubeId: MvPaDziB-ac
