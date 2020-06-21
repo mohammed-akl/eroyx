@@ -1,0 +1,39 @@
+---
+date: 2020-06-21 21:12:07
+lang: mal
+lang-ref: the-king's-man
+lang_selector: true
+layout: post
+title: The King's Man
+image: /assets/images/images.jpeg
+featured_image: /assets/images/images.jpeg
+franchise: kingsman
+author: Sinan
+genre:
+  - Action
+  - Adventure
+  - Comedy
+country: USA
+language:
+  - English
+director:
+  - Matthew Vaughn
+content_rating: 16+
+tags:
+  - The King's Man
+  - Sinan Shamseer
+  - Matthew Vaughn
+  - Action
+  - Comedy
+  - Adventure
+  - USA
+  - English
+  - ""
+featured: true
+imageshadow: true
+youtubeId: 0pbLPOrTSsI
+description: >-
+  
+  As a collection of history's worst tyrants and criminal masterminds gather to plot a war to wipe out millions, one man must race against time to stop them
+---
+Coming soon.....
