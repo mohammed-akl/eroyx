@@ -25,15 +25,6 @@ duration: 128
 content_rating: 13+
 rating: 7.1
 year: 2014
-tags:
-  - Jagdish
-  - Korean
-  - South Korea
-  - Action
-  - War
-  - History
-  - Drama
-  - Choi Min Sik
 featured: true
 imageshadow: true
 youtubeId: 7PBIHkKi0wM
