@@ -19,15 +19,6 @@ duration: 90
 content_rating: 18+
 rating: 7.7
 year: 1960
-tags:
-  - Horror
-  - Drama
-  - Crime
-  - France
-  - French
-  - Georges Franju
-  - Mr Godfather
-  - ""
 featured: false
 imageshadow: true
 youtubeId: CEjrg-L8lvs
