@@ -22,7 +22,7 @@ duration: 96
 content_rating: 10+
 rating: 3.8
 year: 2018
-recommended: false
+featured: false
 imageshadow: true
 youtubeId: 6Q7vVt-MeXk
 description: "Escape Plan 2: Hades is sequel of the first part released in 2013

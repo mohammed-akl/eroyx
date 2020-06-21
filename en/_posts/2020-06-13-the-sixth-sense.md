@@ -20,7 +20,7 @@ duration: 107
 content_rating: 13+
 rating: 8.1
 year: 1999
-featured: true
+featured: false
 imageshadow: true
 youtubeId: 3-ZP95NF_Wk
 hotstar: https://www.hotstar.com/in/movies/the-sixth-sense/1260018039/watch?utm_source=gwa

@@ -19,7 +19,7 @@ duration: 114
 content_rating: 18+
 rating: 8.3
 year: 1976
-featured: true
+featured: false
 imageshadow: true
 youtubeId: cujiHDeqnHY
 netflix: https://www.netflix.com/title/18907685

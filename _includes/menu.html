@@ -1,0 +1,12 @@
+{% for post in site.posts limit:1 %}
+<nav id="menu" style="background-image: url({{site.baseurl}}{{post.image}})">
+{% endfor %}
+    <ul>
+        <h3 class="gradient-text">Navigation</h3>
+    {% for item in site.data.menus.menu %}
+      {% if item.title and item.url %}
+        <li><a href="{{ site.baseurl }}{{item.url}}"><i class="{{item.icon}} gradient-text menu-icons"></i> {{ item.title}} {% if item.badge %}<span class="badge badge-primary">{{ item.badge }}</span>{% endif %}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+</nav>

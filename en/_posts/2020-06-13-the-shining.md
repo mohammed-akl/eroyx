@@ -18,7 +18,7 @@ duration: 146
 content_rating: 18+
 rating: 8.4
 year: 1980
-featured: true
+featured: false
 imageshadow: true
 youtubeId: S014oGZiSdI
 netflix: https://www.netflix.com/watch/959008?source=35

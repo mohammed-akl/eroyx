@@ -21,6 +21,7 @@ duration: 115
 content_rating: 10+
 rating: 6.7
 year: 2013
+featured: false
 imageshadow: true
 youtubeId: CI4EjV_x_PQ
 description: "Escape Plan is an action thriller movie starring  Arnold

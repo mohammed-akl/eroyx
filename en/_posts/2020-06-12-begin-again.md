@@ -21,7 +21,7 @@ duration: 104
 content_rating: 16+
 rating: 7.4
 year: 2013
-featured: true
+featured: false
 imageshadow: true
 youtubeId: uTRCxOE7Xzc
 netflix: https://www.netflix.com/in/title/70307852?source=35&preventIntent=true

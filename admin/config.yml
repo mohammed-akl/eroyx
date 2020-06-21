@@ -384,7 +384,7 @@ collections:
       - label: "Language Selector"
         name: "lang_selector"
         widget: "boolean"
-        default: true
+        default: false
         hint: "ON to add language changing widget."
       - label: "Layout"
         name: "layout"
@@ -590,7 +590,7 @@ collections:
       - label: "Language Selector"
         name: "lang_selector"
         widget: "boolean"
-        default: true
+        default: false
         hint: "ON to add language changing widget."
       - label: "Layout"
         name: "layout"
@@ -707,8 +707,7 @@ collections:
         hint: "Ex: 2020"
       - label: "Put this on featured"
         name: "featured"
-        widget: "boolean"
-        required: false
+        widget: "hidden"
         default: false
         hint: "Put featured ON to show on featured tab"
       - label: "Image Shadow"

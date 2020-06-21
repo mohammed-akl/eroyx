@@ -26,7 +26,7 @@ subtitle:
 duration: 122
 imageshadow: true
 streamNow: https://fmovies.wtf/film/portrait-of-a-lady-on-fire.np90m
-recommended: false
+featured: false
 rating: 8.2
 year: 2019
 youtubeId: R-fQPTwma9o

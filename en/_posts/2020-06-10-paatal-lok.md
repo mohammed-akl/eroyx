@@ -20,7 +20,7 @@ duration: 44
 content_rating: 18+
 rating: 7.5
 year: 2020
-featured: true
+featured: false
 imageshadow: true
 youtubeId: cNwWMW4mxO8
 primeVideo: https://www.primevideo.com/detail/0G9IEOHCN8KMY6COD9ILGH7IY5/ref=atv_hm_hom_c_oWa4KH_brws_7_1

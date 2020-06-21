@@ -207,11 +207,12 @@ img, img:hover {
     top: 0;
     left: 0;
     height: 96%;
-    background: #fff;
+    background: #0b0d12;
     padding: 0;
     margin: 0;
     transform: translate(-100%, 0);
     z-index: 1022;
+    border-radius: 20px;
     &.active {
         transform: translate(0%, 0);
         margin: 15px;
@@ -406,6 +407,9 @@ img, img:hover {
     }
     input {
         border:1px solid transparent;
+        border-radius: 5px;
+        background: #1f2129;
+        color: #e6edfa;
     }
     .mc-field-group {
         border-radius:2px;
@@ -415,11 +419,11 @@ img, img:hover {
             min-width:200px;
         }
         input[type="submit"] {
-            color: #fff;
+            color: #111216;
             padding: 4px 20px;
             margin-left:-5px;
             background:linear-gradient(to right, #ff6a00, #ee0979);
-            border-left: transparent;
+            border: transparent;
             font-weight:700;
             border-radius: 5px;
             box-shadow: 0 0 5px 1px #ff17176b;
@@ -971,4 +975,8 @@ body.active-side {
 
 .form-control {
   background-color: #1f2129;
+}
+.form-control:focus {
+  color: #e6ede3;
+  background: #1f2129;
 }

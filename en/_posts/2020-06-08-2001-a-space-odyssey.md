@@ -18,6 +18,7 @@ duration: 164
 content_rating: 13+
 rating: 8.3
 year: 1968
+featured: false
 imageshadow: true
 youtubeId: oR_e9y-bka0
 ---

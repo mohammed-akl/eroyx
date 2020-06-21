@@ -18,6 +18,7 @@ duration: 153
 content_rating: 16+
 rating: 7.7
 year: 2011
+featured: false
 imageshadow: true
 youtubeId: UVT-Id7feGo
 streamNow: https://www.mxplayer.in/movie/watch-mouna-guru-movie-online-418bfdfa288a2addea1fceb72fa3d040?watch=true

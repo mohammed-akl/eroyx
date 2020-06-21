@@ -2,18 +2,24 @@ menu:
   - title: Home
     url: /
     badge: ""
+    icon: fas fa-caravan
   - title: Genre
     url: /genre
     badge: ""
+    icon: fas fa-theater-masks
   - title: Franchises
     url: /franchises
     badge: New
+    icon: fas fa-layer-group
   - title: Authors
     url: /authors
     badge: New
+    icon: fas fa-user-friends
   - title: Contact
     url: /contact
     badge: ""
+    icon: fas fa-envelope-open-text
   - title: About
     url: /about
     badge: eroyx
+    icon: fas fa-info-circle

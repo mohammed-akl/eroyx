@@ -18,7 +18,7 @@ duration: 124
 content_rating: 13+
 rating: 7.1
 year: 2020
-featured: true
+featured: false
 imageshadow: true
 youtubeId: o0qeQ_yHqtA
 primeVideo: https://www.primevideo.com/detail/amzn1.dv.gti.6ab9142c-b3d3-ec8f-07b8-fb8be68aa0b1/?ref_=dvm_pds_gen_in_as_s_gt_gulab0%7Cc_441677965906_m_-dm_s_&gclid=Cj0KCQjwz4z3BRCgARIsAES_OVcBM7AbBK6IiPZwIBJVHP5b6vraDurxmjpJoWtDLP1Of6zd6NcKNmQaAuriEALw_wcB

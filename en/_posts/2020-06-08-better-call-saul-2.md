@@ -16,6 +16,7 @@ duration: 46
 content_rating: 18+
 rating: 8.7
 year: 2015
+featured: false
 imageshadow: true
 youtubeId: HN4oydykJFc
 netflix: https://www.netflix.com/in/title/80021955?preventIntent=true

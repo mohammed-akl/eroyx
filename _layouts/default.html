@@ -70,18 +70,8 @@
     <div class="hamburger-bar"></div>
 </div>
 <div id="blackover-nav" class="blackover"></div>
-{% for post in site.posts limit:1 %}
-<nav id="menu" style="background-image: url({{site.baseurl}}{{post.image}})">
-{% endfor %}
-    <ul>
-        <h3 class="gradient-text">Navigation</h3>
-    {% for item in site.data.menus.menu %}
-      {% if item.title and item.url %}
-        <li><a href="{{ site.baseurl }}{{item.url}}">{{ item.title}} {% if item.badge %}<span class="badge badge-primary">{{ item.badge }}</span>{% endif %}</a></li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-</nav>
+
+{% include menu.html %}
 
 {% include search-lunr.html %}
 
@@ -98,7 +88,7 @@
         {{ content }}
     </div>
 
-    {% if site.mailchimp-list %}
+    {% if site.data.mailchimp.mailchimp-list %}
     <!-- Newsletter
     ================================================== -->
     <div class="newsletter text-center">
