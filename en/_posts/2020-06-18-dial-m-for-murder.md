@@ -19,13 +19,6 @@ duration: 105
 content_rating: 18+
 rating: 8.2
 year: 1954
-tags:
-  - Drama
-  - Mystery
-  - Thriller
-  - Mr Godfather
-  - United States
-  - English
 featured: false
 imageshadow: true
 youtubeId: JWP_hrNHSN4
