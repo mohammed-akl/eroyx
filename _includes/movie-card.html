@@ -2,7 +2,7 @@
   <div class="info_section">
     <div class="movie_header">
       <img class="locandina" src="{{site.baseurl}}{{post.featured_image}}"/>
-      <h1>{{post.title}}</h1>
+      <h1 class="gradient-text">{{post.title}}</h1>
       <h4>{{post.year}}, {% for director in post.director %}{{ director }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</h4>
       <span class="minutes"><i class="fas fa-stopwatch"></i> {{post.duration}} min</span><span class="minutes"><i class="fas fa-star-half-alt"></i> {{post.rating}}</span>
       <p class="type gradient-text">{% for genre in post.genre %}{{ genre }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</p>

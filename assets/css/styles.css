@@ -50,7 +50,7 @@
 
 .card-footer {
   color: #fff;
-  background: linear-gradient(to top, #dc3545, #ee097900);
+  background: linear-gradient(to top, #23252d, #ee097900);
 }
 
 .author-thumb {
@@ -58,7 +58,7 @@
 }
 
 .position {
-    margin: 20px 5px 0px -5px;
+    margin: 5px 0px 0px 5px;
     background: linear-gradient(to right, #ff6a00, #ee0979);
     padding: 3px 5px;
     border-radius: 5px;
@@ -76,7 +76,7 @@
 }
   .meta-footer-thumb {
       float: right;
-      background: #fff;
+      background: #111216;
       color: #ee0979;
       border-radius: 50%;
       width: 30px;
@@ -106,11 +106,12 @@
    background: linear-gradient(to right, #ff6a00, #ee0979);
    border-radius: 5px;
    padding: 5px 10px;
+   color: #12141a;
  }
  .badge-primary-2 {
    background: linear-gradient(to right, #ff6a00, #ee0979);
    padding: 5px 10px;
-   color: #fff;
+   color: #111216;
  }
 .box-shadow-1 {
   box-shadow: 0 0 10px #bcbcbc;
@@ -140,17 +141,16 @@
     display: inline-flex;
     margin-right: 15px;
     margin-top: 10px;
-    box-shadow: 0 1px 3px rgba(166, 166, 166, 0.8);
     border-radius: 5px;
 }
 .details-primary {
-    color: #fff;
+    color: #111216;
     background: linear-gradient(to right, #ff6a00, #ee0979);
     border-radius: 5px 0px 0px 5px;
     padding: 5px 10px;
 }
 .details-secondary {
-    background-color: #fff;
+    background-color: #272933;
     border-radius: 0px 5px 5px 0px;
     padding: 5px 10px;
     margin-left: -5px;
@@ -180,7 +180,7 @@
   border-radius: 15px;
 }
 .card-footer-2 {
-    color: #fff;
+    color: #111216;
     background: linear-gradient(to right, #ff6a00, #ee0979);
     background-color: rgba(0, 0, 0, 0);
   }
@@ -266,6 +266,7 @@
 .btn {
   border-radius: 5px;
   background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: #1f2129;
 }
 
 .lunrsearchresult {
@@ -274,11 +275,13 @@
     padding: 4px;
     border-radius: 20px;
     box-shadow: 0 2px 5px 0 rgba(0,52,102,.11) !important;
-    background:  #fff;
+    background:  #1f2129;
     display: inline-block;
     width: 48%;
     margin: 5px 5px 0px 0px;
-    background: linear-gradient(to right, #ff6a00, #ee0979);
+}
+.modal-header .close {
+  color: #fff;
 }
 .search-img {
   border-radius: 18px;
@@ -303,7 +306,7 @@
 
 .modal-header {
     border: transparent;
-    background: linear-gradient(to right,#ff6a00,#ee0979);
+    background: #1f2129;
     border-radius: 20px;
     margin: 0px 19px;
     color: #fff;
@@ -340,7 +343,7 @@
 }
 
 .authorbox {
-    background: #fff;
+    background: #272933;
     padding: 20px 30px;
     border-radius: 15px;
     text-align: center;
@@ -459,10 +462,9 @@
 }
 @media (min-width: 600.99px) {
     i.fas.fa-search.show-search.color {
-       background: #fff;
+       background: #1f2129;
        padding: 13px;
        border-radius: 10px;
-       box-shadow: 0 1px 3px rgba(128, 128, 128, 0.8);
    }
     .wrap-search {
        right: 20px;
@@ -518,10 +520,10 @@
 }
 .btn-white {
     color: #ee0979;
-    background: #FFF;
+    background: #272933;
     border: transparent;
     border-radius: 5px;
-    box-shadow: 0 0 1px 4px #e6e6e6e0;
+    box-shadow: 0 0 1px 4px #27293385;
 }
 
 /* Author Card
@@ -625,9 +627,9 @@ Details of Author , Post Count, Author Social */
   height: 450px;
   margin: 50px auto;
   background: #f4293c;
-  border: 5px solid #000;
+  border: 5px solid #16171c;
   border-radius: 3px;
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.62) !important;
+  border-radius: 20px;
 }
 
 .franchise_card .img1 {
@@ -663,7 +665,7 @@ Details of Author , Post Count, Author Social */
   position: absolute;
   bottom: 0;
   left: 0;
-  box-shadow: 0 -95px 28px -25px #000 inset;
+  box-shadow: 0 -95px 28px -25px #16171c inset;
 }
 
 .franchise_card .text {
@@ -746,7 +748,7 @@ Details of Author , Post Count, Author Social */
   float: right;
 }
 .email-lang {
-  background: #fff;
+  background: #111216;
   border-radius: 16px;
   height: 32px;
   overflow: hidden;
@@ -762,7 +764,7 @@ Details of Author , Post Count, Author Social */
   cursor: pointer;
 }
 .email-lang:not(.expand):hover {
-  background: #C2C0C2;
+  background: #2d303d;
 }
 .from-lang {
   position: absolute;
@@ -827,7 +829,7 @@ Details of Author , Post Count, Author Social */
   margin-left: 20px;
 }
 .lang-icon {
-  color: #fff;
+  color: #e6edf6;
   text-align: center;
 }
 .x-touch-lang {
@@ -841,7 +843,7 @@ Details of Author , Post Count, Author Social */
   width: 50px;
 }
 .x-lang {
-  background: #FFFFFF63;
+  background: #111216;
   border-radius: 10px;
   height: 20px;
   position: relative;
@@ -865,8 +867,8 @@ Details of Author , Post Count, Author Social */
   width: 2px;
 }
 .bottom-lang {
-  background: #FFF;
-  color:  #444247;
+  background: #111216;
+  color: #e6ede3;
   font-size: 14px;
   height: 200px;
   padding-top: 5px;
@@ -896,7 +898,7 @@ Details of Author , Post Count, Author Social */
   margin-left: 16px;
 }
 .link-lang a {
-  color:  #444247;
+  color:  #e6edf6;
   text-decoration: none;
 }
 .link-lang a:hover {
