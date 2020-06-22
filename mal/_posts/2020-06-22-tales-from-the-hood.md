@@ -1,7 +1,7 @@
 ---
 date: 2020-06-22T17:41:09.000Z
 lang: mal
-lang-ref: Tales from the Hood
+lang-ref: tales-from-the-hood
 lang_selector: true
 layout: post
 title: Tales from the Hood
