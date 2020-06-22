@@ -3,7 +3,7 @@ date: 2020-06-18T10:00:29.000Z
 layout: post
 lang: en
 title: "The Admiral : Roaring Currents"
-image: /assets/images/the-admiral-roaring-currents-2.jpg
+image: /assets/images/140624-001_1406240325425.jpg
 featured_image: /assets/images/1e7b456da1d2c1227fed72dd2e2f04a0.jpg
 author: Jagdish
 genre:
