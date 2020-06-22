@@ -20,12 +20,6 @@ duration: 178
 content_rating: 16+
 rating: 9.2
 year: 1972
-tags:
-  - Crime
-  - The Godfather
-  - United States
-  - English
-  - Francis Ford Coppola
 featured: false
 imageshadow: true
 youtubeId: sY1S34973zA

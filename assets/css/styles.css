@@ -947,3 +947,11 @@ Details of Author , Post Count, Author Social */
 .menu-icons {
   margin-right: 5px;
 }
+
+/* Header Gradient */
+.header-gradient {
+  height: 300px;
+  background: linear-gradient(to top, #111216 40%, transparent 100%);
+  position: relative;
+  bottom: 300px;
+}

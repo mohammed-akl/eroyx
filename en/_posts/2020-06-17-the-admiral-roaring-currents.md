@@ -31,15 +31,6 @@ featured: true
 imageshadow: true
 youtubeId: 7PBIHkKi0wM
 telegram: https://telegram.me/UniversalHelperBot?start=download_Document_470
-tags:
-  - Jagdish
-  - Korean
-  - South Korea
-  - Action
-  - War
-  - History
-  - Drama
-  - Choi Min Sik
 description: The Admiral Roaring Currents is real event based film starring Choi
   Min Sik on lead role.This movie is directed by Kim Han Min.
 ---
