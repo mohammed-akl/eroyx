@@ -10,7 +10,7 @@ local_backend: true
 publish_mode: editorial_workflow
 site_url: https://eroyx.tk
 display_url: https://eroyx.tk
-logo_url: https://eroyx.tk/assets/images/favicon.png
+logo_url: https://eroyx.tk/assets/images/logo.png
 
 media_folder: "assets/images"
 collections:
