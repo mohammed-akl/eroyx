@@ -385,6 +385,7 @@ collections:
         name: "lang_selector"
         widget: "boolean"
         default: false
+        required: false
         hint: "ON to add language changing widget."
       - label: "Layout"
         name: "layout"
@@ -590,6 +591,7 @@ collections:
       - label: "Language Selector"
         name: "lang_selector"
         widget: "boolean"
+        required: false
         default: false
         hint: "ON to add language changing widget."
       - label: "Layout"
