@@ -19,7 +19,7 @@ language:
 director:
   - Yoon-Seong Kang
 duration: 121
-content_rating: 10+
+content_rating: PG
 rating: 7.1
 year: 2017
 featured: true
