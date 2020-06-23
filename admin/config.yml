@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: muhammedashfar7/eroyx
+  name: git-gateway
+  branch: master
 
 # when using the default proxy server port
 local_backend: true
