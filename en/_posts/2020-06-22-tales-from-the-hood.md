@@ -27,12 +27,12 @@ youtubeId: dOO-A59c4C0
 description: Horror Comedy Drama Anthology Film by Rusty Cundief released in
   1995 Tales from the Hood.
 ---
-**Horror Comedy Drama Anthology** Film by **Rusty Cundieff** released in **1995**  Tales from the Hood.\
-\
-Three young men go to his funeral home when they find that Sims has a few drugs in his hands and they ask him to come in. But Sims exposes a coffin there. One of the corpses was in it. Then the young man asks him how he died. Sims tells how he died. There are 3 coffins like this in the movie. It has three corpses.\
-\
-The film focuses on four issues - the horror of the Black community in America.\
-\
+**Horror Comedy Drama Anthology** Film by **Rusty Cundieff** released in **1995**  Tales from the Hood.
+
+Three young men go to his funeral home when they find that Sims has a few drugs in his hands and they ask him to come in. But Sims exposes a coffin there. One of the corpses was in it. Then the young man asks him how he died. Sims tells how he died. There are 3 coffins like this in the movie. It has three corpses.
+
+The film focuses on four issues - the horror of the Black community in America.
+
 **The climax of the movie is sure to shock you**. 👌
 
 Welcome to the hell 🎊
