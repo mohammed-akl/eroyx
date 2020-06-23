@@ -1,12 +1,12 @@
 ---
-date: 2020-06-21 21:12:07
+date: 2020-06-21T21:12:07.000Z
 lang: mal
 lang-ref: the-king's-man
-lang_selector: true
+lang_selector: false
 layout: post
 title: The King's Man
-image: /assets/images/images.jpeg
-featured_image: /assets/images/images.jpeg
+image: /assets/images/maxresdefault11.jpg
+featured_image: /assets/images/250px-kings_man_a_kezdetek.jpg
 franchise: kingsman
 author: Sinan
 genre:
@@ -32,8 +32,8 @@ tags:
 featured: true
 imageshadow: true
 youtubeId: 0pbLPOrTSsI
-description: >-
-  
-  As a collection of history's worst tyrants and criminal masterminds gather to plot a war to wipe out millions, one man must race against time to stop them
+description: As a collection of history's worst tyrants and criminal masterminds
+  gather to plot a war to wipe out millions, one man must race against time to
+  stop them
 ---
 Coming soon.....
