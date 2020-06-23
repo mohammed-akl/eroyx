@@ -1,7 +1,9 @@
 ---
-date: 2020-06-18 07:50:52
-layout: post
+date: 2020-06-18T07:50:52.000Z
 lang: en
+lang-ref: the-outlaw
+lang_selector: true
+layout: post
 title: The Outlaw
 image: /assets/images/images-16-.jpeg
 featured_image: /assets/images/the_outlaws_large.jpg
@@ -26,8 +28,8 @@ youtubeId: MvPaDziB-ac
 description: The Outlaws is a 2017 South Korean crime action film directed by
   Kang Yoon-sung. The film stars Ma Dong-seok and Yoon Kye-sang.
 ---
-**Ma dong-seok** നായകനായി **2017**-ൽ റിലീസ് ചെയ്ത സൗത്ത് കൊറിയൻ ക്രൈം ആക്ഷൻ ത്രില്ലർ മൂവി ആണ് '**The Outlaw**'.
+**The Outlaw** is a South Korean crime action thriller movie released in 2017 with **Ma Dong-seok** as the hero.
 
-**Heuksapa Incident** ഇൻസിഡന്റിനെ ബേസ് ചെയ്തു കൊണ്ടാണ് ഈ മൂവി **Yoon-Seong** Kang ഈ മൂവി നിര്മിച്ചതെങ്കിൽകൂടി ഇത് ഒരു റിയൽ ഇൻസിഡന്റിനെ ബേസ് ചെയ്തുള്ളതണെന്നു പറഞ്ഞാൽ ഒരു നിമിഷം ചിന്തിച്ചു പോകും. മേക്കിങ് ആണേലും ആക്ഷൻ സീനുകൾ ആണേലും ഒന്നിന് ഒന്ന് മികച് നില്കുന്നു. ഫീൽ ചെയ്യാൻ പറ്റുന്ന വിദ്ധതിക്കുള്ള ബാക്ക് ഗ്രൗണ്ട് സ്കോറും ഒക്കെ കൂടി നല്ലൊരു എന്റെർറ്റൈനെർ ആണ് ഈ മൂവി.
+This movie is based on **Heuksapa Incident**. **Yoon-Seong Kang** Even if this movie was made, it would be a moment to say that it was based on a Real Incident. The action scenes are very much good. The movie is a good entertainer with a good background score for the field.
 
-**ക്രൈം**, **ആക്ഷൻ** മൂവീസ് ഇഷ്ടമുള്ള ഏതൊരു വ്യക്തിക്കും എന്ത് കൊണ്ടും ഇഷ്ടമാവുന്ന ഒരു മൂവി ആണ് **The Outlaw.**
+I am sure this movie will entertain those who like Action & Crime movies.
