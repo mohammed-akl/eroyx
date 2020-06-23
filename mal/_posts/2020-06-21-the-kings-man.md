@@ -6,7 +6,7 @@ lang_selector: false
 layout: post
 title: The King's Man
 image: /assets/images/maxresdefault11.jpg
-featured_image: /assets/images/images.jpeg
+featured_image: /assets/images/250px-kings_man_a_kezdetek.jpg
 franchise: kingsman
 author: Sinan
 genre:
