@@ -1,11 +1,13 @@
 ---
-date: 2020-06-18 08:00:58
-layout: post
+date: 2020-06-18T08:00:58.000Z
 lang: en
+lang-ref: eye-without-a-face
+lang_selector: true
+layout: post
 title: Eye Without A Face
 image: /assets/images/eyes-without-a-face-poster.jpg
 featured_image: /assets/images/images-46-.jpeg
-author: Ashiq
+author: muhammed ashfar
 genre:
   - Horror
   - Drama
@@ -14,9 +16,9 @@ country: France
 language:
   - French
 director:
-  - Georges Franju
+  - "Georges Franju "
 duration: 90
-content_rating: 18+
+content_rating: NC-17
 rating: 7.7
 year: 1960
 featured: false
@@ -24,10 +26,10 @@ imageshadow: true
 youtubeId: CEjrg-L8lvs
 telegram: https://telegram.me/UniversalHelperBot?start=download_Document_489
 ---
-**1960**-ൽ **Georges Franju** സംവിധാനം ചെയ്ത **ഹൊറർ** **ഡ്രാമ ക്രൈം** മൂവിയാണ് **Eyes without a face** ഈ ചിത്രം.
+**Eye without a face** is a **horror**, **drama**, **crime** movie directed by **Georges Franju** in **1960**. 
 
-***ജീൻ റെഡോണിന്റെ ലെസ് യ്യൂക്സ് സാൻസ് വിസേജ്*** എന്ന നോവലിനെ അടിസ്ഥാനമാക്കിയാണ് എടുത്തിട്ടുള്ളത്. **ഈ ചിത്രം ലോക സിനിമ ചരിത്രത്തിൽ തന്നെ ഒരു ക്ലാസിക് ആയി കണക്കാക്കപ്പെടുന്നു**.
+This movie taken based on **Jean Redon's** novel **Les Yux sans Visage** .This film is considered as a classic in world cinema history. At the beginning of the film, a woman named Lewis is seen driving her car on a deserted road. In the back seat of that car there is a girl's body. He leaves Louis in a hive there. 
 
-സിനിമയുടെ തുടക്കത്തിൽ ലൂയിസ് എന്നൊരു സ്ത്രീ വിജനമായ റോഡിലൂടെ കാർ ഓടിച്ചു പോകുന്നതാണ് കാണാൻ കഴിയുന്നത്. ആ കാറിൻറെ പിറകിലെ സീറ്റിൽ ആവട്ടെ ഒരു പെൺകുട്ടിയുടെ മൃതദേഹം. ലൂയിസ് മിസ് അവിടെയുള്ള ഒരു പുഴയിൽ അദ്ദേഹം ഉപേക്ഷിക്കുന്നു. എന്തിനായിരിക്കും ലൂയിസ് പെൺകുട്ടിയെ കൊന്നത്. ഉത്തരം അറിയാൻ ഈ സിനിമ കാണുക തന്നെ വേണം.
+**Why did Louis kill the girl? 🤔**
 
-ഈ സിനിമ ഒരു **must watch** മൂവിയാണ്.
+You have to watch this movie to know the answer. This movie is a must watch movie.👌
