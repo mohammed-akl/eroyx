@@ -7,7 +7,7 @@ layout: post
 title: Eye Without A Face
 image: /assets/images/eyes-without-a-face-poster.jpg
 featured_image: /assets/images/images-46-.jpeg
-author: Ashiq
+author: muhammed ashfar
 genre:
   - Horror
   - Drama
