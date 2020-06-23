@@ -1,7 +1,9 @@
 ---
-date: 2020-06-18 08:00:58
-layout: post
+date: 2020-06-18T08:00:58.000Z
 lang: mal
+lang-ref: eye-without-a-face
+lang_selector: true
+layout: post
 title: Eye Without A Face
 image: /assets/images/eyes-without-a-face-poster.jpg
 featured_image: /assets/images/images-46-.jpeg
@@ -14,9 +16,9 @@ country: France
 language:
   - French
 director:
-  - Georges Franju
+  - "Georges Franju "
 duration: 90
-content_rating: 18+
+content_rating: NC-17
 rating: 7.7
 year: 1960
 tags:
