@@ -1,7 +1,9 @@
 ---
-date: 2020-06-18 07:50:52
-layout: post
+date: 2020-06-18T07:50:52.000Z
 lang: mal
+lang-ref: the-outlaw
+lang_selector: true
+layout: post
 title: The Outlaw
 image: /assets/images/images-16-.jpeg
 featured_image: /assets/images/the_outlaws_large.jpg
