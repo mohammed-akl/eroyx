@@ -1,12 +1,12 @@
 ---
-date: 2020-06-22 20:49:27
+date: 2020-06-22T20:49:27.000Z
 lang: en
 lang-ref: tales-from-the-hood
 lang_selector: true
 layout: post
 title: Tales from the Hood
-image: /assets/images/140624-001_1406240325425.jpg
-featured_image: /assets/images/16b10d16f0fd5591e708aaf49cc1256b.jpg
+image: /assets/images/tales_from_the_hood.jpg
+featured_image: /assets/images/tales-from-the-hood_netflix.jpg
 author: muhammed ashfar
 genre:
   - Anthology
