@@ -490,11 +490,11 @@ collections:
         name: "content_rating"
         widget: "select"
         options:
-          - { label: "5+", value: "5+" }
-          - { label: "10+", value: "10+" }
-          - { label: "13+", value: "13+" }
-          - { label: "16+", value: "16+" }
-          - { label: "18+", value: "18+" }
+          - { label: "G: General Audiences", value: "G" }
+          - { label: "PG: Parental Guidance Suggested", value: "PG" }
+          - { label: "PG-13: Parental Strongly Cautioned", value: "PG-13" }
+          - { label: "R: Restricted", value: "R" }
+          - { label: "NC-17: Adults Only", value: "NC-17" }
       - label: "Movie Rating"
         name: "rating"
         widget: "number"
@@ -687,11 +687,11 @@ collections:
         name: "content_rating"
         widget: "select"
         options:
-          - { label: "5+", value: "5+" }
-          - { label: "10+", value: "10+" }
-          - { label: "13+", value: "13+" }
-          - { label: "16+", value: "16+" }
-          - { label: "18+", value: "18+" }
+          - { label: "G: General Audiences", value: "G" }
+          - { label: "PG: Parental Guidance Suggested", value: "PG" }
+          - { label: "PG-13: Parental Strongly Cautioned", value: "PG-13" }
+          - { label: "R: Restricted", value: "R" }
+          - { label: "NC-17: Adults Only", value: "NC-17" }
       - label: "Movie Rating"
         name: "rating"
         widget: "number"
