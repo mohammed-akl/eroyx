@@ -1,3 +1,3 @@
 ---
-name: Eashwar Karthic
+name: Eashvar Karthic
 ---
