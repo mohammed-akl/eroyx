@@ -1,5 +1,5 @@
 ---
-date: 2020-06-24 08:31:08
+date: 2020-06-24T08:31:08.000Z
 lang: en
 lang-ref: the-skin-i-live-in
 lang_selector: true
@@ -28,6 +28,6 @@ description: "A brilliant plastic surgeon, haunted by past tragedies, creates a
   type of synthetic skin that withstands any kind of damage. His guinea pig: a
   mysterious and volatile woman who holds the key to his obsession. "
 ---
-**The Skin I Live In** *(La piel que habito)* is a Spanish Psychological Thriller Drama Movie released in **2011** by Pedro Almodóvar. This film is based on the novel '**Mygale**' written by **Thierry Jonquet** and published in **1984**.\
-\
+**The Skin I Live In** *(La piel que habito)* is a Spanish Psychological Thriller Drama Movie released in **2011** by Pedro Almodóvar. This film is based on the novel '**Mygale**' written by **Thierry Jonquet** and published in **1984**.
+
 Its main plot is to avenge for those who caused the death of plastic surgeon **Robert Ledgard** (**Antonio Bander**)'s daughter, **Norma Ledgard** ( **Blanca Suárez** ). This is a very good psychological revenge thriller movie. This is the kind of movie that makes the audience feel the other level of revenge. Those who love psychological, revenge, thriller and movies, try to watch it at least once.👌
