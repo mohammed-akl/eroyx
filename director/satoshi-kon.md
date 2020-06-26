@@ -1,0 +1,3 @@
+---
+name: Satoshi Kon
+---
