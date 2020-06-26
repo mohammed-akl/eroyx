@@ -1,5 +1,5 @@
 ---
-date: 2020-06-26 13:40:51
+date: 2020-06-26T13:40:51.000Z
 lang: en
 lang-ref: extraction
 lang_selector: true
@@ -27,6 +27,7 @@ featured: false
 imageshadow: true
 youtubeId: https://youtu.be/L6P3nI6VnlY
 netflix: https://www.netflix.com/in/title/80230399?source=35
+telegram: https://telegram.me/UniversalHelperBot?start=download_Document_627
 description: Extraction is a movie starring Chris Hermsworth,Randeep Hooda on
   main role.A hardened mercenary's mission becomes a soul-searching race to
   survive when he's sent into Bangladesh to rescue a drug lord's kidnapped son.
