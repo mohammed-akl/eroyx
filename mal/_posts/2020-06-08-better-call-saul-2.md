@@ -15,7 +15,7 @@ country: United States
 language:
   - English
 duration: 46
-content_rating: 18+
+content_rating: R
 rating: 8.7
 year: 2015
 tags:
