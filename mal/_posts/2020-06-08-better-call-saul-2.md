@@ -1,6 +1,8 @@
 ---
-lang: mal
 date: 2020-06-07T16:37:55.000Z
+lang: mal
+lang-ref: bcs2015
+lang_selector: true
 layout: post
 title: Better Call Saul
 image: /assets/images/screenshot_20200608-102522.png
