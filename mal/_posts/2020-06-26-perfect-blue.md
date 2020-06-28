@@ -22,7 +22,7 @@ rating: 8
 year: 1997
 tags:
   - Crime
-  - psychological
+  - Psychological
   - Mr Godfather
   - Satoshi Kon
 featured: true
