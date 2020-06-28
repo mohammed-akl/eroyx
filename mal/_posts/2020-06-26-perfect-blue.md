@@ -25,6 +25,8 @@ tags:
   - Psychological
   - Mr Godfather
   - Satoshi Kon
+  - Japan
+  - Japanese
 featured: true
 imageshadow: true
 youtubeId: R48sQCloLNo
