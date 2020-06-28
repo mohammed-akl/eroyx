@@ -1,8 +1,8 @@
 ---
 date: 2020-06-26T17:10:31.000Z
 lang: mal
-lang-ref: Perfect-Blue
-lang_selector: false
+lang-ref: perfect-blue
+lang_selector: true
 layout: post
 title: Perfect Blue
 image: /assets/images/images-53-.jpeg
