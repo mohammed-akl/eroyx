@@ -1,0 +1,13 @@
+
+      <div class="card-author-2">
+        <div class="imgBx">
+          {% if author.avatar %}
+            <img src="{{site.baseurl}}{{author.avatar}}" alt="{{author.display_name}}">
+          {% else %}
+            <img src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{author.display_name}}">
+          {% endif %}
+        </div>
+        <div class="details">
+            <h2>{{author.display_name}}<br><span>{{author.role}}</span></h2>
+        </div>
+      </div>
