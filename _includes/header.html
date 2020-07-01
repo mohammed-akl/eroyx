@@ -14,8 +14,8 @@
         </div>
     </div>
     {% endfor %}
-    {% for post in posts %}
     {% if post.featured == true %}
+    {% for post in posts limit:5 %}
     <div class="item" style="background-size:cover;background-image:url({{site.baseurl}}{{post.image}});">
         <div class="card-body-home">
             <h2 class="card-title">
@@ -25,8 +25,8 @@
             <span class="badge badge-primary">{{ post.year }}</span> <span class="badge badge-primary"><i class="fas fa-star"></i>{{ post.rating }}</span> <span class="badge badge-primary">{{ post.director }}</span>
         </div>
     </div>
-    {% endif %}
     {% endfor %}
+    {% endif %}
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" onclick="$('#carousel-example-generic').carousel('prev')">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
