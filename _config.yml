@@ -5,6 +5,7 @@ description: We will take you on the fabulous world of exploration. Travel,
 baseurl: ""
 paginate_path: "/_page/page:num/"
 paginate: 9
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
