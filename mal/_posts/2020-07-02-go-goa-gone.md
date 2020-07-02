@@ -14,6 +14,8 @@ genre:
 country: India
 language:
   - Hindi
+director:
+  - Raj and DK
 duration: 112
 content_rating: R
 rating: 6.9
