@@ -18,6 +18,8 @@ language:
   - Japanese
   - English
   - French
+director:
+  - Quentin Tarantino
 duration: 112
 content_rating: NC-17
 rating: 8.1
