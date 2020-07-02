@@ -7,7 +7,7 @@
     <div class="item active" style="background-size:cover;background-image:url({{site.baseurl}}{{post.image}});">
         <div class="card-body-home">
             <h2 class="card-title">
-                <span class="badge badge-primary margin-5">{{ post.title | strip_html | truncatewords:2 }} </span>
+                <span class="badge badge-primary margin-5">{{ post.title | strip_html | truncatewords:3 }} </span>
             </h2>
             <span class="card-text">{{ post.excerpt | strip_html | truncatewords:10 }}</span>
             <span class="badge badge-primary">{{ post.year }}</span> <span class="badge badge-primary"><i class="fas fa-star"></i>{{ post.rating }}</span> <span class="badge badge-primary">{{ post.director }}</span>
@@ -19,7 +19,7 @@
     <div class="item" style="background-size:cover;background-image:url({{site.baseurl}}{{post.image}});">
         <div class="card-body-home">
             <h2 class="card-title">
-                <span class="badge badge-primary margin-5">{{ post.title | strip_html | truncatewords:2 }} </span>
+                <span class="badge badge-primary margin-5">{{ post.title | strip_html | truncatewords:3 }} </span>
             </h2>
             <span class="card-text">{{ post.excerpt | strip_html | truncatewords:10 }}</span>
             <span class="badge badge-primary">{{ post.year }}</span> <span class="badge badge-primary"><i class="fas fa-star"></i>{{ post.rating }}</span> <span class="badge badge-primary">{{ post.director }}</span>
