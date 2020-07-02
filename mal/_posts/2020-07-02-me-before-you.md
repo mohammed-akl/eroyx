@@ -18,6 +18,9 @@ language:
   - French
 director:
   - Thea Sharrock
+subtitle:
+  - name: English
+    file: /assets/images/me-before-you-english.srt
 duration: 106
 content_rating: PG-13
 rating: 7.4
