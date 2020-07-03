@@ -1,3 +1,3 @@
 ---
-name: "K G GEORGE "
+name: K G George
 ---
