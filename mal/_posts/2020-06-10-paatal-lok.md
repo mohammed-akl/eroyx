@@ -19,7 +19,7 @@ director:
   - Avinash Arun
   - Prosit Roy
 duration: 44
-content_rating: 18+
+content_rating: R
 rating: 7.5
 year: 2020
 tags:
