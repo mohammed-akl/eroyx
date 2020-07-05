@@ -15,7 +15,7 @@ tags:
 {% assign posts = site.posts | where:"lang", page.lang %}
 <!-- Featured Section -->
 <div class="relative">
-<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary"><i class="fas fa-heart"></i> &nbsp; Featured</span></h4>
+<h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading"><i class="fas fa-heart"></i> Featured</span></h4>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in posts limit:15 %}
@@ -27,7 +27,7 @@ tags:
 <!-- Featured end -->
 <!-- Latest Section -->
 <div class="relative">
-<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">Latest Post</span></h4>
+<h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Latest</span></h4>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in posts limit:8 %}
@@ -37,7 +37,7 @@ tags:
 <!-- Latest end -->
 <!-- Action Section -->
 <div class="relative">
-<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">New in Action</span></h4>
+<h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Action</span></h4>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in site.tags.Action limit:8 %}
@@ -47,13 +47,13 @@ tags:
 <!-- Action end -->
 <!-- Top Picks of the week-->
 <div class="relative">
-<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">Top Picks Of The Week</span></h4>
+<h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Top Picks</span></h4>
 </div>
 {% include post-modern.html %}
 <!-- End Top picks of the week -->
 <!-- Crime Section -->
 <div class="relative">
-<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">New in Crime</span></h4>
+<h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Crime</span></h4>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in site.tags.Crime limit:8 %}
@@ -63,7 +63,7 @@ tags:
 <!-- Crime end -->
 <!-- Indian Section -->
 <div class="relative">
-<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">Popular Indian</span></h4>
+<h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Indian</span></h4>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in site.tags.India limit:8 %}
@@ -73,7 +73,7 @@ tags:
 <!-- Indian end -->
 <!-- English Section -->
 <div class="relative">
-<h4 class="mt-5 mb-neg-30"><span class="text-capitalize text-small badge badge-primary">Popular In English</span></h4>
+<h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">English</span></h4>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in site.tags.English limit:8 %}
@@ -81,3 +81,18 @@ tags:
 {% endfor %}
 </div>
 <!-- English end -->
+<!-- Language Section -->
+<div class="relative">
+<h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Languages</span></h4>
+</div>
+<div class="blog-grid-container owl-carousel owl-theme">
+{% for language in site.languages %}
+<a href="{{site.baseurl}}/language/{{ language.title | slugify }}">
+  <span class="language-box zoom-2">
+    <span class="first-letter gradient-text">{{language.firstLetter}}</span>
+    <span class="language-name gradient-text">{{language.title}}</span>
+  </span>
+</a>
+{% endfor %}
+</div>
+<!-- Language end -->

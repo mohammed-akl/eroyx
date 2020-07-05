@@ -1,0 +1,4 @@
+---
+title: Gujarathi
+firstLetter: ઔ
+---

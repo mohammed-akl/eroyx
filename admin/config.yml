@@ -323,7 +323,7 @@ collections:
         hint: "About the country"
   - label: "Language"
     name: "language"
-    folder: "language"
+    folder: "_languages"
     create: true
     identifier_field: "name"
     slug: "{{slug}}"
@@ -446,7 +446,7 @@ collections:
       - label: "Language"
         name: "language"
         widget: "relation"
-        collection: "language"
+        collection: "languages"
         searchFields: [title]
         displayFields: [title]
         valueField: "title"
@@ -644,7 +644,7 @@ collections:
       - label: "Language"
         name: "language"
         widget: "relation"
-        collection: "language"
+        collection: "languages"
         searchFields: [title]
         displayFields: [title]
         valueField: "title"

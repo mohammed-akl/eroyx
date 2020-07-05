@@ -24,7 +24,7 @@ collections:
   country:
     output: true
     permalink: /country/:title/
-  language:
+  languages:
     output: true
     permalink: /language/:title/
   subtitle:
@@ -34,9 +34,16 @@ collections:
 
 # Defaults
 defaults:
+  # all Languages
+  - scope:
+      path: ""
+      type: "languages"
+    values:
+      layout: "language"
   # Franchises
   - scope:
-      path: "franchises"
+      path: ""
+      type: "franchises"
     values:
       layout: franchise
   # All genre
