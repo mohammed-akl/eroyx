@@ -10,9 +10,11 @@ featured_image: /assets/images/img_20200706_060912_678.jpg
 author: shaiz
 genre:
   - Action
-country: India
+country: United States
 language:
   - English
+director:
+  - Michael Bay
 content_rating: PG
 rating: 6.1
 year: 2019
