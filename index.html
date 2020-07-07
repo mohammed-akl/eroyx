@@ -16,6 +16,7 @@ tags:
 <!-- Featured Section -->
 <div class="relative">
 <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading"><i class="fas fa-heart"></i> Featured</span></h4>
+<a href=""><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in posts limit:15 %}
@@ -28,6 +29,7 @@ tags:
 <!-- Latest Section -->
 <div class="relative">
 <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Latest</span></h4>
+<a href=""><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in posts limit:8 %}
@@ -35,9 +37,31 @@ tags:
 {% endfor %}
 </div>
 <!-- Latest end -->
+<!-- Genre Section -->
+<div class="relative">
+  <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Genre</span></h4>
+  </div>
+  <div class="blog-grid-container owl-carousel owl-theme">
+  {% for genre in site.genre limit:15 %}
+  <a href="{{site.baseurl}}/genre/{{ genre.title | slugify }}">
+    <span class="language-box zoom-2">
+      <span class="first-letter gradient-text"><i class="{{genre.icon}}"></i></span>
+      <span class="language-name gradient-text">{{genre.title}}</span>
+    </span>
+  </a>
+  {% endfor %}
+  <a href="">
+    <span class="more-box zoom-2">
+      <span class="first-letter"><i class="fas fa-arrow-right"></i></span>
+      <span class="language-name">More</span>
+    </span>
+  </a>
+  </div>
+  <!-- Genre end -->
 <!-- Action Section -->
 <div class="relative">
 <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Action</span></h4>
+<a href=""><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in site.tags.Action limit:8 %}
@@ -45,15 +69,16 @@ tags:
 {% endfor %}
 </div>
 <!-- Action end -->
-<!-- Top Picks of the week-->
+<!-- Top Picks of the week
 <div class="relative">
 <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Top Picks</span></h4>
 </div>
 {% include post-modern.html %}
-<!-- End Top picks of the week -->
+End Top picks of the week -->
 <!-- Crime Section -->
 <div class="relative">
 <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Crime</span></h4>
+<a href=""><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in site.tags.Crime limit:8 %}
@@ -61,9 +86,26 @@ tags:
 {% endfor %}
 </div>
 <!-- Crime end -->
+<!-- Country Section -->
+<div class="relative">
+  <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Countries</span></h4>
+  <a href="{{site.baseurl}}/countries"><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
+  </div>
+  <div class="blog-grid-container owl-carousel owl-theme">
+  {% for country in site.countries limit:15 %}
+  <a href="{{site.baseurl}}/country/{{ country.title | slugify }}">
+    <span class="country-box zoom-2">
+      <span class="first-flag flag-icon flag-icon-{{country.iso_code}}"></span>
+      <span class="language-name gradient-text">{{country.title}}</span>
+    </span>
+  </a>
+  {% endfor %}
+  </div>
+  <!-- Country end -->
 <!-- Indian Section -->
 <div class="relative">
 <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Indian</span></h4>
+<a href=""><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in site.tags.India limit:8 %}
@@ -74,6 +116,7 @@ tags:
 <!-- English Section -->
 <div class="relative">
 <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">English</span></h4>
+<a href=""><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in site.tags.English limit:8 %}
@@ -86,7 +129,7 @@ tags:
 <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Languages</span></h4>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
-{% for language in site.languages %}
+{% for language in site.languages limit:8 %}
 <a href="{{site.baseurl}}/language/{{ language.title | slugify }}">
   <span class="language-box zoom-2">
     <span class="first-letter gradient-text">{{language.firstLetter}}</span>
@@ -94,5 +137,11 @@ tags:
   </span>
 </a>
 {% endfor %}
+<a href="">
+  <span class="more-box zoom-2">
+    <span class="first-letter"><i class="fas fa-arrow-right"></i></span>
+    <span class="language-name">More</span>
+  </span>
+</a>
 </div>
 <!-- Language end -->

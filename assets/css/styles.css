@@ -38,6 +38,7 @@
     background-color: #F45C43;
     background-image: linear-gradient(to right, #ff6a00, #ee0979);
     background-size: 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1053,7 +1054,7 @@ margin-top: 5px;
 
 /* Home page language selection */
 .language-box {
-  background: linear-gradient(to top, #111216, #23252d);
+  background: linear-gradient(to top right, #111216, #23252d);
   padding: 30px;
   border-radius: 20px;
   display: inline-block;
@@ -1077,4 +1078,34 @@ margin-top: 5px;
   .home-heading {
     font-size: 35px;
   }
+}
+
+/* More Box */
+.more-box {
+  display: inline-block;
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to top left, #ff6a00, #ee0979);
+  border-radius: 20px;
+  color: #111216;
+}
+
+/* More Text */
+.more-text {
+  float: right;
+  font-size: 14px;
+}
+
+/* Country Box */
+.country-box {
+  display: block;
+  background: linear-gradient(to top right, #111216, #23252d);
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+.first-flag {
+  border-radius: 2px;
+  margin-right: 10px;
 }

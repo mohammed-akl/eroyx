@@ -20,7 +20,7 @@ collections:
   genre:
     output: true
     permalink: /genre/:title/
-  country:
+  countries:
     output: true
     permalink: /country/:title/
   languages:
@@ -47,14 +47,16 @@ defaults:
       layout: franchise
   # All genre
   - scope:
-      path: "genre"
+      path: ""
+      type: "genre"
     values:
-      layout: genre
+      layout: "genre"
   # All country
   - scope:
-      path: "country"
+      path: ""
+      type: "countries"
     values:
-      layout: country
+      layout: "country"
   # Indian Language
   - scope:
       path: "language"

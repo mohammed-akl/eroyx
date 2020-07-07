@@ -283,7 +283,7 @@ collections:
         required: false
   - label: "Genre"
     name: "genre"
-    folder: "genre"
+    folder: "_genre"
     create: true
     identifier_field: "title"
     slug: "{{slug}}"
@@ -296,6 +296,11 @@ collections:
         widget: "string"
         required: true
         hint: "Ex: Action"
+      - label: "Genre Icon"
+        name: "icon"
+        widget: "string"
+        hint: "fas fa-snowboarding from font-awesome icons"
+        required: true
       - label: "Description"
         name: "description"
         widget: "text"
@@ -303,7 +308,7 @@ collections:
         hint: "About the genre"
   - label: "Country"
     name: "country"
-    folder: "country"
+    folder: "_countries"
     create: true
     identifier_field: "title"
     slug: "{{slug}}"
@@ -316,6 +321,10 @@ collections:
         widget: "string"
         required: true
         hint: "Ex: India"
+      - label: "Country Flag"
+        name: "iso_code"
+        widget: "string"
+        hint: "Use two letter ISO code. eg. for india its in."
       - label: "Description"
         name: "description"
         widget: "text"
@@ -336,6 +345,10 @@ collections:
         widget: "string"
         required: true
         hint: "Ex: Malayalam"
+      - label: "First Letter in Language"
+        name: "firstLetter"
+        widget: "string"
+        hint: "Any fancy letter that distinguishes the language."
       - label: "Description"
         name: "description"
         widget: "text"
@@ -437,7 +450,7 @@ collections:
       - label: "Country"
         name: "country"
         widget: "relation"
-        collection: "country"
+        collection: "countries"
         searchFields: [title]
         displayFields: [title]
         valueField: "title"

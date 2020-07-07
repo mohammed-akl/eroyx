@@ -503,7 +503,6 @@ pre > code.diff-highlight .token.inserted:not(.prefix) {
   height: 100%;
 }
 
-}
 .sr-only{
 	position: absolute;
 	left: -9999999px;
@@ -517,7 +516,7 @@ pre > code.diff-highlight .token.inserted:not(.prefix) {
   max-width: 100%;
   height: auto;
 }
-//carousel start
+/*carousel start */
 .carousel {
   position: relative;
 }
