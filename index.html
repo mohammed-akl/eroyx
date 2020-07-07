@@ -40,6 +40,7 @@ tags:
 <!-- Genre Section -->
 <div class="relative">
   <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Genre</span></h4>
+  <a href="{{site.baseurl}}/genre"><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
   </div>
   <div class="blog-grid-container owl-carousel owl-theme">
   {% for genre in site.genre limit:15 %}
@@ -50,18 +51,12 @@ tags:
     </span>
   </a>
   {% endfor %}
-  <a href="">
-    <span class="more-box zoom-2">
-      <span class="first-letter"><i class="fas fa-arrow-right"></i></span>
-      <span class="language-name">More</span>
-    </span>
-  </a>
   </div>
   <!-- Genre end -->
 <!-- Action Section -->
 <div class="relative">
 <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Action</span></h4>
-<a href=""><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
+<a href="{{site.baseurl}}/genre/action/"><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in site.tags.Action limit:8 %}
@@ -78,7 +73,7 @@ End Top picks of the week -->
 <!-- Crime Section -->
 <div class="relative">
 <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Crime</span></h4>
-<a href=""><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
+<a href="{{site.baseurl}}/genre/crime/"><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for post in site.tags.Crime limit:8 %}
@@ -127,6 +122,7 @@ End Top picks of the week -->
 <!-- Language Section -->
 <div class="relative">
 <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Languages</span></h4>
+<a href="{{site.baseurl}}/languages"><span class="more-text gradient-text">See More <i class="fas fa-caret-right"></i></span></a>
 </div>
 <div class="blog-grid-container owl-carousel owl-theme">
 {% for language in site.languages limit:8 %}
@@ -137,11 +133,5 @@ End Top picks of the week -->
   </span>
 </a>
 {% endfor %}
-<a href="">
-  <span class="more-box zoom-2">
-    <span class="first-letter"><i class="fas fa-arrow-right"></i></span>
-    <span class="language-name">More</span>
-  </span>
-</a>
 </div>
 <!-- Language end -->
