@@ -306,8 +306,8 @@ collections:
         widget: "text"
         required: false
         hint: "About the genre"
-  - label: "Country"
-    name: "country"
+  - label: "Countries"
+    name: "countries"
     folder: "_countries"
     create: true
     identifier_field: "title"
@@ -330,8 +330,8 @@ collections:
         widget: "text"
         required: false
         hint: "About the country"
-  - label: "Language"
-    name: "language"
+  - label: "Languages"
+    name: "languages"
     folder: "_languages"
     create: true
     identifier_field: "name"
