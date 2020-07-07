@@ -648,7 +648,7 @@ collections:
       - label: "Country"
         name: "country"
         widget: "relation"
-        collection: "country"
+        collection: "countries"
         searchFields: [title]
         displayFields: [title]
         valueField: "title"

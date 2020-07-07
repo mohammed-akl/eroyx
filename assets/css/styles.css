@@ -1104,8 +1104,17 @@ margin-top: 5px;
   padding: 10px 20px;
   border-radius: 10px;
   width: 100%;
+  text-align: center;
 }
-.first-flag {
-  border-radius: 2px;
-  margin-right: 10px;
+@media (max-width:399.9px) {
+  .first-flag {
+    border-radius: 5px;
+    font-size: 50px;
+  }
+}
+@media (min-width:400px) {
+  .first-flag {
+    border-radius: 2px;
+    margin-right: 10px;
+  }
 }
