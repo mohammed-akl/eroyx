@@ -981,3 +981,33 @@ body.active-side {
   color: #e6ede3;
   background: #1f2129;
 }
+
+/* Blog container 3 with 5,3,2,1 */
+.blog-grid-container-3 {
+    width: auto;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+}
+@media (max-width:1199.9px) {
+    .blog-grid-container-3 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (max-width:910px) {
+    .blog-grid-container-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width:699.9px) {
+    .blog-grid-container-3 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:429px) {
+    .blog-grid-container-3 {
+        grid-template-columns: 1fr;
+    }
+}
