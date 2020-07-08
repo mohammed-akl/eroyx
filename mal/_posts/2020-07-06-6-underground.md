@@ -6,7 +6,7 @@ lang_selector: true
 layout: post
 title: "6 Underground "
 image: /assets/images/img_20200706_060912_678.jpg
-featured_image: /assets/images/thumb2-6-underground-poster-2020-movie-ryan-reynolds-melanie-laurent.jpg
+featured_image: /assets/images/img_20200706_060912_678.jpg
 author: shaiz
 genre:
   - Action
