@@ -11,7 +11,7 @@ author: shaiz
 genre:
   - Action
   - Comedy
-country: India
+country: United States
 language:
   - English
 director:
