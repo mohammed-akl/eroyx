@@ -18,6 +18,7 @@ language:
 director:
   - Joshi
 content_rating: G
+rating: 7.3
 year: 1990
 tags:
   - MOHAMMED SHAIZ
