@@ -6,7 +6,7 @@ lang_selector: true
 layout: post
 title: "6 Underground "
 image: /assets/images/img_20200706_060912_678.jpg
-featured_image: /assets/images/img_20200706_060912_678.jpg
+featured_image: /assets/images/thumb2-6-underground-poster-2020-movie-ryan-reynolds-melanie-laurent.jpg
 author: shaiz
 genre:
   - Action
@@ -26,6 +26,7 @@ tags:
 featured: false
 imageshadow: true
 youtubeId: YLE85olJjp8
+netflix: https://www.netflix.com/title/81001887?s=a&trkid=13747225&t=cp
 description: "നല്ല ഒരു ആക്ഷൻ മൂവി "
 ---
 ട്രാൻസ്ഫോര്മേഴ്സ് ഫിലിം സീരിസിന്റെ  സംവിധായകൻ മൈക്കൾ ബേയുടെ സംവിധാനത്തിൽ റയൻ റെയ്നോൾഡ്സ് നായകനായി എത്തുന്ന ആക്ഷൻ ത്രില്ലെർ സിനിമയാണിത്. 
