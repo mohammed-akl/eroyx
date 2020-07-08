@@ -9,6 +9,7 @@ sass:
   style: compressed
 markdown: kramdown
 url: https://eroyx.tk
+lazyimages: enabled
 
 # Collections
 collections:
