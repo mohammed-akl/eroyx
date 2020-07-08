@@ -1,10 +1,10 @@
 ---
 date: 2020-07-03 19:54:52
 lang: mal
-lang-ref: EE KANNI KOODI
+lang-ref: Ee Kannikoodi
 lang_selector: true
 layout: post
-title: EE KANNI KOODI
+title: Ee Kannikoodi
 image: /assets/images/img_20200702_123007_703.jpg
 featured_image: /assets/images/img_20200702_123007_703.jpg
 author: shaiz
@@ -16,7 +16,8 @@ language:
   - Malayalam
 director:
   - K G George
-content_rating: G
+content_rating: PG
+rating: 7.2
 year: 1990
 tags:
   - MOHAMMED SHAIZ
