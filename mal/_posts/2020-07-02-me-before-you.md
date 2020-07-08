@@ -12,7 +12,7 @@ genre:
   - Feel Good
   - Romance
   - Drama
-country: United Kingdom
+country: UK
 language:
   - English
   - French

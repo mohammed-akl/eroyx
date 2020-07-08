@@ -1,0 +1,20 @@
+---
+title: Languages
+layout: default
+permalink: /languages
+comments: false
+lang_selector: false
+---
+<h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Languages</span></h4>
+<div class="blog-grid-container-3">
+<!-- begin post -->
+{% for language in site.languages %}
+<a href="{{site.baseurl}}/language/{{ language.title | slugify }}">
+    <span class="language-box zoom-2">
+      <span class="first-letter gradient-text">{{language.firstLetter}}</span>
+      <span class="language-name gradient-text">{{language.title}}</span>
+    </span>
+</a>
+{% endfor %}
+</div>
+<!-- end post -->

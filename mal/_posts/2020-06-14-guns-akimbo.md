@@ -9,7 +9,7 @@ author: Sinan
 genre:
   - Action
   - Comedy
-country: United Kingdom
+country: UK
 language:
   - English
 director:

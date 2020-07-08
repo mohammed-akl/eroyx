@@ -1,0 +1,17 @@
+---
+title: Featured
+layout: default
+permalink: /featured
+comments: true
+lang_selector: false
+---
+<h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading"><i class="fas fa-heart"></i> Featured</span></h4>
+<div class="blog-grid-container-2">
+<!-- begin post -->
+{% for post in site.posts %}
+{% if post.featured == true %}
+{% include movie-card.html %}
+{% endif %}
+{% endfor %}
+</div>
+<!-- end post -->
