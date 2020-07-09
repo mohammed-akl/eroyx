@@ -2,7 +2,7 @@
 date: 2020-07-09 06:23:16
 lang: mal
 lang-ref: Agent Sai Srinivasa Athreya
-lang_selector: true
+lang_selector: false
 layout: post
 title: Agent Sai Srinivasa Athreya
 image: /assets/images/1_zx8rc5ehfqcsykmyzhcz-q.jpeg
@@ -16,7 +16,7 @@ country: India
 director:
   - Swaroop Rsj
 subtitle:
-  - name: "Agent Sai Srinivasa Athreya Malayalam "
+  - name: "Malayalam "
     file: /assets/images/agent.sai.srinivasa.athreya.2019.hdrip-ml.srt
 content_rating: G
 rating: 8.5
