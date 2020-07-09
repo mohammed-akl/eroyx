@@ -12,6 +12,9 @@ url: https://eroyx.tk
 
 # Collections
 collections:
+  series:
+    output: true
+    permalink: /series/:title/
   franchises:
     output: true
     permalink: /franchise/:title/
@@ -33,6 +36,12 @@ collections:
 
 # Defaults
 defaults:
+  # all Series
+  - scope:
+      path: ""
+      type: "series"
+    values:
+      layout: "series"
   # all Languages
   - scope:
       path: ""
