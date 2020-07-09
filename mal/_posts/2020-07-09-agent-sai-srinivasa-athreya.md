@@ -15,6 +15,9 @@ genre:
 country: India
 director:
   - Swaroop Rsj
+subtitle:
+  - name: "Agent Sai Srinivasa Athreya Malayalam "
+    file: /assets/images/agent.sai.srinivasa.athreya.2019.hdrip-ml.srt
 content_rating: G
 rating: 8.5
 year: 2019
