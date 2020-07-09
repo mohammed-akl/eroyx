@@ -25,6 +25,8 @@ tags:
   - Telugu
 featured: true
 imageshadow: true
+youtubeId: iPfVbR5oAWE
+primeVideo: https://www.amazon.com/gp/video/detail/B07VWS8Q8F/ref=atv_dp_share_cu_r
 description: "തെലുഗിലെ മികച്ച ഒരു ത്രില്ലെർ സിനിമ "
 ---
 സ്വരൂപ്‌ R സംവിധാനം ചെയ്ത ഏജന്റ് സായ് ശ്രീനിവാസ ആത്രേയ എന്ന ചിത്രം കോമഡി, ത്രില്ലർ ഗണത്തിൽ പെടുത്താവുന്നതാണ്. നവീൻ പോളി ഷെട്ടി കേന്ദ്ര കഥാപാത്രമായ ഏജന്റ് സായി ശ്രീനിവാസ ആത്രേയയെ അവതരിപ്പിക്കുന്നു.
