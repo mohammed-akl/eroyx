@@ -1,4 +1,4 @@
 paginate: 9
 authorbox: enabled
-lazyimages: disabled
+lazyimages: enabled
 adsterra_branding: true
