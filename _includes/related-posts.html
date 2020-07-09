@@ -11,15 +11,15 @@
     <!-- Tags -->
     {% assign sortedTags = page.tags | sort %}
     {% for tag in sortedTags %}
-    <a class="smoothscroll badge margin badge-primary text-capitalize" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">{{ tag }}</a>
+    <a class="smoothscroll badge margin badge-primary text-capitalize" href="">{{ tag }}</a>
     {% endfor %}
 
     </div>
-
-    {% assign maxRelated = 3 %}
+    <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Related Posts</span></h4>
+    {% assign maxRelated = 7 %}
     {% assign minCommonTags =  1 %}
     {% assign maxRelatedCounter = 0 %}
-    <div class="blog-grid-container">
+    <div class="blog-grid-container owl-carousel owl-theme">
         {% for post in site.posts %}
 
             {% assign sameTagCount = 0 %}
@@ -36,7 +36,7 @@
             {% endfor %}
 
             {% if sameTagCount >= minCommonTags %}
-            {% include postbox.html %}
+            {% include postbox-3.html %}
             {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
             {% if maxRelatedCounter >= maxRelated %}
                 {% break %}

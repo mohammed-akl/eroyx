@@ -51,7 +51,6 @@
 
 .card-footer {
   color: #fff;
-  background: linear-gradient(to top, #111216, #ee097900);
 }
 
 .author-thumb {
@@ -285,7 +284,7 @@
   color: #fff;
 }
 .search-img {
-  border-radius: 18px;
+  border-radius: 10px;
 }
 .search-lang {
   background: linear-gradient(to right, #ff6a00, #ee0979);
