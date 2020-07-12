@@ -1,4 +1,6 @@
 ---
+reaction: good
+seasonNo: 1
 genre:
   - Drama
   - Romance
@@ -9,7 +11,6 @@ reaction: true
 date: 2020-06-04T19:57:59.000Z
 lang: en
 lang-ref: Portrait-Of-A-Lady-On-Fire
-layout: post
 title: Portrait Of A Lady On Fire
 image: /assets/images/portrait-of-a-lady-on-fire.jpg
 featured_image: /assets/images/portait-of-lady-in-fire.jpg

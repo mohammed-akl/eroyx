@@ -1120,3 +1120,12 @@ margin-top: 5px;
 .post-name {
   font-size: 10px;
 }
+
+/* series poster */
+.series-poster {
+  width: 105px;
+  height: 150px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 15px;
+}
