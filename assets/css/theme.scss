@@ -1270,7 +1270,8 @@ $white-light-gray  : #f9f9f9;
     stroke-dasharray: 240;
     stroke-dashoffset: 480;
     stroke: #f32457;
-    transform: translateY(0) 
+    transform: translateY(0);
+    fill: #ff050599;
    }
   
   
@@ -1281,6 +1282,7 @@ $white-light-gray  : #f9f9f9;
       opacity: 1;
       stroke: #fd610b;
       animation: nudge 0.7s ease-in-out;
+      fill: #fd610b99;
       
       @keyframes nudge{
         0% {
