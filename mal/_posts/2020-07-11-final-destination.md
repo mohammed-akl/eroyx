@@ -7,7 +7,7 @@ layout: post
 title: Final Destination
 image: /assets/images/final-destination-landscape.jpg
 featured_image: /assets/images/final-destination-portrait.jpg
-franchise: finalDestination
+franchise: finaldestination
 author: Jagdish
 genre:
   - Horror

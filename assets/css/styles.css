@@ -621,8 +621,6 @@ Details of Author , Post Count, Author Social */
   width: 100%;
   height: 450px;
   margin: 50px auto;
-  background: #f4293c;
-  border: 5px solid #16171c;
   border-radius: 3px;
   border-radius: 20px;
 }
@@ -650,7 +648,6 @@ Details of Author , Post Count, Author Social */
 }
 
 .franchise_card .title {
-  height: 22%;
   width: 100%;
   font-size: 20px;
   text-align: center;
@@ -660,7 +657,6 @@ Details of Author , Post Count, Author Social */
   position: absolute;
   bottom: 0;
   left: 0;
-  box-shadow: 0 -95px 28px -25px #16171c inset;
 }
 
 .franchise_card .text {

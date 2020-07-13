@@ -1,7 +1,7 @@
 ---
 layout: franchise
 title: Final Destination
-name: finalDestination
+name: finaldestination
 thumbnail: /assets/images/finaldestination4_poster_m.jpg
 production: New Line Cinema
 noMovies: 5

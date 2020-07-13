@@ -1,10 +1,9 @@
 ---
 layout: franchise
-title: "PIRATES OF THE CARIBBEAN "
+title: "Pirates Of The Caribbean "
 name: "pirates of the caribbean "
 thumbnail: /assets/images/img_20200627_213423.jpg
-production: Walt Disney &Jerry Brukhemer Films
-noMovies: 5
+production: Disney
 description: "The five series movie's about 'Captain Jack Sparrow' and East
   india company and pirates of the caribbean. Elizabeth Swann, the governor's
   daughter was kidnapped in black pearl at captain barbossa and his crew. Will
