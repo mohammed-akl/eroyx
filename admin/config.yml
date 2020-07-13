@@ -970,4 +970,13 @@ collections:
             widget: "string"
             hint: "Only use youtubeId come after youtu.be/"
             required: false
+          - label: "Streaming link"
+            name: "streamNow"
+            widget: "string"
+            hint: "Only use originals streaming link from major platforms"
+            required: false
+          - label: "Review of the Season"
+            name: "seasonReview"
+            widget: "markdown"
+            hint: "Reviews goes here"
             
