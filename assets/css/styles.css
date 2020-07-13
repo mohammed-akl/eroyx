@@ -1125,3 +1125,14 @@ margin-top: 5px;
   float: left;
   margin-right: 15px;
 }
+
+.series-rating {
+  margin-right: 10px;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: #111216;
+  padding: 9px 8px;
+  border-radius: 50%;
+  margin-left: -65px;
+  font-weight: 600;
+  border: 5px solid #111216;
+}

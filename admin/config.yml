@@ -811,11 +811,6 @@ collections:
         widget: "string"
         required: true
         hint: "Ex: My First Awesome Post!"
-      - label: "Thumbnail"
-        name: "image"
-        widget: "image"
-        required: true
-        hint: "Use Landscape image for better view."
       - label: "Featured Image"
         name: "featured_image"
         widget: "image"
@@ -942,9 +937,10 @@ collections:
         widget: "text"
         required: false
         hint: "This text is used by search engines."
-      - label: "Seasonwise Review"
-        name: "Seasons"
+      - label: "Season Review"
+        name: "seasons"
         widget: "list"
+        required: false
         fields:
           - label: "Season No"
             name: "seasonNo"
@@ -956,8 +952,8 @@ collections:
             name: "seasonPoster"
             widget: "image"
             hint: "Upload a portrait poster."
-          - label: "Review"
-            name: "SeriesReview"
+          - label: "Season Review"
+            name: "seasonReview"
             widget: "markdown"
           - label: "Season Trailer link"
             name: "youtubeTrailer"
