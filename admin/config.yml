@@ -949,3 +949,25 @@ collections:
             valueField: "float"
             min: 1
             hint: "Ex: 1"
+          - label: "Total Episodes in season"
+            name: "seasonEpisodes"
+            widget: "number"
+            valueField: "float"
+            min: 1
+            hint: "Ex: 10"
+          - label: "Season Rating"
+            name: "seasonRating"
+            widget: "number"
+            valueField: "float"
+            min: 0
+            hint: "Ex: 8.2"
+          - label: "Season Poster"
+            name: "seasonPoster"
+            widget: "image"
+            hint: "Upload portrait poster from https://eroyx-tmdb-pwa.herokkuapp.com"
+          - label: "Season Trailer"
+            name: "youtubeId"
+            widget: "string"
+            hint: "Only use youtubeId come after youtu.be/"
+            required: false
+            
