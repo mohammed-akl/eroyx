@@ -481,6 +481,7 @@ img, img:hover {
         font-size:16px;
     }
     .author-thumb {
+        height: 70px;
         width:70px;
         border-radius:50%;
         border:2px solid #e41160;
@@ -1100,7 +1101,7 @@ $white-light-gray  : #f9f9f9;
     position: absolute;
     width: 24px;
     height: 100%;
-    right: 30px;
+    right: 10px;
     background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTI0IDI0SDBWMGgyNHoiIG9wYWNpdHk9Ii44NyIvPgogICAgICAgIDxwYXRoIGZpbGw9IiNBOUFDQUYiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTE1Ljg4IDE1LjI5TDEyIDExLjQxbC0zLjg4IDMuODhhLjk5Ni45OTYgMCAxIDEtMS40MS0xLjQxbDQuNTktNC41OWEuOTk2Ljk5NiAwIDAgMSAxLjQxIDBsNC41OSA0LjU5Yy4zOS4zOS4zOSAxLjAyIDAgMS40MS0uMzkuMzgtMS4wMy4zOS0xLjQyIDB6Ii8+CiAgICA8L2c+Cjwvc3ZnPgo=');
     background-repeat: no-repeat;
     background-position: center;
@@ -1161,7 +1162,7 @@ $white-light-gray  : #f9f9f9;
   text-align: justify;
 }
 .sentiment-wrapper {
-  padding: 10px;
+  padding: 0px;
 }
 .sentiment-wrapper > div {
   display: inline-block;
@@ -1172,7 +1173,7 @@ $white-light-gray  : #f9f9f9;
 }
 .sentiment-wrapper > div > div {
   width: 100%;
-  padding: 16px 24px 20px;
+  padding: 15px;
   box-sizing: border-box;
   border-radius: 15px;
   background-color: transparent;
@@ -1208,7 +1209,7 @@ $white-light-gray  : #f9f9f9;
   }
   .aspect-content {
     height: auto;
-    padding: 10px 87px 10px 30px;
+    padding: 10px;
     &:before {
       display: none;
     }

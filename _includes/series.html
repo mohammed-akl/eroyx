@@ -2,7 +2,7 @@
 ================================================== -->
 <div class="article-post">
     <!-- Content details -->
-    {% include details.html %}
+    {% include series-details.html %}
     <!-- End content details -->
     {% if page.lang_selector == true %}
     <!-- Language Selecting Section -->
@@ -20,7 +20,16 @@
     </div>
     {% endif %}
     <!-- End Toc -->
+    <!-- Series Info-->
+    <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Synopsis</span></h4>
+    <p class="franchise_desc">
+      {{page.description}}
+    </p>
+    <!-- End Series Info-->
+    <!-- Season Reviews -->
+    <h4 class="mt-5 mb-neg-30"><span class="gradient-text home-heading">Seasons</span></h4>
     {% include accordion.html %}
+    <!-- end Season Reviews-->
 <!-- End Yandex-->
     <!-- Youtube trailer -->
   {% if page.youtubeId %}

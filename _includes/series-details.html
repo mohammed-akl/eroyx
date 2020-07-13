@@ -1,0 +1,58 @@
+{% assign genre = site.genre | where: "title", page.genre | first %}
+{% assign country = site.country | where: "title", page.country | first %}
+<div class="details-section">
+{% if page.genre %}
+<div class="details">
+<span class="content-details details-primary">Genre</span>
+<span class="content-details details-secondary">{% for genre in page.genre %}{{ genre }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</span>
+</div>
+{% endif %}
+{% if page.country %}
+<div class="details">
+<span class="content-details details-primary">Country</span>
+<span class="content-details details-secondary">{% for country in page.country %}{{ country }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</span>
+</div>
+{% endif %}
+{% if page.director %}
+<div class="details">
+<span class="content-details details-primary">Director</span>
+<span class="content-details details-secondary">{% for director in page.director %}{{ director }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</span>
+</div>
+{% endif %}
+{% if page.language %}
+<div class="details">
+<span class="content-details details-primary">Language</span>
+<span class="content-details details-secondary">{% for language in page.language %}{{ language }}{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</span>
+</div>
+{% endif %}
+{% if page.start_year %}
+<div class="details">
+<span class="content-details details-primary">Streamed</span>
+<span class="content-details details-secondary">From {{page.start_year}} {% if page.end_year %}to {{page.end_year}}{% endif %}</span>
+</div>
+{% endif %}
+{% if page.duration %}
+<div class="details">
+<span class="content-details details-primary">Duration</span>
+<span class="content-details details-secondary">{{page.duration}}min/Ep</span>
+</div>
+{% endif %}
+{% if page.rating %}
+<div class="details">
+<span class="content-details details-primary">Overall Rating</span>
+<span class="content-details details-secondary">{{page.rating}}</span>
+</div>
+{% endif %}
+{% if page.content_rating %}
+<div class="details">
+<span class="content-details details-primary">Content Rating</span>
+<span class="content-details details-secondary">{{page.content_rating}}</span>
+</div>
+{% endif %}
+{% if page.subtitle %}
+<div class="details">
+<span class="content-details details-primary">Subtitles</span>
+<span class="content-details details-secondary">{% for item in page.subtitle %}{% if item.file %}<a href="{{item.file}}">{% endif %}{{ item.name }}</a>{% unless forloop.last %},{% endunless %} &nbsp;{% endfor %}</span>
+</div>
+{% endif %}
+</div>

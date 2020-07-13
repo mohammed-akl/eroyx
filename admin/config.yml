@@ -905,11 +905,11 @@ collections:
         max: 10.0
         required: false
       - label: "Streaming start Year"
-        name: "Start_year"
+        name: "start_year"
         widget: "number"
         valueType: "float"
         required: false
-        hint: "Ex: 2020"
+        hint: "Ex: 2007"
       - label: "Streaming end Year"
         name: "end_year"
         widget: "number"
@@ -948,6 +948,12 @@ collections:
             valueType: "float"
             min: 1
             hint: "Ex: 1"
+          - label: "No of Episodes"
+            name: "seasonEpisodes"
+            widget: "number"
+            valueType: "float"
+            min: 1
+            hint: "Ex: 12"
           - label: "Season Poster"
             name: "seasonPoster"
             widget: "image"

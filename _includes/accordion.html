@@ -5,7 +5,7 @@
     <label for="item-{{item.seasonNo}}" class="aspect-label"></label>
     <div class="aspect-content">
         <div class="aspect-info">
-            <span class="aspect-name"><span class="series-rating">{{item.seasonRating}}</span><span class="aspect-name-sub gradient-text">Season {{item.seasonNo}}</span><span class="gradient-text">{% if item.seasonSubtitle %}: {{item.seasonSubtitle}}{% endif %}</span></span>
+            <span class="aspect-name"><span class="aspect-name-sub gradient-text">Season {{item.seasonNo}}</span><span class="series-rating"><i class="fas fa-star"></i>{{item.seasonRating}}</span><span class="series-episodes">{% if item.seasonEpisodes %}{{item.seasonEpisodes}} Episodes{% endif %}</span></span>
         </div>
     </div>
     <div class="aspect-tab-content">

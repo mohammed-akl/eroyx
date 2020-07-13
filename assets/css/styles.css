@@ -333,6 +333,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-top: 40px;
 }
 
 .author {
@@ -1127,12 +1128,20 @@ margin-top: 5px;
 }
 
 .series-rating {
-  margin-right: 10px;
   background: linear-gradient(to right, #ff6a00, #ee0979);
   color: #111216;
-  padding: 9px 8px;
-  border-radius: 50%;
-  margin-left: -65px;
-  font-weight: 600;
-  border: 5px solid #111216;
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-weight: 900;
+  font-size: 10px;
+}
+.series-episodes {
+  margin-left: 5px;
+  color: #111216;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 5px;
+  border-radius: 5px;
 }
