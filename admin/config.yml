@@ -937,7 +937,7 @@ collections:
         widget: "text"
         required: false
         hint: "This text is used by search engines."
-      - label: "Season Review"
+      - label: "Seasons"
         name: "seasons"
         widget: "list"
         required: false
