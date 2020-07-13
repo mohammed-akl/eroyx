@@ -774,3 +774,217 @@ collections:
       - label: "Review"
         name: "body"
         widget: "markdown"
+  - label: "Series (Mal)"
+    name: "mal_series"
+    folder: "_series"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{title}}"
+    editor:
+      preview: false
+    extension: "md"
+    fields:
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+      - label: "Content Language"
+        name: "lang"
+        widget: "hidden"
+        default: "mal"
+      - label: "Post Reference"
+        name: "lang-ref"
+        widget: "string"
+        hint: "Input should be unique amoung the translated post."
+      - label: "Language Selector"
+        name: "lang_selector"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "ON to add language changing widget."
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "series"
+      - label: "Series Title"
+        name: "title"
+        widget: "string"
+        required: true
+        hint: "Ex: My First Awesome Post!"
+      - label: "Thumbnail"
+        name: "image"
+        widget: "image"
+        required: true
+        hint: "Use Landscape image for better view."
+      - label: "Featured Image"
+        name: "featured_image"
+        widget: "image"
+        required: true
+        hint: "Use portrait image for better view."
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        searchFields: [display_name]
+        displayFields: [display_name]
+        valueField: "name"
+        required: true
+        hint: "Create a author and select it."
+      - label: "Genre"
+        name: "genre"
+        widget: "relation"
+        collection: "genre"
+        searchFields: [title]
+        displayFields: [title]
+        valueField: "title"
+        required: true
+        multiple: true
+        hint: "Create a genre and select it."
+      - label: "Country"
+        name: "country"
+        widget: "relation"
+        collection: "countries"
+        searchFields: [title]
+        displayFields: [title]
+        valueField: "title"
+        required: true
+        hint: "Create a country and select it."
+      - label: "Language"
+        name: "language"
+        widget: "relation"
+        collection: "languages"
+        searchFields: [title]
+        displayFields: [title]
+        valueField: "title"
+        required: false
+        multiple: true
+        hint: "Create a country and select it."
+      - label: "Director"
+        name: "director"
+        widget: "relation"
+        collection: "director"
+        searchFields: [name]
+        displayFields: [name]
+        valueField: "name"
+        required: false
+        multiple: true
+        hint: "Create a director and select it."
+      - label: "Subtitle"
+        name: "subtitle"
+        widget: "list"
+        fields:
+          - label: "Name"
+            name: "name"
+            widget: "string"
+            hint: "Ex: Malayalam"
+          - label: "File Upload"
+            name: "file"
+            widget: "file"
+            allow_multiple: false
+            media_library:
+              config:
+                multiple: false
+            required: false
+        hint: "Ex. English, Malayalam"
+      - label: "Duration"
+        name: "duration"
+        widget: "number"
+        valueType: "float"
+        min: 0
+        required: false
+        hint: "Should in minutes."
+      - label: "Content Rating"
+        name: "content_rating"
+        widget: "select"
+        options:
+          - { label: "G: General Audiences", value: "G" }
+          - { label: "PG: Parental Guidance Suggested", value: "PG" }
+          - { label: "PG-13: Parental Strongly Cautioned", value: "PG-13" }
+          - { label: "R: Restricted", value: "R" }
+          - { label: "NC-17: Adults Only", value: "NC-17" }
+      - label: "Series Overall Rating"
+        name: "rating"
+        widget: "number"
+        valueType: "float"
+        min: 0.0
+        max: 10.0
+        required: false
+      - label: "Streaming start Year"
+        name: "Start_year"
+        widget: "number"
+        valueType: "float"
+        required: false
+        hint: "Ex: 2020"
+      - label: "Streaming end Year"
+        name: "end_year"
+        widget: "number"
+        valueType: "float"
+        required: false
+        hint: "Ex: 2020"
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        hint: "Tags help to find the content in search."
+      - label: "Put this on featured"
+        name: "featured"
+        widget: "boolean"
+        required: false
+        default: false
+        hint: "Put featured ON to show on featured tab"
+      - label: "Image Shadow"
+        name: "imageshadow"
+        widget: "boolean"
+        required: false
+        default: true
+        hint: "Put image shadow ON to show post image shadow."
+      - label: "Small Description"
+        name: "description"
+        widget: "text"
+        required: false
+        hint: "This text is used by search engines."
+      - label: "Seasonwise Review"
+        name: "Seasons"
+        widget: "list"
+        fields:
+          - label: "Season No"
+            name: "seasonNo"
+            widget: "number"
+            valueType: "float"
+            min: 1
+            hint: "Ex: 1"
+          - label: "Season Poster"
+            name: "seasonPoster"
+            widget: "image"
+            hint: "Upload a portrait poster."
+          - label: "Review"
+            name: "SeriesReview"
+            widget: "markdown"
+          - label: "Season Trailer link"
+            name: "youtubeTrailer"
+            widget: "string"
+            hint: "Add youtube trailer link not trailer code."
+          - label: "Netflix Streaming"
+            name: "netflix"
+            widget: "string"
+            required: false
+            hint: "Place the link to watch the movie on Netflix"
+          - label: "Amazon Prime Streaming"
+            name: "primeVideo"
+            widget: "string"
+            required: false
+            hint: "Place the link to watch the movie on Amazon Prime"
+          - label: "Hotstar Streaming"
+            name: "hotstar"
+            widget: "string"
+            required: false
+            hint: "Place the link to watch the movie on Hotstar"
+          - label: "Youtube Streaming"
+            name: "youtube"
+            widget: "string"
+            required: false
+            hint: "Place the link to watch the movie on Youtube"
+          - label: "Other Streaming Link"
+            name: "streamNow"
+            widget: "string"
+            required: false
+            hint: "Place the link to watch the movie"
