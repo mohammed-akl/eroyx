@@ -491,7 +491,6 @@ pre > code.diff-highlight .token.inserted:not(.prefix) {
   height: 0;
   overflow: hidden;
   max-width: 100%;
-  box-shadow: 0 1px 3px rgba(72,72,72,0.8);
 	margin-bottom: 40px;
 }
 

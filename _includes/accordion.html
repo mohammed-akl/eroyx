@@ -1,11 +1,11 @@
 <div id="aspect-content">
-{% for item in page.seasons %}
+    {% for item in page.seasons %}
   <div class="aspect-tab ">
-    <input id="item-18" type="checkbox" class="aspect-input" name="aspect">
-    <label for="item-18" class="aspect-label"></label>
+    <input id="item-{{item.seasonNo}}" type="checkbox" class="aspect-input" name="aspect">
+    <label for="item-{{item.seasonNo}}" class="aspect-label"></label>
     <div class="aspect-content">
         <div class="aspect-info">
-            <span class="aspect-name"><span class="series-rating">4.5</span><span class="aspect-name-sub gradient-text">Season {{item.seasonNo}}</span><span class="gradient-text">{% if item.seasonSubtitle %}: {{item.seasonSubtitle}}{% endif %}</span></span>
+            <span class="aspect-name"><span class="series-rating">{{item.seasonRating}}</span><span class="aspect-name-sub gradient-text">Season {{item.seasonNo}}</span><span class="gradient-text">{% if item.seasonSubtitle %}: {{item.seasonSubtitle}}{% endif %}</span></span>
         </div>
     </div>
     <div class="aspect-tab-content">
@@ -17,8 +17,8 @@
                     </div>
                     <div>
                         <span>
-                            <div class="series-poster" style="background-image: url({{site.baseurl}}{{page.featured_image}});background-position: center;background-size: cover;">
-                                <a href='{{item.seasonTrailer}}'class='playBut'>
+                            <div class="series-poster" style="background-image: url({{site.baseurl}}{{item.seasonPoster}});background-position: center;background-size: cover;">
+                                <a href='{{item.streamNow}}'class='playBut'>
     
                                     <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
                                     <svg version="1.1"
@@ -36,7 +36,9 @@
                                         
                                       </a>
                             </div>
-                            <div class="series-details">{{item.seasonReview}}</div>
+                            <div class="series-details">{{item.seasonReview | markdownify}}</div>
+                            {% include youtubePlayer.html id=item.youtubeId %}
+
                         </span>
                     </div>
                 </div>
@@ -44,5 +46,5 @@
         </div>
     </div>
   </div>
-{% endfor %}
+  {% endfor %}
 </div>
