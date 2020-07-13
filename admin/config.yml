@@ -937,3 +937,15 @@ collections:
         widget: "text"
         required: false
         hint: "This text is used by search engines."
+      - label: "Seasons"
+        name: "seasons"
+        widget: "list"
+        required: false
+        hint: "Here we add each seasons"
+        fields:
+          - label: "Season No"
+            name: "seasonNo"
+            widget: "number"
+            valueField: "float"
+            min: 1
+            hint: "Ex: 1"
